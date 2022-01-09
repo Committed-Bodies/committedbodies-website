@@ -1,9 +1,10 @@
 <script>
     import BreadCrumbs from "$lib/components/NavBreadCrumbs.svelte";
+    export let bgImage;
 </script>
 
 
-<header>
+<header style="background-image:url({bgImage});">
     <div class="titleWrap">
         <h1 class="titleLarge">
             <slot />
@@ -21,12 +22,14 @@
         justify-content: center;
         align-items: center;
         background-image: var(--brandGradient);
+        background-size: cover;
+        background-position: center;
         .titleWrap {
             padding-bottom: 120px;
             z-index: 3;
-            color: var(--theme-on-primary);
+            color: hsl(var(--onImage) / var(--onImageStrength2));
             h1 {
-                color: var(--theme-on-primary);
+                color: hsl(var(--onImage) / var(--onImageStrength3));
                 font-family: $font_boldEmphasis;
                 font-weight: 900;
                 font-style: normal;

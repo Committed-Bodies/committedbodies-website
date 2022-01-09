@@ -5,7 +5,7 @@
 
 
 <div class="pageWrap" in:slideFadeIn out:slideFadeOut>
-    <Header>EXPLORE</Header>
+    <Header bgImage="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto,t_pageHeader/v1631431623/gym/Gym-in-Benoni_m5uh6j.jpg">EXPLORE</Header>
     <section id="facility">
         <h2>Facility</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, inventore recusandae. Nostrum explicabo quibusdam cumque nam beatae consequuntur. Necessitatibus beatae maiores nostrum cupiditate unde sequi aperiam omnis nesciunt ratione sit.</p>

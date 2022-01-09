@@ -40,6 +40,7 @@
 <style lang="scss">
     .breadcrumbs {
         color: inherit;
+        font-weight: 300;
         text-align: center;
         list-style-type: none;
         display: flex;
