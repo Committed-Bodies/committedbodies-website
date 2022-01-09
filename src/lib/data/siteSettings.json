@@ -1,7 +1,9 @@
 {
-    "config": {
-        "title": "Committed Bodies",
-        "slogan": "Take back your life - one day at a time",
-        "about": "Committed Bodies is a gym in Benoni that specialises in body transformation and healthy lifestyle support"
-    }
+  "config": {
+    "title": "Committed Bodies",
+    "slogan": "Take back your life - one day at a time",
+    "about": "Committed Bodies is a gym in Benoni that specialises in body transformation and healthy lifestyle support"
+  },
+  "title": "Make an appointment",
+  "link": "/bookings"
 }
