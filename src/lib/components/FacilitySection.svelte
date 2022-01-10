@@ -6,9 +6,12 @@
 
 <section id="facility">
     <div class="content">
-        <h2>Technology for change</h2>
-        <p class="subtitle">
-            All about our facility
+        <h2>{facility.intro.title}</h2>
+        <p class="subtitle h4">
+            {facility.intro.subtitle}
+        </p>
+        <p>
+            {facility.intro.content}
         </p>
     </div>
     <div class="gallery">
@@ -16,9 +19,11 @@
         <Masonry gridGap={'0'} bind:refreshLayout={refreshLayout}>
             {#each facility.facilityFeatures as feature}
                 <div class="feature">
-                    <h4>{feature.title}</h4>
                     <img src="{feature.image}" alt="description here" on:load={refreshLayout}>
-                    <p>{feature.content}</p>
+                    <div class="summary">
+                        <h3 class="h5">{feature.title}</h3>
+                        <p>{feature.content}</p>
+                    </div>
                 </div>
             {/each}
         </Masonry>
@@ -27,16 +32,22 @@
 
 <style lang="scss">
     section {
-        border: 1px solid red;
         padding: 3vw;
-        border: 1px solid red;
         .content {
             grid-column: 2;
             grid-row: 1;
-            border: 1px solid red;
+            color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
             h2 {
                 margin-top: 0;
-            }
+				font-family: $font_boldEmphasis;
+				line-height: 1;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+			}
+			.subtitle {
+				font-family: $font_cursiveEmphasis;
+				margin-top: 1em;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+			}
         }
         .gallery {
             grid-column: 1;
@@ -49,14 +60,25 @@
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
+                    z-index: 1;
                 }
-                h4 {
-                    display: none;
-                    position: absolute;
-                    margin: 0;
-                }
-                p {
-                    display: none;
+                .summary {
+                    // position: absolute;
+                    z-index: 2;
+                    background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 5%));
+                    color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+                    width: 100%;
+                    height: auto;
+                    bottom: 0;
+                    left: 0;
+                    padding: 1rem;
+                    h3 {
+                        margin: 0;
+                        font-family: $font_boldEmphasis;
+                    }
+                    p {
+                        margin: 0;
+                    }
                 }
             }
         }
