@@ -1,24 +1,22 @@
-import { getPosts } from '$lib/data/get-posts'
-// import { website } from '$lib/data/info'
+import { getPosts } from '$lib/js/get-posts'
 import sitesetings from '$lib/data/siteSettings'
 let website = sitesetings.config.domain;
 
-// console.log("posts: ", posts);
-
 export async function get() {
 
-    const posts = await getPosts()
-    const pages = ['about' , 'blog', 'contact', 'explore', 'membership', 'portal', 'services', 'team']
-    const body = sitemap(posts, pages)
+  const posts = await getPosts();
+  console.log("posts: ", posts);
+  const pages = ['about' , 'blog', 'contact', 'explore', 'membership', 'portal', 'services', 'team']
+  const body = sitemap(posts, pages)
 
-    const headers = {
-      'Cache-Control': 'max-age=0, s-maxage=3600',
-      'Content-Type': 'application/xml',
-    }
-    return {
-      headers,
-      body, 
-    }
+  const headers = {
+    'Cache-Control': 'max-age=0, s-maxage=3600',
+    'Content-Type': 'application/xml',
+  }
+  return {
+    headers,
+    body, 
+  }
 }
       
 const sitemap = (
@@ -51,12 +49,11 @@ const sitemap = (
           .join('')}
         ${posts
           .map(post =>
-            // post.isPrivate
-            //   ? null
-            //   : 
-            `
+            post.isPrivate
+              ? null
+              : `
         <url>
-          <loc>${website}/posts/${post.slug}</loc>
+          <loc>${website}/blog/${post.title}</loc>
           <changefreq>daily</changefreq>
           <priority>0.7</priority>
         </url>
