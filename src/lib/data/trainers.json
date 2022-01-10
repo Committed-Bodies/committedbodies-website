@@ -1,0 +1,47 @@
+{
+    "intro": {
+        "title": "Personal Trainers",
+        "subtitle": "Expert gudance",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
+    },
+    "trainers": [
+        {
+            "name": "Jill Myburgh",
+            "image": "/assets/images/kettlebell-LOGO.png",
+            "specialisations": [
+                "Weight-loss", "Fitness", "Healthy Lifestyle"
+            ],
+            "bio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente"
+        },
+        {
+            "name": "Name",
+            "image": "/assets/images/kettlebell-LOGO.png",
+            "specialisations": [
+                "Weight-loss",
+                "Fitness",
+                "Healthy Lifestyle"
+            ],
+            "bio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente"
+        },
+        {
+            "name": "Name",
+            "image": "/assets/images/kettlebell-LOGO.png",
+            "specialisations": [
+                "Weight-loss",
+                "Fitness",
+                "Healthy Lifestyle"
+            ],
+            "bio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente"
+        },
+        {
+            "name": "Name",
+            "image": "/assets/images/kettlebell-LOGO.png",
+            "specialisations": [
+                "Weight-loss",
+                "Fitness",
+                "Healthy Lifestyle"
+            ],
+            "bio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente"
+        }
+    ]
+}

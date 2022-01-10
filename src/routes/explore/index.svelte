@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/components/Header.svelte';
-    import FacilitySection from "$lib/components/FacilitySection.svelte"
+    import FacilitySection from "$lib/components/FacilitySection.svelte";
+    import TrainersSection from "$lib/components/TrainersSection.svelte";
     import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
 </script>
 
@@ -12,10 +13,7 @@
 
     <FacilitySection />
 
-    <section id="trainers">
-        <h2>Personal Trainers</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, inventore recusandae. Nostrum explicabo quibusdam cumque nam beatae consequuntur. Necessitatibus beatae maiores nostrum cupiditate unde sequi aperiam omnis nesciunt ratione sit.</p>
-    </section>
+    <TrainersSection />
 
     <section id="services">
         <h2>Services</h2>
