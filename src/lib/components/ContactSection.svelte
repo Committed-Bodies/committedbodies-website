@@ -1,11 +1,11 @@
 <script>
+	import ContactSocialLinks from '$lib/components/ContactSocialLinks.svelte';
     import contactData from '$lib/data/contact.json';
 	import ContactDetails from '$lib/components/ContactDetails.svelte'
     import Logo from '$lib/svg/logo/Logo.svelte';
 
     // Contact details from data
     let contacts = contactData.contacts[0];
-    let socials = contactData.socials;
 </script>
 
 <section class="contactSection">
@@ -17,21 +17,7 @@
                 <Logo></Logo>
             </div>  
             <ContactDetails {contacts} classList="theme-on-primary" /> 
-            <ul class="socialDetails">
-                {#each Object.entries(socials) as [media, link]}
-                {#if link}
-                    <li>
-                        <a class="{media} socialLink" href="{link}">
-                            <i>
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                                    <use xlink:href="#{media}"></use>
-                                </svg>
-                            </i>
-                        </a>
-                    </li>
-                {/if}
-                {/each}
-            </ul>
+            <ContactSocialLinks />
         </div>
         <!-- Map Column -->
         <a class="contactMap" href="https://goo.gl/maps/VA4dCUMKpTfk7nPh6" alt="Open Google Maps">
@@ -56,22 +42,10 @@
                 :global(.contactDetails li) {
                     text-align: center;
                 }
-                .socialDetails li {
-                    text-align: center;
-                    display: block;
-                    &::before {
-                        display: none;
-                    }
-                }
                 .logoWrap {
                     width: 30%;
                 }
-                .socialDetails {
-                    display: flex;
-                    gap: 1rem;
-                    margin-top: 2rem;
-
-                }
+                
             }
             a.contactMap {
                 flex: 1;
