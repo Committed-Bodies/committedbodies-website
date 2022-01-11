@@ -1,4 +1,43 @@
-<!-- ******HTML -->
+<script>
+	import { onMount } from 'svelte';
+	export let introData;
+	
+	onMount(() => {
+		gsap.registerPlugin(ScrollTrigger);
+		gsap.set(".graphicsWrap *",{transformOrigin:"center center"});
+
+		let tl1 = gsap.timeline({
+			scrollTrigger: {
+				scroller: "main",
+				trigger: '.intro .content',
+				scrub: 1,
+				start: "top 70%",
+				end: "center center"
+			}
+		});
+		tl1.from(".layerBG",{duration:1, rotate:40},"<");
+		tl1.from(".layerBeforeTextBG, .layerBeforeTextFG",{duration:1, rotate:40},"<");
+		tl1.from(".layerMirror",{duration:1, xPercent:-10},"<+0.1");
+		tl1.from(".layerScale",{duration:1.3, rotate:20, xPercent:-10},"<");
+
+		let tl2 = gsap.timeline({
+			scrollTrigger: {
+				scroller: "main",
+				trigger: '.intro .content .graphicsWrap',
+				scrub: 1,
+				start: "center center",
+				end: "+=500px",
+				pin: ".intro .content",
+				anticipatePin: 1
+			}
+		});
+		tl2.from(".layerJillAfter",{duration:1, left:-300, autoAlpha:0},"<");
+		tl2.to(".layerMirror",{duration:1, left:-300, autoAlpha:0},"<0.5");
+		tl2.fromTo(".layerScale",{rotate:0, left:0, autoAlpha:1}, {duration:1.3, left:-300, rotate:-30, autoAlpha:0},"<0.5");
+		tl2.from(".layerAfterTextBG",{duration:1, right:-30, autoAlpha:0},"<0.5");
+		tl2.fromTo(".layerBG",{rotate:0}, {duration:1.3, rotate:90},"<");
+	});
+</script>
 
 <section class="intro">
 	
@@ -113,45 +152,3 @@
 		}
 	}
 </style>
-
-<!-- ******SCRIPT -->
-<script>
-	import { onMount } from 'svelte';
-	export let introData;
-	
-	onMount(() => {
-		gsap.registerPlugin(ScrollTrigger);
-		gsap.set(".graphicsWrap *",{transformOrigin:"center center"});
-
-		let tl1 = gsap.timeline({
-			scrollTrigger: {
-				scroller: "main",
-				trigger: '.intro .content',
-				scrub: 1,
-				start: "top 70%",
-				end: "center center"
-			}
-		});
-		tl1.from(".layerBG",{duration:1, rotate:40},"<");
-		tl1.from(".layerBeforeTextBG, .layerBeforeTextFG",{duration:1, rotate:40},"<");
-		tl1.from(".layerMirror",{duration:1, xPercent:-10},"<+0.1");
-		tl1.from(".layerScale",{duration:1.3, rotate:20, xPercent:-10},"<");
-
-		let tl2 = gsap.timeline({
-			scrollTrigger: {
-				scroller: "main",
-				trigger: '.intro .content .graphicsWrap',
-				scrub: 1,
-				start: "center center",
-				end: "+=500px",
-				pin: ".intro .content",
-				anticipatePin: 1
-			}
-		});
-		tl2.from(".layerJillAfter",{duration:1, left:-300, autoAlpha:0},"<");
-		tl2.to(".layerMirror",{duration:1, left:-300, autoAlpha:0},"<0.5");
-		tl2.fromTo(".layerScale",{rotate:0, left:0, autoAlpha:1}, {duration:1.3, left:-300, rotate:-30, autoAlpha:0},"<0.5");
-		tl2.from(".layerAfterTextBG",{duration:1, right:-30, autoAlpha:0},"<0.5");
-		tl2.fromTo(".layerBG",{rotate:0}, {duration:1.3, rotate:90},"<");
-	});
-</script>
