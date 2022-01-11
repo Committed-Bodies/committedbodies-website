@@ -1,6 +1,6 @@
 <script>
     import facility from "$lib/data/facility.json";
-    import Masonry from 'svelte-masonry/Masonry.svelte';
+    // import Masonry from 'svelte-masonry/Masonry.svelte';
     let refreshLayout;
 </script>
 
@@ -16,7 +16,7 @@
     </div>
     <div class="gallery">
         <!-- Using masonry component from https://github.com/janzheng/svelte-masonry -->
-        <Masonry gridGap={'0'} bind:refreshLayout={refreshLayout}>
+        <!-- <Masonry gridGap={'0'} bind:refreshLayout={refreshLayout}>
             {#each facility.facilityFeatures as feature}
                 <div class="feature">
                     <img src="{feature.image}" alt="description here" on:load={refreshLayout}>
@@ -26,7 +26,16 @@
                     </div>
                 </div>
             {/each}
-        </Masonry>
+        </Masonry> -->
+        {#each facility.facilityFeatures as feature}
+            <div class="feature">
+                <img src="{feature.image}" alt="description here" on:load={refreshLayout}>
+                <div class="summary">
+                    <h3 class="h5">{feature.title}</h3>
+                    <p>{feature.content}</p>
+                </div>
+            </div>
+        {/each}
     </div>
 </section>
 
