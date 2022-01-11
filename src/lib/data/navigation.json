@@ -7,22 +7,22 @@
         },
         {
             "title":"Explore",
-            "link":"/explore",
+            "link":"",
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
                     "title":"Facility",
-                    "link":"/explore#facility",
+                    "link":"/facility",
                     "class": "scrollTo "
                 },
                 {
                     "title":"Trainers",
-                    "link":"/explore#trainers",
+                    "link":"/team",
                     "class": "scrollTo "
                 },
                 {
                     "title":"Services",
-                    "link":"/explore#services",
+                    "link":"/services",
                     "class": "scrollTo "
                 }
             ]
