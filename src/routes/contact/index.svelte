@@ -1,10 +1,17 @@
+<script context="module">
+    export const prerender = true;
+</script>
+
 <script>
     import Header from '$lib/components/Header.svelte';
     import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
+    import ContactSection from "$lib/components/ContactSection.svelte";
 </script>
 
 <div class="pageWrap" in:slideFadeIn out:slideFadeOut>
-    <Header>CONTACT</Header>
+    <Header bgImage="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto,t_pageHeader/v1631431623/gym/Gym-in-Benoni_m5uh6j.jpg">
+        Contact
+    </Header>
     <div class="contentWrap">
         <h2>How can we help?</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quisquam repudiandae similique assumenda at. Laudantium, quaerat aliquid distinctio nesciunt, fugiat mollitia commodi, illum rerum veritatis nihil cumque eum hic voluptate!</p>
@@ -17,18 +24,13 @@
                 <label>Your Email: <input type="email" name="email" /></label>
             </p>
             <p>
-                <label>Your Role: <select name="role[]" multiple>
-                    <option value="leader">Leader</option>
-                    <option value="follower">Follower</option>
-                </select></label>
-            </p>
-            <p>
                 <label>Message: <textarea name="message"></textarea></label>
             </p>
             <p>
                 <button type="submit">Send</button>
             </p>
         </form>
+        <ContactSection />
     </div>
 </div>
 
