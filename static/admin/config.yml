@@ -137,8 +137,8 @@ collections:
           - label: "Button Link"
             name: "buttonLink"
             widget: "string"
-    - label: "Facilities Page"
-      name: "facilitiespage"
+    - label: "Facilitiy Page"
+      name: "facilitypage"
       file: "/src/lib/data/facility.json"
       fields:
         - label: "Page Intro"
@@ -146,9 +146,6 @@ collections:
           widget: "object"
           collapsed: true
           fields:
-            - label: "Unique ID Number"
-              name: "id"
-              widget: "number"
             - label: "Title"
               name: "title"
               widget: "string"
@@ -163,8 +160,9 @@ collections:
           widget: "list"
           summary: '{{fields.title}}'
           fields:
-            - {label: Title, name: title, widget: string, default: "Title for this facility feature"}
-            - {label: Name, name: name, widget: string, default: "Emmet"}
-            - {label: Image, name: image, widget: image, default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
-            - {label: Content, name: content, widget: text, default: "Describe this feature - how does it help your clients?"}
+            - {label: "Unique ID Number", name: "id", widget: "number"}
+            - {label: "Title", name: "title", widget: "string", default: "Title for this facility feature"}
+            - {label: "Name", name: "name", widget: "string", default: "Emmet"}
+            - {label: "Image", name: "image", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
+            - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
       
