@@ -39,12 +39,33 @@
             <NumberedSection {section}></NumberedSection>
         {/each}
 
+        <div class="contactTitle">
+            <!-- Title -->
+            <h2><span>Contact Us</span></h2>
+        </div>
+
         <!-- Contact -->
         <ContactSection />
     </div>
 </div>
 
 <style  lang="scss">
+    .contactTitle {
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0 3rem 0;
+            color: hsla(var(--onNeutral) / var(--onNeutralStrength3));
+            font-family: $font_boldEmphasis;
+            span {
+                border: 3px solid hsl(var(--accentHS) var(--accentL));
+                padding: 1rem 2rem;
+                text-align: center;
+                width: auto;
+            }
+        }
+    }
     :global(.pageContentWrap section:nth-last-child(2) .contentSecondary) {
 		margin-bottom: 9rem;
 	}
