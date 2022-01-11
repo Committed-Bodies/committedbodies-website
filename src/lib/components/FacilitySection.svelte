@@ -1,7 +1,8 @@
 <script>
+	import FacilityFeature from './FacilityFeature.svelte';
     import facility from "$lib/data/facility.json";
     import Masonry from 'svelte-bricks';
-    let refreshLayout;
+    $: items = facility.facilityFeatures;
 </script>
 
 <section id="facility">
@@ -15,16 +16,8 @@
         </p>
     </div>
     <div class="gallery">
-        <Masonry>
-            {#each facility.facilityFeatures as feature}
-                <div class="feature">
-                    <img src="{feature.image}" alt="description here" on:load={refreshLayout}>
-                    <div class="summary">
-                        <h3 class="h5">{feature.title}</h3>
-                        <p>{feature.content}</p>
-                    </div>
-                </div>
-            {/each}
+        <Masonry {items} let:item>
+            <FacilityFeature {item} />
         </Masonry>
     </div>
 </section>
@@ -52,34 +45,6 @@
             grid-column: 1;
             grid-row: 1;
             padding: 0;
-            .feature {
-                position: relative;
-                img {
-                    display: block;
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                    z-index: 1;
-                }
-                .summary {
-                    // position: absolute;
-                    z-index: 2;
-                    background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 5%));
-                    color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
-                    width: 100%;
-                    height: auto;
-                    bottom: 0;
-                    left: 0;
-                    padding: 1rem;
-                    h3 {
-                        margin: 0;
-                        font-family: $font_boldEmphasis;
-                    }
-                    p {
-                        margin: 0;
-                    }
-                }
-            }
         }
     }
     @media (min-width: $mdScreen) {
