@@ -27,7 +27,7 @@ __export(exports, {
   js: () => js,
   module: () => module2
 });
-var module2 = __toModule(require("../entries/pages/contact/index.svelte.js"));
-const entry = "pages/contact/index.svelte-f014a633.js";
-const js = ["pages/contact/index.svelte-f014a633.js", "chunks/vendor-c4f49c15.js", "chunks/Header-d388cd31.js", "chunks/stores-c13b2dbb.js", "chunks/transition-slideFade-577ee761.js"];
-const css = ["assets/pages/contact/index.svelte-cdffea1e.css", "assets/Header-c65ed5ed.css"];
+var module2 = __toModule(require("../entries/pages/services/index.svelte.js"));
+const entry = "pages/services/index.svelte-9d49ae52.js";
+const js = ["pages/services/index.svelte-9d49ae52.js", "chunks/vendor-78dd4d0b.js", "chunks/Header-6dcc6da2.js", "chunks/stores-2fe5f912.js", "chunks/transition-slideFade-68ef08b5.js"];
+const css = ["assets/pages/services/index.svelte-dd191aa5.css", "assets/Header-a055ee75.css"];

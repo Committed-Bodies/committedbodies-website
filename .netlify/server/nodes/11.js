@@ -28,6 +28,6 @@ __export(exports, {
   module: () => module2
 });
 var module2 = __toModule(require("../entries/pages/blog/first-post.md.js"));
-const entry = "pages/blog/first-post.md-2b6a3c07.js";
-const js = ["pages/blog/first-post.md-2b6a3c07.js", "chunks/vendor-c4f49c15.js"];
+const entry = "pages/blog/first-post.md-9b0a11f1.js";
+const js = ["pages/blog/first-post.md-9b0a11f1.js", "chunks/vendor-78dd4d0b.js"];
 const css = [];

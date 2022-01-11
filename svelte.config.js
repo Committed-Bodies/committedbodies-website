@@ -12,10 +12,10 @@ const config = {
 		target: '#svelte',
         adapter: adapter(),
         prerender: {
-			crawl: true,
+			crawl: false,
 			enabled: true,
-			force: true,
-			pages: ['*'],
+			onError: "continue",
+			entries: ['*'],
         },
         
         vite: {

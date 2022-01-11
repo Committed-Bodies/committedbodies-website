@@ -25,13 +25,13 @@ __export(exports, {
   default: () => Jane_doe,
   metadata: () => metadata
 });
-var import_index_33f79e25 = __toModule(require("../../../chunks/index-33f79e25.js"));
+var import_index_f732b4f4 = __toModule(require("../../../chunks/index-f732b4f4.js"));
 const metadata = {
   "name": "Jane Doe",
   "layout": "team",
   "title": "COO",
   "thumbnail": "https://res.cloudinary.com/sonya-ninja/image/upload/q_auto/v1628228698/Placeholders/profilePlaceholder_m5lu6q.png"
 };
-const Jane_doe = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots) => {
+const Jane_doe = (0, import_index_f732b4f4.c)(($$result, $$props, $$bindings, slots) => {
   return `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem nihil provident eum pariatur praesentium fuga aperiam consequatur! Dolorum voluptate eveniet quam dolorem temporibus, dignissimos quidem qui nostrum aut consequatur!</p>`;
 });

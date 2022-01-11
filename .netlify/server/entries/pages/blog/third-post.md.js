@@ -25,7 +25,7 @@ __export(exports, {
   default: () => Third_post,
   metadata: () => metadata
 });
-var import_index_33f79e25 = __toModule(require("../../../chunks/index-33f79e25.js"));
+var import_index_f732b4f4 = __toModule(require("../../../chunks/index-f732b4f4.js"));
 const metadata = {
   "title": "Third Post",
   "date": "2021-08-06T10:00:37.128Z",
@@ -33,6 +33,6 @@ const metadata = {
   "thumbnail": "https://res.cloudinary.com/sonya-ninja/image/upload/q_auto/v1628228850/Placeholders/imagePlaceholder_u4yliv.png",
   "layout": "blog"
 };
-const Third_post = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots) => {
+const Third_post = (0, import_index_f732b4f4.c)(($$result, $$props, $$bindings, slots) => {
   return `<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>`;
 });

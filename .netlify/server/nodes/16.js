@@ -27,7 +27,7 @@ __export(exports, {
   js: () => js,
   module: () => module2
 });
-var module2 = __toModule(require("../entries/pages/team/jane-doe.md.js"));
-const entry = "pages/team/jane-doe.md-9eb43fe3.js";
-const js = ["pages/team/jane-doe.md-9eb43fe3.js", "chunks/vendor-c4f49c15.js"];
+var module2 = __toModule(require("../entries/pages/team/cool-cat.md.js"));
+const entry = "pages/team/cool-cat.md-6b187f1b.js";
+const js = ["pages/team/cool-cat.md-6b187f1b.js", "chunks/vendor-78dd4d0b.js"];
 const css = [];

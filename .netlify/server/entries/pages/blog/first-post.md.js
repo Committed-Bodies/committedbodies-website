@@ -25,7 +25,7 @@ __export(exports, {
   default: () => First_post,
   metadata: () => metadata
 });
-var import_index_33f79e25 = __toModule(require("../../../chunks/index-33f79e25.js"));
+var import_index_f732b4f4 = __toModule(require("../../../chunks/index-f732b4f4.js"));
 const metadata = {
   "title": "First Post",
   "layout": "blog",
@@ -33,6 +33,6 @@ const metadata = {
   "date": "2021-08-05 11:30:59 -0800",
   "thumbnail": "https://res.cloudinary.com/sonya-ninja/image/upload/q_auto/v1628228850/Placeholders/imagePlaceholder_u4yliv.png"
 };
-const First_post = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots) => {
+const First_post = (0, import_index_f732b4f4.c)(($$result, $$props, $$bindings, slots) => {
   return `<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem nihil provident eum pariatur praesentium fuga aperiam consequatur! Dolorum voluptate eveniet quam dolorem temporibus, dignissimos quidem qui nostrum aut consequatur!</p>`;
 });

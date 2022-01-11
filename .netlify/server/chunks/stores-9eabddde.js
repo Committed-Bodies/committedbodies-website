@@ -24,9 +24,9 @@ var __toModule = (module2) => {
 __export(exports, {
   p: () => page
 });
-var import_index_33f79e25 = __toModule(require("./index-33f79e25.js"));
+var import_index_f732b4f4 = __toModule(require("./index-f732b4f4.js"));
 const getStores = () => {
-  const stores = (0, import_index_33f79e25.g)("__svelte__");
+  const stores = (0, import_index_f732b4f4.g)("__svelte__");
   return {
     page: {
       subscribe: stores.page.subscribe

@@ -24,14 +24,14 @@ var __toModule = (module2) => {
 __export(exports, {
   default: () => _error
 });
-var import_index_33f79e25 = __toModule(require("../../chunks/index-33f79e25.js"));
-var import_transition_slideFade_fa1f4647 = __toModule(require("../../chunks/transition-slideFade-fa1f4647.js"));
+var import_index_f732b4f4 = __toModule(require("../../chunks/index-f732b4f4.js"));
+var import_transition_slideFade_0427fdd1 = __toModule(require("../../chunks/transition-slideFade-0427fdd1.js"));
 var __error_svelte_svelte_type_style_lang = "";
 const css = {
   code: ":root{--fontIncrement:0.2rem;--fontSizeBase:1rem}@media screen and (min-width: 780px){:root{--fontIncrement:0.3rem;--fontSizeBase:1.05rem}}@media screen and (min-width: 1430px){:root{--fontIncrement:0.3rem;--fontSizeBase:1.05rem}}:root{--fontSizeSm:calc(var(--fontSizeBase) - (var(--fontIncrement) * 1.5));--fontSizeMd:var(--fontSizeBase);--fontSizeH6:calc(var(--fontSizeMd) + var(--fontIncrement));--fontSizeH5:calc(var(--fontSizeH6) + var(--fontIncrement));--fontSizeH4:calc(var(--fontSizeH5) + var(--fontIncrement));--fontSizeH3:calc(var(--fontSizeH4) + var(--fontIncrement));--fontSizeH2:calc(var(--fontSizeH3) + var(--fontIncrement));--fontSizeH1:calc(var(--fontSizeH2) + var(--fontIncrement));--fontSizeXXXL:clamp(3rem, calc(5vw + 1rem), 6rem)}",
   map: null
 };
-const _error = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots) => {
+const _error = (0, import_index_f732b4f4.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `<div class="${"pageWrap"}">
     <section><h1>Oh dear!</h1>

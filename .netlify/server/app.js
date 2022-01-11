@@ -42,7 +42,7 @@ __export(exports, {
   App: () => App,
   override: () => override
 });
-var import_index_33f79e25 = __toModule(require("./chunks/index-33f79e25.js"));
+var import_index_f732b4f4 = __toModule(require("./chunks/index-f732b4f4.js"));
 var __accessCheck = (obj, member, msg) => {
   if (!member.has(obj))
     throw TypeError("Cannot " + msg);
@@ -119,11 +119,11 @@ async function render_endpoint(request, route, match) {
   request.params = route.params ? decode_params(route.params(match)) : {};
   const response = await handler(request);
   const preface = `Invalid response from route ${request.url.pathname}`;
-  if (!response) {
-    return;
-  }
   if (typeof response !== "object") {
     return error(`${preface}: expected an object, got ${typeof response}`);
+  }
+  if (response.fallthrough) {
+    return;
   }
   let { status = 200, body, headers = {} } = response;
   headers = lowercase_keys(headers);
@@ -480,7 +480,9 @@ async function render_response({
   status,
   error: error2,
   url,
-  params
+  params,
+  ssr,
+  stuff
 }) {
   const css2 = new Set(options.manifest._.entry.css);
   const js = new Set(options.manifest._.entry.js);
@@ -492,7 +494,7 @@ async function render_response({
   if (error2) {
     error2.stack = options.get_stack(error2);
   }
-  if (page_config.ssr) {
+  if (ssr) {
     branch.forEach(({ node, loaded, fetched, uses_credentials }) => {
       if (node.css)
         node.css.forEach((url2) => css2.add(url2));
@@ -513,7 +515,7 @@ async function render_response({
         navigating: writable(null),
         session
       },
-      page: { url, params, status, error: error2 },
+      page: { url, params, status, error: error2, stuff },
       components: branch.map(({ node }) => node.module.default)
     };
     const print_error = (property, replacement) => {
@@ -567,9 +569,9 @@ async function render_response({
       throw new Error(`Failed to serialize session data: ${error3.message}`);
     })},
 				route: ${!!page_config.router},
-				spa: ${!page_config.ssr},
+				spa: ${!ssr},
 				trailing_slash: ${s(options.trailing_slash)},
-				hydrate: ${page_config.ssr && page_config.hydrate ? `{
+				hydrate: ${ssr && page_config.hydrate ? `{
 					status: ${status},
 					error: ${serialize_error(error2)},
 					nodes: [
@@ -731,7 +733,6 @@ async function load_node({
   $session,
   stuff,
   prerender_enabled,
-  is_leaf,
   is_error,
   status,
   error: error2
@@ -894,13 +895,14 @@ async function load_node({
       load_input.error = error2;
     }
     loaded = await module2.load.call(null, load_input);
+    if (!loaded) {
+      throw new Error(`load function must return a value${options.dev ? ` (${node.entry})` : ""}`);
+    }
   } else {
     loaded = {};
   }
-  if (!loaded && is_leaf && !is_error)
+  if (loaded.fallthrough && !is_error) {
     return;
-  if (!loaded) {
-    throw new Error(`${node.entry} - load must return a value except for page fall through`);
   }
   return {
     node,
@@ -911,27 +913,33 @@ async function load_node({
     uses_credentials
   };
 }
-async function respond_with_error({ request, options, state, $session, status, error: error2 }) {
-  const default_layout = await options.manifest._.nodes[0]();
-  const default_error = await options.manifest._.nodes[1]();
-  const params = {};
-  const loaded = await load_node({
-    request,
-    options,
-    state,
-    route: null,
-    url: request.url,
-    params,
-    node: default_layout,
-    $session,
-    stuff: {},
-    prerender_enabled: is_prerender_enabled(options, default_error, state),
-    is_leaf: false,
-    is_error: false
-  });
-  const branch = [
-    loaded,
-    await load_node({
+async function respond_with_error({
+  request,
+  options,
+  state,
+  $session,
+  status,
+  error: error2,
+  ssr
+}) {
+  try {
+    const default_layout = await options.manifest._.nodes[0]();
+    const default_error = await options.manifest._.nodes[1]();
+    const params = {};
+    const layout_loaded = await load_node({
+      request,
+      options,
+      state,
+      route: null,
+      url: request.url,
+      params,
+      node: default_layout,
+      $session,
+      stuff: {},
+      prerender_enabled: is_prerender_enabled(options, default_error, state),
+      is_error: false
+    });
+    const error_loaded = await load_node({
       request,
       options,
       state,
@@ -940,28 +948,26 @@ async function respond_with_error({ request, options, state, $session, status, e
       params,
       node: default_error,
       $session,
-      stuff: loaded ? loaded.stuff : {},
+      stuff: layout_loaded ? layout_loaded.stuff : {},
       prerender_enabled: is_prerender_enabled(options, default_error, state),
-      is_leaf: false,
       is_error: true,
       status,
       error: error2
-    })
-  ];
-  try {
+    });
     return await render_response({
       options,
       $session,
       page_config: {
         hydrate: options.hydrate,
-        router: options.router,
-        ssr: options.ssr
+        router: options.router
       },
+      stuff: error_loaded.stuff,
       status,
       error: error2,
-      branch,
+      branch: [layout_loaded, error_loaded],
       url: request.url,
-      params
+      params,
+      ssr
     });
   } catch (err) {
     const error3 = coalesce_to_error(err);
@@ -977,8 +983,20 @@ function is_prerender_enabled(options, node, state) {
   return options.prerender && (!!node.module.prerender || !!state.prerender && state.prerender.all);
 }
 async function respond$1(opts) {
-  const { request, options, state, $session, route } = opts;
+  const { request, options, state, $session, route, ssr } = opts;
   let nodes;
+  if (!ssr) {
+    return await render_response(__spreadProps(__spreadValues({}, opts), {
+      branch: [],
+      page_config: {
+        hydrate: true,
+        router: true
+      },
+      status: 200,
+      url: request.url,
+      stuff: {}
+    }));
+  }
   try {
     nodes = await Promise.all(route.a.map((n) => options.manifest._.nodes[n] && options.manifest._.nodes[n]()));
   } catch (err) {
@@ -990,7 +1008,8 @@ async function respond$1(opts) {
       state,
       $session,
       status: 500,
-      error: error3
+      error: error3,
+      ssr
     });
   }
   const leaf = nodes[nodes.length - 1].module;
@@ -1005,9 +1024,9 @@ async function respond$1(opts) {
   let status = 200;
   let error2;
   let set_cookie_headers = [];
+  let stuff = {};
   ssr:
-    if (page_config.ssr) {
-      let stuff = {};
+    if (ssr) {
       for (let i = 0; i < nodes.length; i += 1) {
         const node = nodes[i];
         let loaded;
@@ -1018,7 +1037,6 @@ async function respond$1(opts) {
               node,
               stuff,
               prerender_enabled: is_prerender_enabled(options, node, state),
-              is_leaf: i === nodes.length - 1,
               is_error: false
             }));
             if (!loaded)
@@ -1059,7 +1077,6 @@ async function respond$1(opts) {
                     node: error_node,
                     stuff: node_loaded.stuff,
                     prerender_enabled: is_prerender_enabled(options, error_node, state),
-                    is_leaf: false,
                     is_error: true,
                     status,
                     error: error2
@@ -1069,6 +1086,7 @@ async function respond$1(opts) {
                   }
                   page_config = get_page_config(error_node.module, options);
                   branch = branch.slice(0, j + 1).concat(error_loaded);
+                  stuff = __spreadValues(__spreadValues({}, node_loaded.stuff), error_loaded.stuff);
                   break ssr;
                 } catch (err) {
                   const e = coalesce_to_error(err);
@@ -1083,7 +1101,8 @@ async function respond$1(opts) {
               state,
               $session,
               status,
-              error: error2
+              error: error2,
+              ssr
             }), set_cookie_headers);
           }
         }
@@ -1094,6 +1113,7 @@ async function respond$1(opts) {
     }
   try {
     return with_cookies(await render_response(__spreadProps(__spreadValues({}, opts), {
+      stuff,
       url: request.url,
       page_config,
       status,
@@ -1110,8 +1130,10 @@ async function respond$1(opts) {
   }
 }
 function get_page_config(leaf, options) {
+  if ("ssr" in leaf) {
+    throw new Error("`export const ssr` has been removed \u2014 use the handle hook instead: https://kit.svelte.dev/docs#hooks-handle");
+  }
   return {
-    ssr: "ssr" in leaf ? !!leaf.ssr : options.ssr,
     router: "router" in leaf ? !!leaf.router : options.router,
     hydrate: "hydrate" in leaf ? !!leaf.hydrate : options.hydrate
   };
@@ -1122,7 +1144,7 @@ function with_cookies(response, set_cookie_headers) {
   }
   return response;
 }
-async function render_page(request, route, match, options, state) {
+async function render_page(request, route, match, options, state, ssr) {
   if (state.initiator === route) {
     return {
       status: 404,
@@ -1138,7 +1160,8 @@ async function render_page(request, route, match, options, state) {
     state,
     $session,
     route,
-    params
+    params,
+    ssr
   });
   if (response) {
     return response;
@@ -1280,6 +1303,7 @@ function get_multipart(text, boundary) {
   return data;
 }
 async function respond(incoming, options, state = {}) {
+  var _a;
   if (incoming.url.pathname !== "/" && options.trailing_slash !== "ignore") {
     const has_trailing_slash = incoming.url.pathname.endsWith("/");
     if (has_trailing_slash && options.trailing_slash === "never" || !has_trailing_slash && options.trailing_slash === "always" && !(incoming.url.pathname.split("/").pop() || "").includes(".")) {
@@ -1301,6 +1325,25 @@ async function respond(incoming, options, state = {}) {
     params: {},
     locals: {}
   });
+  const { parameter, allowed } = options.method_override;
+  const method_override = (_a = incoming.url.searchParams.get(parameter)) == null ? void 0 : _a.toUpperCase();
+  if (method_override) {
+    if (request.method.toUpperCase() === "POST") {
+      if (allowed.includes(method_override)) {
+        request.method = method_override;
+      } else {
+        const verb = allowed.length === 0 ? "enabled" : "allowed";
+        const body = `${parameter}=${method_override} is not ${verb}. See https://kit.svelte.dev/docs#configuration-methodoverride`;
+        return {
+          status: 400,
+          headers: {},
+          body
+        };
+      }
+    } else {
+      throw new Error(`${parameter}=${method_override} is only allowed with POST requests`);
+    }
+  }
   const print_error = (property, replacement) => {
     Object.defineProperty(request, property, {
       get: () => {
@@ -1311,19 +1354,24 @@ async function respond(incoming, options, state = {}) {
   print_error("origin", "origin");
   print_error("path", "pathname");
   print_error("query", "searchParams");
+  let ssr = true;
   try {
     return await options.hooks.handle({
       request,
-      resolve: async (request2) => {
+      resolve: async (request2, opts) => {
+        if (opts && "ssr" in opts)
+          ssr = opts.ssr;
         if (state.prerender && state.prerender.fallback) {
           return await render_response({
             url: request2.url,
             params: request2.params,
             options,
             $session: await options.hooks.getSession(request2),
-            page_config: { ssr: false, router: true, hydrate: true },
+            page_config: { router: true, hydrate: true },
+            stuff: {},
             status: 200,
-            branch: []
+            branch: [],
+            ssr: false
           });
         }
         const decoded = decodeURI(request2.url.pathname).replace(options.paths.base, "");
@@ -1331,7 +1379,7 @@ async function respond(incoming, options, state = {}) {
           const match = route.pattern.exec(decoded);
           if (!match)
             continue;
-          const response = route.type === "endpoint" ? await render_endpoint(request2, route, match) : await render_page(request2, route, match, options, state);
+          const response = route.type === "endpoint" ? await render_endpoint(request2, route, match) : await render_page(request2, route, match, options, state, ssr);
           if (response) {
             if (response.status === 200) {
               const cache_control = get_single_valued_header(response.headers, "cache-control");
@@ -1361,19 +1409,34 @@ async function respond(incoming, options, state = {}) {
             state,
             $session,
             status: 404,
-            error: new Error(`Not found: ${request2.url.pathname}`)
+            error: new Error(`Not found: ${request2.url.pathname}`),
+            ssr
           });
         }
       }
     });
-  } catch (err) {
-    const e = coalesce_to_error(err);
-    options.handle_error(e, request);
-    return {
-      status: 500,
-      headers: {},
-      body: options.dev ? e.stack : e.message
-    };
+  } catch (e) {
+    const error2 = coalesce_to_error(e);
+    options.handle_error(error2, request);
+    try {
+      const $session = await options.hooks.getSession(request);
+      return await respond_with_error({
+        request,
+        options,
+        state,
+        $session,
+        status: 500,
+        error: error2,
+        ssr
+      });
+    } catch (e2) {
+      const error3 = coalesce_to_error(e2);
+      return {
+        status: 500,
+        headers: {},
+        body: options.dev ? error3.stack : error3.message
+      };
+    }
   }
 }
 function afterUpdate() {
@@ -1383,14 +1446,14 @@ const css = {
   code: "#svelte-announcer.svelte-1j55zn5{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}",
   map: null
 };
-const Root = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots) => {
+const Root = (0, import_index_f732b4f4.c)(($$result, $$props, $$bindings, slots) => {
   let { stores } = $$props;
   let { page } = $$props;
   let { components } = $$props;
   let { props_0 = null } = $$props;
   let { props_1 = null } = $$props;
   let { props_2 = null } = $$props;
-  (0, import_index_33f79e25.s)("__svelte__", stores);
+  (0, import_index_f732b4f4.s)("__svelte__", stores);
   afterUpdate(stores.page.notify);
   if ($$props.stores === void 0 && $$bindings.stores && stores !== void 0)
     $$bindings.stores(stores);
@@ -1411,11 +1474,11 @@ const Root = (0, import_index_33f79e25.c)(($$result, $$props, $$bindings, slots)
   return `
 
 
-${components[1] ? `${(0, import_index_33f79e25.v)(components[0] || import_index_33f79e25.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
-    default: () => `${components[2] ? `${(0, import_index_33f79e25.v)(components[1] || import_index_33f79e25.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
-      default: () => `${(0, import_index_33f79e25.v)(components[2] || import_index_33f79e25.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`
-    })}` : `${(0, import_index_33f79e25.v)(components[1] || import_index_33f79e25.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`
-  })}` : `${(0, import_index_33f79e25.v)(components[0] || import_index_33f79e25.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
+${components[1] ? `${(0, import_index_f732b4f4.v)(components[0] || import_index_f732b4f4.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
+    default: () => `${components[2] ? `${(0, import_index_f732b4f4.v)(components[1] || import_index_f732b4f4.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
+      default: () => `${(0, import_index_f732b4f4.v)(components[2] || import_index_f732b4f4.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`
+    })}` : `${(0, import_index_f732b4f4.v)(components[1] || import_index_f732b4f4.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`
+  })}` : `${(0, import_index_f732b4f4.v)(components[0] || import_index_f732b4f4.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
 
 ${``}`;
 });
@@ -1431,7 +1494,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module"
 });
-const template = ({ head, body, assets: assets2 }) => '<!DOCTYPE html>\n<html lang="en" class="light">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="/favicon.png" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"><\/script>\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"><\/script>\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"><\/script>\n		<script src="/assets/js/gsap/SplitText.min.js"><\/script>\n		<script src="/assets/js/gsap/CustomEase.min.js"><\/script>\n		<script src="/assets/js/gsap/GSDevTools.min.js"><\/script>\n		' + head + '\n	</head>\n	<body id="svelte">\n		' + body + "\n	</body>\n</html>";
+const template = ({ head, body, assets: assets2 }) => '<!DOCTYPE html>\r\n<html lang="en" class="light">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<link rel="icon" href="/favicon.png" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"><\/script>\r\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js"><\/script>\r\n		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"><\/script>\r\n		<script src="/assets/js/gsap/SplitText.min.js"><\/script>\r\n		<script src="/assets/js/gsap/CustomEase.min.js"><\/script>\r\n		<script src="/assets/js/gsap/GSDevTools.min.js"><\/script>\r\n		' + head + '\r\n	</head>\r\n	<body id="svelte">\r\n		' + body + "\r\n	</body>\r\n</html>";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 const get_hooks = (hooks) => ({
@@ -1462,6 +1525,7 @@ class App {
       hooks,
       hydrate: true,
       manifest,
+      method_override: { "parameter": "_method", "allowed": [] },
       paths: { base, assets },
       prefix: assets + "/_app/",
       prerender: true,
@@ -1469,7 +1533,6 @@ class App {
       root: Root,
       service_worker: null,
       router: true,
-      ssr: true,
       target: "#svelte",
       template,
       trailing_slash: "never"
