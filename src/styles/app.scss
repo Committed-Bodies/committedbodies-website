@@ -187,7 +187,7 @@ body {
 body {
 	main {
 		.pageWrap {
-			.pageContentWrap {
+			.pageContentWrap.contentTypography {
 				a:not(.button) {
 					// Defaults to theme color on surface
 					display: inline-block;
