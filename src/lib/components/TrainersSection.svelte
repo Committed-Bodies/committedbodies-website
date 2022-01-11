@@ -15,8 +15,15 @@
     <div class="trainersGallery">
         {#each trainersData.trainers as trainer}
             <div class="trainerWrap">
-                <img src="{trainer.image}" alt="Cool profile pic for {trainer.name}">
+                <img src="{trainer.image}" alt="Cool profile pic for {trainer.firstName}">
+                <h3 class="h5">{trainer.fullName}</h3>
+                <ul class="specialisations">
+                    {#each trainer.specialisations as specialisation}
+                        <li>{specialisation}</li>
+                    {/each}
+                </ul>
                 <p>{trainer.bio}</p>
+                <a class="button" href="/book-a-session?trainer={trainer.firstName}" alt="Book {trainer.fistName}">Train with {trainer.firstName}</a>
             </div>
         {/each}
     </div>
@@ -44,20 +51,50 @@
         }
         .trainersGallery {
             .trainerWrap {
-                position: relative;
-                overflow: auto;
                 // border: 1px solid red;
-                // background: white;
-                // display: flex;
-                // justify-content: center;
-                // align-items: center;
-                img {
-                    float: right;
-                    width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 1rem 0;
+                position: relative;
+                // overflow: auto;
+                h3 {
+                    margin: 0;
+                    color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
+                }
+                p {
+                    margin: 0;
+                }
+                // img {
+                    // float: right;
+                    // width: 60%;
                     // margin-left: -2rem;
-                    shape-outside: url('/assets/images/kettlebell-LOGO.png'); 
-                    shape-image-threshold: 0.5;
-                    shape-margin: 0.5rem;
+                    // shape-outside: url('/assets/images/kettlebell-LOGO.png'); 
+                    // shape-image-threshold: 0.5;
+                    // shape-margin: 0.5rem;
+                // }
+                .specialisations {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    li {
+                        padding: 0.1rem 0.5rem;
+                        display: inline-block;
+                        margin: 3px;
+                        border-radius: 3px;
+                        font-size: 0.8rem;
+                        font-weight: 500;
+                        background: hsl(var(--neutralHS) calc(var(--neutralL) + 5%));
+                        color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                    }
+                }
+                .button {
+                    margin-top: 1rem;
+                    @include button;
+                    @include buttonPrimary;
                 }
             }
         }
@@ -79,7 +116,7 @@
         .trainersGallery {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-gap: 1rem;
+            grid-gap: 2rem;
             // .trainerWrap {
                 
             // }
