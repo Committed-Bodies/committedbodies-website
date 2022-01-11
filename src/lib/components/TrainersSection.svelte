@@ -51,14 +51,12 @@
         }
         .trainersGallery {
             .trainerWrap {
-                // border: 1px solid red;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 padding: 1rem 0;
                 position: relative;
-                // overflow: auto;
                 h3 {
                     margin: 0;
                     color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
@@ -66,14 +64,6 @@
                 p {
                     margin: 0;
                 }
-                // img {
-                    // float: right;
-                    // width: 60%;
-                    // margin-left: -2rem;
-                    // shape-outside: url('/assets/images/kettlebell-LOGO.png'); 
-                    // shape-image-threshold: 0.5;
-                    // shape-margin: 0.5rem;
-                // }
                 .specialisations {
                     list-style-type: none;
                     padding: 0;
@@ -99,27 +89,13 @@
             }
         }
     }
-// On small devices alternate left-right images
-@media (max-width: $mdScreen) {
-   section {
-        .trainersGallery {
-            .trainerWrap:nth-child(odd) {
-                img {
-                    float: left;
-                }
-            }
-        }
-    } 
-}
+// Responsive styles md - lg screens
 @media (min-width: $mdScreen) {
     section {
         .trainersGallery {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
-            // .trainerWrap {
-                
-            // }
         }
     }
 }
