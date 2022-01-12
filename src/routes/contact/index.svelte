@@ -10,9 +10,6 @@
     import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
     import ContactSection from "$lib/components/ContactSection.svelte";
 
-    //Donavan
-    let intro = contactPage.intro;
-    //Donavan
 </script>
 
 <div class="pageWrap" in:slideFadeIn out:slideFadeOut>
@@ -23,7 +20,15 @@
         
         <div class="content">
             <!-- Donavan - replace the content text in this section with props from a data file. See Trello card -->
-            <ContactSection {intro} ></ContactSection> 
+            <h2>
+                {contactPage.intro.title}
+            </h2>
+            <p class="subtitle h4">
+                {contactPage.intro.subtitle}
+            </p>
+            <p>
+                {contactPage.intro.content}
+            </p>
         </div>
         
         <form name="contact" method="POST" data-netlify="true">
@@ -51,17 +56,17 @@
         color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
         .content {
             color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-            // h2 {
-            //     margin-top: 0;
-			// 	font-family: $font_boldEmphasis;
-			// 	line-height: 1;
-			// 	color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
-			// }
-			// .subtitle {
-			// 	font-family: $font_cursiveEmphasis;
-			// 	margin-top: 1em;
-			// 	color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
-			// }
+            h2 {
+                margin-top: 0;
+				font-family: $font_boldEmphasis;
+				line-height: 1;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+			}
+			.subtitle {
+				font-family: $font_cursiveEmphasis;
+				margin-top: 1em;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+			}
         }
         form {
             margin-top: $space4;
