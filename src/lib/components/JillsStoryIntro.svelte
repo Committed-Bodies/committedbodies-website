@@ -64,6 +64,8 @@
 			<div class="signature">
 				Jill Myburgh
 			</div>
+
+			<a class="button" href="{introData.buttonLink}">{introData.buttonText}</a>
 		</div>
 	</div>
 	
@@ -123,11 +125,17 @@
 				justify-content: center;
 				align-items: flex-start;
 				padding: 3vw;
+				.button {
+					@include button;
+					@include buttonPrimary;
+					margin-top: 1rem;
+					font-size: 1.2em;
+				}
 				.signature {
 					color: hsl(var(--accentHS) var(--accentL));
 					font-family: $font_cursiveEmphasis;
 					font-size: var(--fontSizeH3);
-					margin: 0;
+					margin: 2rem 0 0 0;
 				}		
 			}
 		}
@@ -147,6 +155,7 @@
 					margin: 0 auto;
 					max-width: 60ch;
 					padding: 0 0 6vw 0;
+					align-items: center;
 				}
 			}
 		}
