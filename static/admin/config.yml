@@ -209,4 +209,21 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Link", name: "link", widget: "string"}
-                          
+    - label: "Team (Trainers) Page"
+      name: "teampage"
+      file: "/src/lib/data/teamPage.json"
+      fields:
+        - label: "Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"          
