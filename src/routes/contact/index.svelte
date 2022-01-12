@@ -32,7 +32,7 @@
                 <label>Your Email: <input type="email" name="email" /></label>
             </p>
             <p>
-                <label>Your Cellphone Number: <input type="number" name="number" /></label>
+                <label>Your Cellphone Number: <input type="integer" name="integer" /></label>
             </p>
             <p>
                 <label>What are your fitness goals: <textarea name="message"></textarea></label>
