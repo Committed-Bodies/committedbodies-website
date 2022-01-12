@@ -26,7 +26,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 9 / 16;
         overflow: hidden;
         justify-content: center;
         align-items: center;
@@ -108,7 +108,7 @@
     // MED > SCREENS SECTION LAYOUTS
 	@media screen and (min-width: $mdScreen) {
 		section {
-			// border: 10px solid red;
+			aspect-ratio: 16 / 9;
             .contentWrap {
                 header {
                    .lookAtMeTitle {
