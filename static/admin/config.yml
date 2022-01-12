@@ -184,3 +184,28 @@ collections:
             - label: "Content"
               name: "content"
               widget: "text"
+        - label: "Contact Details"
+          name: "contacts"
+          widget: "object"
+          collapsed: true
+            - label: "phone"
+              name: "phone"
+              widget: "string"
+            - label: "email"
+              name: "email"
+              widget: "string"
+            - label: "address"
+              name: "address"
+              widget: "string"
+            - label: "mapLink"
+              name: "mapLink"
+              widget: "string"
+        - label: "Social Links"
+          name: "socials"
+          widget: "list"
+          collapsed: true
+          summary: '{{fields.title}}'
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
+                          

@@ -3,5 +3,18 @@
         "title": "How can we help you?",
         "subtitle": "Get in touch quick and easy",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
-    }
+    },
+    "contacts":{
+            "phone": "079 837 3780",
+            "email":"info@committedbodies.co.za",
+            "address": "65 Great North Road, Brentwood Park Ext 1, BENONI",
+            "mapLink": "https://goo.gl/maps/LHMsB5KPSpxMM9rn9"
+        },
+    "socials":[
+            {"title": "facebook", "link": "https://www.facebook.com/committedbodies/"},
+            {"title": "twitter", "link":"https://twitter.com"},
+            {"title": "youtube", "link": "https://www.youtube.com/channel/UCYN4z_rfltz7nsy0TnzrYRQ"},
+            {"title": "tiktok", "link": "https://www.tiktok.com"},
+            {"title": "instagram", "link": "https://www.instagram.com/committedbodies/"}
+    ]
 }
