@@ -24,15 +24,18 @@
             <p>Perferendis facere numquam assumenda ipsam, modi, quam eum vel nobis iure fugit blanditiis, autem architecto. Quisquam asperiores consectetur aspernatur, porro perspiciatis quidem! Maiores eligendi ad repellendus quas eius. Dolor, ipsum?</p>
         </div>
         
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" netlify>
             <p>
-                <label>Your Name: <input type="text" name="name" /></label>
+                <label>Your Name & Surname: <input type="text" name="name" /></label>
             </p>
             <p>
                 <label>Your Email: <input type="email" name="email" /></label>
             </p>
             <p>
-                <label>Message: <textarea name="message"></textarea></label>
+                <label>Your Cellphone Number: <input type="number" name="number" /></label>
+            </p>
+            <p>
+                <label>What are your fitness goals: <textarea name="message"></textarea></label>
             </p>
             <p>
                 <button type="submit">Send</button>
