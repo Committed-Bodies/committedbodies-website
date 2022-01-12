@@ -1,9 +1,9 @@
 <script>
     import Header from '$lib/components/Header.svelte';
-    import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
+    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
 </script>
 
-<div class="pageWrap" in:slideFadeIn out:slideFadeOut>
+<div class="pageWrap">
     <Header>ABOUT</Header>
 
     <div class="pageContentWrap removeTopBottom">
