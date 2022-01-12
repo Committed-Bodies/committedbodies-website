@@ -1,6 +1,7 @@
 ---
 name: Cool Cat
-title: Marketing
+title: Kick-Boxing Trainer
+group: Trainer
 thumbnail: https://res.cloudinary.com/sonya-ninja/image/upload/q_auto/v1628228698/Placeholders/profilePlaceholder_m5lu6q.png
 layout: team
 ---
