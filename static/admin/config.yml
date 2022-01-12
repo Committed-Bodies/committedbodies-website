@@ -188,6 +188,7 @@ collections:
           name: "contacts"
           widget: "object"
           collapsed: true
+          fields:
             - label: "phone"
               name: "phone"
               widget: "string"
