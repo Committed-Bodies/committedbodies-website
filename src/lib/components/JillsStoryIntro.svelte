@@ -107,7 +107,7 @@
 					position: absolute;
 					width: 100%;
 					height: auto;
-					max-height: 100%;
+					// max-height: 100%;
 					&.layerJillAfter, &.layerAfterTextBG {
 						visibility: hidden;
 					}

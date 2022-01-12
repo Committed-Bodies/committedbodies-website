@@ -3,6 +3,33 @@
     import facility from "$lib/data/facility.json";
     import Masonry from 'svelte-bricks';
     $: items = facility.facilityFeatures;
+    let animate = false;
+
+    // NOT WORKING
+    // GSAP only animates features in first column
+    
+    // import { afterUpdate } from 'svelte';
+    // afterUpdate(() => {
+    //     gsap.registerPlugin(ScrollTrigger);
+    //     const sections = document.querySelectorAll('.feature');
+    //     console.log('sections', sections);
+
+    //     sections.forEach((section) => {
+    //         gsap.from(section, {
+    //             scrollTrigger: {
+    //                 scroller: "main",
+    //                 trigger: section,
+    //                 // markers: true,
+    //                 start: "top 50%"
+    //             },
+    //             xPercent: -10,
+    //             opacity: 0,
+    //             scale: 0.9,
+    //             transformOrigin: "center center",
+    //             duration: 0.3
+    //         });
+    //     });
+    // });
 </script>
 
 <section id="facility">
@@ -16,7 +43,7 @@
         </p>
     </div>
     <div class="gallery">
-        <Masonry {items} let:item>
+        <Masonry {items} {animate} let:item>
             <FacilityFeature {item} />
         </Masonry>
     </div>
@@ -53,4 +80,8 @@
         //     grid-template-columns: 2fr 1fr;
         // }
     }
+    // :global(.col .feature.active) {
+    //     opacity: 1 !important;
+    //     transform: scale(1) !important;
+    // }
 </style>
