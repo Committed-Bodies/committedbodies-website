@@ -23,7 +23,6 @@
     import Header from '$lib/components/Header.svelte';
     import TrainersSection from "$lib/components/TeamListSection.svelte";
     export let teamMembers;
-    console.log("teamMembers: ", teamMembers);
 </script>
 
 

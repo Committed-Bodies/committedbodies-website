@@ -24,7 +24,7 @@
                     {/each}
                 </ul>
                 <p>{trainer.metadata.blurb}</p>
-                <a class="button" href="/book-a-session?trainer={trainer.metadata.firstName}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
+                <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
             </div>
         {/each}
     </div>

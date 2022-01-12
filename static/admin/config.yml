@@ -209,7 +209,7 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Link", name: "link", widget: "string"}
-    - label: "Team (Trainers) Page"
+    - label: "Trainers Page"
       name: "teampage"
       file: "/src/lib/data/teamPage.json"
       fields:
