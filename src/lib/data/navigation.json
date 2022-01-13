@@ -33,13 +33,18 @@
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
-                    "title":"Gym Memberships",
-                    "link":"/membership#memberships",
-                    "class": "scrollTo"
+                    "title":"Schedule",
+                    "link":"/membership/schedule",
+                    "class": "open"
                 },
                 {
-                    "title":"Take back your life",
-                    "link":"/services/take-back-your-life",
+                    "title":"Download the app",
+                    "link":"/membership/download-app",
+                    "class": "open"
+                },
+                {
+                    "title": "Portal",
+                    "link": "/membership/portal",
                     "class": "open"
                 }
             ]
