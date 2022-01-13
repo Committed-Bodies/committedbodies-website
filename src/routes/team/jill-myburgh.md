@@ -2,7 +2,7 @@
 firstName: "Jill"
 fullName: "Jill Myburgh"
 title: "COO"
-group: "Trainer"
+group: "Trainers"
 thumbnail: "/assets/images/trainers/jill-trainer.png"
 blurb: "I will help you take back your life!"
 specialisations:

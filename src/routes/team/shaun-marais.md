@@ -2,7 +2,7 @@
 firstName: "Shaun"
 fullName: "Shaun Marais"
 title: "COO"
-group: "Trainer"
+group: "Trainers"
 thumbnail: "/assets/images/trainers/shaun-trainer.png"
 blurb: "I'll be your partner for body creation"
 specialisations:

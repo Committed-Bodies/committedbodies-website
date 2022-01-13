@@ -15,17 +15,19 @@
     </div>
     <div class="trainersGallery">
         {#each teamMembers as trainer}
-            <div class="trainerWrap">
-                <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
-                <h3 class="h5">{trainer.metadata.fullName}</h3>
-                <ul class="specialisations">
-                    {#each trainer.metadata.specialisations as specialisation}
-                        <li>{specialisation}</li>
-                    {/each}
-                </ul>
-                <p>{trainer.metadata.blurb}</p>
-                <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
-            </div>
+            {#if trainer.metadata.group == "Trainers"}
+                <div class="trainerWrap">
+                    <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
+                    <h3 class="h5">{trainer.metadata.fullName}</h3>
+                    <ul class="specialisations">
+                        {#each trainer.metadata.specialisations as specialisation}
+                            <li>{specialisation}</li>
+                        {/each}
+                    </ul>
+                    <p>{trainer.metadata.blurb}</p>
+                    <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
+                </div>
+            {/if}
         {/each}
     </div>
 </section>
