@@ -39,10 +39,10 @@
             <NumberedSection {section}></NumberedSection>
         {/each}
 
-        <div class="contactTitle">
+        <section class="contactTitle">
             <!-- Title -->
             <h2><span>Contact Us</span></h2>
-        </div>
+        </section>
 
         <!-- Contact -->
         <ContactSection />
@@ -66,7 +66,7 @@
             }
         }
     }
-    :global(.pageContentWrap section:nth-last-child(2) .contentSecondary) {
+    :global(.pageContentWrap section:nth-last-child(3) .contentSecondary) {
 		margin-bottom: 9rem;
 	}
 </style>

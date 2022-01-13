@@ -13,6 +13,11 @@
 <style lang="scss">
     .feature {
         position: relative;
+        display: flex;
+        flex-direction: column;
+        // transform-origin: center;
+        // transform: scale(0);
+        // opacity: 0;
         img {
             display: block;
             height: 100%;
@@ -21,7 +26,6 @@
             z-index: 1;
         }
         .summary {
-            // position: absolute;
             z-index: 2;
             background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 5%));
             color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
