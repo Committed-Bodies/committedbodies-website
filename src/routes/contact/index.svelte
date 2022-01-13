@@ -31,7 +31,16 @@
             </p>
         </div>
         
-        <form name="contact" method="POST" data-netlify="true">
+        <!-- <script src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Home/clubmanager-integration.js"></script> -->
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <!-- <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.clubmanagercentral.com/cm/contact.php?b=61e68416-3d0e-4302-bd0f-dca493494bb3"></iframe> -->
+                                
+
+        <script src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Home/clubmanager-integration.js"></script>
+        <!-- svelte-ignore a11y-missing-attribute -->
+        <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Member/SimpleContact.mvc"></iframe>
+                        
+        <!-- <form name="contact" method="POST" data-netlify="true">
             <p>
                 <label>Your Name: <input type="text" name="name" /></label>
             </p>
@@ -44,7 +53,7 @@
             <p>
                 <button type="submit">Send</button>
             </p>
-        </form>
+        </form> -->
         <ContactSection />
     </div>
 </div>
@@ -68,14 +77,14 @@
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
 			}
         }
-        form {
-            margin-top: $space4;
-            background-color: #ffffff;
-            padding: $space3;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-        }
+        // form {
+        //     margin-top: $space4;
+        //     background-color: #ffffff;
+        //     padding: $space3;
+        //     display: flex;
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: flex-start;
+        // }
     }
 </style>
