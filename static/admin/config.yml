@@ -89,7 +89,7 @@ collections:
     label: "Team"
     folder: "/src/routes/team"
     create: true
-    identifier_field: name
+    identifier_field: fullName
     fields:
       - {label: "First Name", name: "firstName", widget: "string"}
       - {label: "Full Name", name: "fullName", widget: "string"}
