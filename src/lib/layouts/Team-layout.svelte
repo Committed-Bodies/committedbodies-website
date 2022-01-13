@@ -1,6 +1,6 @@
 <script>
     export let thumbnail;
-    export let name;
+    export let fullName;
 </script>
 
 <div>
@@ -9,7 +9,7 @@
     </div>
     <div class="content">
         <h1>
-            {name}
+            {fullName}
         </h1>
         <slot />
     </div>

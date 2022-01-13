@@ -1,5 +1,6 @@
 <script>
-    import trainersData from "$lib/data/trainers.json"
+    import trainersData from "$lib/data/teamPage.json"
+    export let teamMembers;
 </script>
 
 <section id="trainers">
@@ -13,17 +14,17 @@
         </p>
     </div>
     <div class="trainersGallery">
-        {#each trainersData.trainers as trainer}
+        {#each teamMembers as trainer}
             <div class="trainerWrap">
-                <img src="{trainer.image}" alt="Cool profile pic for {trainer.firstName}">
-                <h3 class="h5">{trainer.fullName}</h3>
+                <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
+                <h3 class="h5">{trainer.metadata.fullName}</h3>
                 <ul class="specialisations">
-                    {#each trainer.specialisations as specialisation}
+                    {#each trainer.metadata.specialisations as specialisation}
                         <li>{specialisation}</li>
                     {/each}
                 </ul>
-                <p>{trainer.bio}</p>
-                <a class="button" href="/book-a-session?trainer={trainer.firstName}" alt="Book {trainer.fistName}">Train with {trainer.firstName}</a>
+                <p>{trainer.metadata.blurb}</p>
+                <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
             </div>
         {/each}
     </div>

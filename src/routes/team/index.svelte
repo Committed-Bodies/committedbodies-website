@@ -1,7 +1,28 @@
+<script context="module">
+    const allTeam = import.meta.glob('./*.md')
+    let team = [];
+    for (let path in allTeam) {
+
+        team.push(
+            allTeam[path]().then(({ metadata }) => {
+                return {path, metadata};
+            })
+        );
+    }
+    export const load = async() => {
+        const teamMembers = await Promise.all(team);
+        return {
+            props: {
+                teamMembers,
+            }
+        }
+    };
+</script>
+
 <script>
     import Header from '$lib/components/Header.svelte';
-    import TrainersSection from "$lib/components/TrainersSection.svelte";
-    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
+    import TrainersSection from "$lib/components/TeamListSection.svelte";
+    export let teamMembers;
 </script>
 
 
@@ -10,6 +31,6 @@
         The Team
     </Header>
 
-    <TrainersSection />
+    <TrainersSection {teamMembers} />
 
 </div>

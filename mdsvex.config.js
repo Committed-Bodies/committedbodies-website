@@ -7,7 +7,7 @@ const config = {
 
   "layout": {
     // blog: "./src/lib/layouts/Blog-layout.svelte",
-    // team: "./src/lib/layouts/Team-layout.svelte"
+    team: "./src/lib/layouts/Team-layout.svelte"
   },
 
   "remarkPlugins": [],
