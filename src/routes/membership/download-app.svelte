@@ -22,6 +22,7 @@
             </p>
             <a href="https://apps.apple.com/gb/app/clublink/id1476551554" class="sc_button sc_button_default sc_button_size_small sc_button_with_icon sc_button_icon_left" target="_blank"><span class="sc_button_icon"><span class="icon-08-apple"></span></span><span class="sc_button_text"><span class="sc_button_subtitle">Download on the</span><span class="sc_button_title">App store</span></span><!-- /.sc_button_text --></a>
             <a href="https://play.google.com/store/apps/details?id=com.clubmanagercentral.myclub" class="sc_button sc_button_default sc_button_size_small sc_button_with_icon sc_button_icon_left color_style_link2" target="_blank"><span class="sc_button_icon"><span class="icon-09-google-play"></span></span><span class="sc_button_text"><span class="sc_button_subtitle">Get it on</span><span class="sc_button_title">google play</span></span><!-- /.sc_button_text --></a>
+            <img src="static/assets/images/phone-clubLink-committed-bodies.png" alt="Pic">
         </div>
     </div>
 </div>

@@ -209,4 +209,22 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Link", name: "link", widget: "string"}
+    - label: "Membership Page"
+      name: "membershippage"
+      file: "/src/lib/data/membershipPage.json"
+      fields:
+        - label: "Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
                           

@@ -24,9 +24,8 @@
             </p>
         </div>
         
-
 <!-- svelte-ignore a11y-missing-attribute -->
 <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Booking/Forthcoming"></iframe>
         
-</div>
+    </div>
 </div>
