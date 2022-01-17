@@ -209,12 +209,12 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Link", name: "link", widget: "string"}
-    - label: "Membership Page"
-      name: "membershippage"
+    - label: "Membership Pages"
+      name: "membershippages"
       file: "/src/lib/data/membershipPage.json"
       fields:
-        - label: "Page Intro"
-          name: "intro"
+        - label: "Join Page Intro"
+          name: "introJoin"
           widget: "object"
           collapsed: true
           fields:
@@ -227,4 +227,45 @@ collections:
             - label: "Content"
               name: "content"
               widget: "text"
-                          
+        - label: "Portal Page Intro"
+          name: "introPortal"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"                  
+        - label: "Schedule Page Intro"
+          name: "introSchedule"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"   
+        - label: "Download Page Intro"
+          name: "introDownload"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"         
