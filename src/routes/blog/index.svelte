@@ -26,7 +26,9 @@
 </script>
 
 <div class="pageWrap">
-    <Header>BLOG</Header>
+    <Header bgImage="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto,t_pageHeader/v1631431623/gym/Gym-in-Benoni_m5uh6j.jpg">
+        BLOG
+    </Header>
     <section>
         <div class="articleList">
             {#each posts as {path, metadata}}
