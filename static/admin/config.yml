@@ -109,17 +109,12 @@ collections:
     create: true
     identifier_field: fullName
     fields:
-      - {label: "First Name", name: "firstName", widget: "string"}
-      - {label: "Full Name", name: "fullName", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
-      - label: "Group"
-        name: "group"
-        widget: "select"
-        options: ["Trainers", "Personnel"]
-      - {label: "Profile Pic", name: "thumbnail", widget: "image"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "text"}
       - {label: "Blurb", name: "blurb", widget: "text"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
-      - {label: "Bio", name: "body", widget: "markdown"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"

@@ -1,6 +1,8 @@
 <script>
     import servicesData from "$lib/data/servicesPage.json"
     export let services;
+    console.log("Services", services);
+
 </script>
 
 <section id="services">
@@ -15,19 +17,17 @@
     </div>
     <div class="servicesGallery">
         {#each services as service}
-            {#if service.metadata.group == "Services"}
-                <div class="serviceWrap">
-                    <img src="{service.metadata.thumbnail}" alt="Cool profile pic for {service.metadata.firstName}">
-                    <h3 class="h5">{service.metadata.fullName}</h3>
-                    <ul class="prices">
-                        {#each service.metadata.prices as price}
-                            <li>{price}</li>
-                        {/each}
-                    </ul>
-                    <p>{service.metadata.blurb}</p>
-                    <a class="button" href="{`/services/${service.path.replace(".md", "")}`}" alt="Book {service.metadata.firstName}">Train with {service.metadata.firstName}</a>
+            <div class="serviceWrap">
+                <img src="{service.metadata.thumbnail}" alt="Cool profile pic for {service.metadata.firstName}">
+                <h3 class="h5">{service.metadata.title}</h3>
+                <div class="price">
+                    <span>
+                        {service.metadata.price}
+                    </span>
                 </div>
-            {/if}
+                <p>{service.metadata.blurb}</p>
+                <a class="button" href="{`/services/${service.path.replace(".md", "")}`}" alt="Book {service.metadata.firstName}">Train with {service.metadata.firstName}</a>
+            </div>
         {/each}
     </div>
 </section>
@@ -67,22 +67,10 @@
                 p {
                     margin: 0;
                 }
-                .prices {
+                .price {
                     list-style-type: none;
                     padding: 0;
                     margin: 0;
-                    li {
-                        padding: 0.1rem 0.5rem;
-                        display: inline-block;
-                        margin: 3px;
-                        border-radius: 3px;
-                        font-size: 0.8rem;
-                        font-weight: 500;
-                        background: hsl(var(--neutralHS) calc(var(--neutralL) + 5%));
-                        color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
-                        text-transform: uppercase;
-                        letter-spacing: 1px;
-                    }
                 }
                 .button {
                     margin-top: 1rem;

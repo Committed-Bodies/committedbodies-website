@@ -24,6 +24,7 @@
     import Header from '$lib/components/Header.svelte';
     import ServicesSection from "$lib/components/ServicesListSection.svelte";
     export let services;
+    // console.log("Services", services);
     // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
 </script>
 
