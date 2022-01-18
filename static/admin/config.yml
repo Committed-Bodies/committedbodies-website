@@ -111,7 +111,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
-      - {label: "Price", name: "price", widget: "text"}
+      - {label: "Price", name: "price", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
       - {label: "Service Description", name: "body", widget: "markdown"}
