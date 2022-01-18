@@ -284,4 +284,22 @@ collections:
               widget: "string"
             - label: "Content"
               name: "content"
-              widget: "text"         
+              widget: "text"
+    - label: "Services Pages"
+      name: "servicespages"
+      file: "/src/lib/data/membershipPage.json"
+      fields:
+        - label: "Service Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"        
