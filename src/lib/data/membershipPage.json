@@ -1,22 +1,22 @@
 {
-    "introJoin": {
-        "title": "Use the form bellow to sign up",
-        "subtitle": "Enter subtitle here",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
-    },
-    "introSchedule": {
-        "title": "Check out the schedule and join a class",
-        "subtitle": "Enter subtitle here",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
-    },
-    "introPortal": {
-        "title": "Already a member? Sign in bellow.",
-        "subtitle": "Enter subtitle here",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
-    },
-    "introDownload": {
-        "title": "Download the app for easy acces to schedules ect",
-        "subtitle": "Enter subtitle here",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto maiores illum at, ratione necessitatibus laudantium veniam voluptas libero, eveniet aliquid suscipit quo perspiciatis dolorem blanditiis cupiditate esse velit ad!"
-    }
+  "introJoin": {
+    "title": "GET IN THE BEST SHAPE!",
+    "subtitle": "JOIN",
+    "content": "Start your journey with Committed Bodies today by signing up bellow"
+  },
+  "introSchedule": {
+    "title": "GET IN THE BEST SHAPE!",
+    "subtitle": "Schedule",
+    "content": "Book a class"
+  },
+  "introPortal": {
+    "title": "GET IN THE BEST SHAPE!",
+    "subtitle": "Members",
+    "content": "Sign in bellow"
+  },
+  "introDownload": {
+    "title": "GET IN THE BEST SHAPE!",
+    "subtitle": "Download the app",
+    "content": "For easy access to schedules, classes, events and more"
+  }
 }
