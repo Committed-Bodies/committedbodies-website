@@ -1,6 +1,6 @@
 ---
 title: HEALTH THYME GRILL
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427758/blog/JacqueBeforeAfter_mwqmce.jpg
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662882/services/Committed-Bodies-Meals-Delivery-meal-prep-2.png
 price: Check out our menu
 blurb: HEALTH THYME GRILL
 layout: team
