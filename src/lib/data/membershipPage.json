@@ -2,7 +2,7 @@
   "introJoin": {
     "title": "GET IN THE BEST SHAPE!",
     "subtitle": "JOIN",
-    "content": "Start your journey with Committed Bodies today by signing up bellow."
+    "content": "Start your journey with Committed Bodies today by signing up bellow"
   },
   "introSchedule": {
     "title": "GET IN THE BEST SHAPE!",
@@ -17,6 +17,6 @@
   "introDownload": {
     "title": "GET IN THE BEST SHAPE!",
     "subtitle": "Download the app",
-    "content": "For easy access to schedules, classes, events and more."
+    "content": "For easy access to schedules, classes, events and more"
   }
 }
