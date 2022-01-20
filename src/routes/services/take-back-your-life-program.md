@@ -1,6 +1,6 @@
 ---
 title: TAKE BACK YOUR LIFE PROGRAM
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642428022/blog/Committed_Bodies_Jill_take_back_your_life-e1594533049760_cptjnp.jpg
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: TBA
 blurb: 12 WEEKS TO CHANGE YOUR LIFE!
 layout: team
