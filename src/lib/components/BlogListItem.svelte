@@ -1,0 +1,145 @@
+<script>
+    export let post;
+</script>
+<section>
+	<div class="contentPrimary">
+		<h3 class="h1">{post.metadata.title}</h3>
+		<p class="subtitle h4">{post.metadata.category}</p>
+		<p>{post.metadata.excerpt}</p>
+		<div class="actionRow">
+			<a class="button primary" href="{post.path}">Read more</a>
+		</div>
+	</div>
+	<div class="numbers">
+		<svg class="line" preserveAspectRatio="none" viewbox="-1 -1 6 800" width="6" height="800">
+			<line x="0" y1="0" x2="0" y2="800"></line>
+		</svg>
+		<div class="number">2</div>
+	</div>
+	<div class="contentSecondary">
+		<img src="{post.metadata.thumbnail}" alt="">
+	</div>
+
+</section>
+
+<style lang="scss">
+	section {
+		// max-width: 70em;
+    margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 4em 1fr;
+		grid-template-rows: 9em auto auto;
+		grid-template-areas: "left numbers right";
+		padding: 0;
+		.numbers {
+			position: relative;
+			grid-area: numbers;
+			grid-row: 1 / span 3;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			height: 100%;
+			z-index: 1;
+			svg {
+				height: 100%;
+				stroke-width: 4px;
+				stroke:  hsl(var(--accentHS) var(--accentL));
+				position: absolute;
+			}
+			.number {
+				font-size: 2.5em;
+				position: absolute;
+				top: 1em;
+				width: 100%;
+				aspect-ratio: 1 / 1;
+				border-radius: 50%;
+				background-color: hsl(var(--accentHS) var(--accentL));
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-weight: 900;
+				color: hsl(var(--onAccent) / var(--onAccentStrength1));
+			}
+		}
+		.contentPrimary {
+			grid-row: 2;
+			grid-column: 1 / span 3;
+			padding: 3vw;
+			color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
+			z-index: 2;
+			background-color: hsl(var(--neutralHS) var(--neutralL));
+			text-align: center;
+			h3 {
+				font-family: $font_boldEmphasis;
+				line-height: 1;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+			}
+			.subtitle {
+				font-family: $font_cursiveEmphasis;
+				margin-top: 1em;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+			}
+			.actionRow {
+				display: flex;
+				grid-gap: 1rem;
+				justify-content: center;
+				.button {
+					@include button;
+					font-size: 1.2em;
+					&.primary {
+						@include buttonPrimary;
+					}
+				}
+			}
+		}
+		.contentSecondary {
+			padding: 3vw;
+			grid-row: 3;
+			grid-column: 1 / span 3;
+			z-index: 3;
+			background-color: hsl(var(--neutralHS) var(--neutralL));
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	// MED > SCREENS SECTION LAYOUTS
+	@media screen and (min-width: $mdScreen) {
+		section {
+			grid-template-columns: 1fr 4em 1fr;
+			grid-template-areas: "left numbers right";
+			grid-template-rows: unset;
+			.contentPrimary {
+				background-color: transparent;
+				grid-row: 1;
+				text-align: left;
+				.actionRow {
+					justify-content: flex-start;
+				}
+			}
+			.contentSecondary {
+				background-color: transparent;
+				grid-row: 1;
+			}
+		}
+		// Alternate image and text on larger screens
+		:global(section:nth-of-type(odd)) {
+			.contentPrimary {
+				grid-area: right;
+			}
+			.contentSecondary {
+				grid-area: left;
+			}
+		}
+		:global(section:nth-of-type(even)) {
+			.contentPrimary {
+				grid-area: left;
+			}
+			.contentSecondary {
+				grid-area: right;
+			}
+		}
+	}
+</style>

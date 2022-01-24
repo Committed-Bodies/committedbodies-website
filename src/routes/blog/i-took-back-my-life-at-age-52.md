@@ -1,9 +1,9 @@
 ---
 title: I TOOK BACK MY LIFE AT AGE 52
 date: 2019-11-01T13:59:37.128Z
-categories: Transformation Stories
+category: Transformation Stories
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642428022/blog/Committed_Bodies_Jill_take_back_your_life-e1594533049760_cptjnp.jpg
-description: THE DAY I TURNED 52, I LOOKED IN THE MIRROR AND DID NOT RECOGNISE
+excerpt: THE DAY I TURNED 52, I LOOKED IN THE MIRROR AND DID NOT RECOGNISE
   THE WOMAN STARING BACK AT ME.
 layout: blog
 ---
