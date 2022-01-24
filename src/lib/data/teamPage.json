@@ -1,3 +1,7 @@
 {
-  "intro": "Map { \"title\": \"Personal Trainers\", \"subtitle\": \"Expert gudance\", \"content\": \"Trainers can help you get that body you have always dreamt of. Our trainers are always here to help.\" }"
+  "intro": {
+    "title": "Personal Trainers",
+    "subtitle": "Expert guidance",
+    "content": "Trainers can help you get that body you have always dreamt of. Our trainers are always here to help."
+  }
 }
