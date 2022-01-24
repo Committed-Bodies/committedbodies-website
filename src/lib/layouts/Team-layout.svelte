@@ -2,7 +2,7 @@
     import Header from '$lib/components/Header.svelte';
     export let thumbnail;
     export let fullName;
-    export let title;
+    // export let title;
     export let blurb;
     export let specialisations;
 </script>
