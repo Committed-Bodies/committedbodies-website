@@ -48,8 +48,7 @@
 
 <style lang="scss">
     section {
-        grid-column: 2;
-        grid-row: 1;
+        padding: 3vw;
         color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
         h2 {
             margin-top: 0;
