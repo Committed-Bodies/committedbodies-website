@@ -1,5 +1,15 @@
 <script>
     export let post;
+	let catIcons = {
+			Transformation: "award",
+			Events: "calendar",
+			Advice: "thumbs-up",
+			News: "bookmark",
+			Announcements: "message",
+			Tutorials: "chevrons-right"
+	};
+	let icon = catIcons[post.metadata.category];
+	console.log("icon", icon);
 </script>
 <section>
 	<div class="contentPrimary">
@@ -15,7 +25,11 @@
 		<svg class="line" preserveAspectRatio="none" viewbox="-1 -1 6 800" width="6" height="800">
 			<line x="0" y1="0" x2="0" y2="800"></line>
 		</svg>
-		<div class="number">2</div>
+		<div class="number">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                <use xlink:href="#{icon}"></use>
+            </svg>
+		</div>
 	</div>
 	<div class="contentSecondary">
 		<img src="{post.metadata.thumbnail}" alt="">
@@ -60,7 +74,11 @@
 				justify-content: center;
 				align-items: center;
 				font-weight: 900;
-				color: hsl(var(--onAccent) / var(--onAccentStrength1));
+				svg {
+					width: 50%;
+					stroke: hsl(var(--onAccent) / var(--onAccentStrength1));
+					stroke-width: 2px;
+				}
 			}
 		}
 		.contentPrimary {
