@@ -3,7 +3,7 @@
         {
             "title":"Home",
             "link":"/",
-            "class": "hideSM hideMD"
+            "class": "hideSM"
         },
         {
             "title":"Explore",
