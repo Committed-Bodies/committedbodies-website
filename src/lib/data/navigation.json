@@ -33,6 +33,11 @@
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
+                    "title": "Join",
+                    "link": "/membership",
+                    "class": "open"
+                },
+                {
                     "title":"Schedule",
                     "link":"/membership/schedule",
                     "class": "open"
