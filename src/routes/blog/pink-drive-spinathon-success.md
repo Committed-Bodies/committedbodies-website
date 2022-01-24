@@ -3,7 +3,7 @@ title: PINK DRIVE SPINATHON SUCCESS!
 date: 2019-10-19T14:01:50.289Z
 category: News
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642428150/blog/CommittedBodies-PinkDrive-Spinathon-1_hfmhng.jpg
-excerpt: "## WE RAISED R48 700 FOR CANCER AWARENESS!"
+excerpt: "We raised R48 700 for cancer awareness!"
 layout: blog
 ---
 Thanks to everyone who attended and supported our pink-drive Spinathon on Saturday -19th Oct.

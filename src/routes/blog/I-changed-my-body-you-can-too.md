@@ -1,9 +1,9 @@
 ---
-title: JACQUES – I CHANGED MY BODY. YOU CAN TOO.
+title: I changed my body - you can too
 date: 2020-04-04T10:00:37.128Z
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427758/blog/JacqueBeforeAfter_mwqmce.jpg
-excerpt: I OWE IT TO MY FAMILY TO BE THE BEST I CAN BE!
+excerpt: I owe it to my family to be the best I can be!
 layout: blog
 ---
 As Jill started her transformation and I actually saw the results after 3 months, I decided that I had to do the same to keep up with how she was looking.

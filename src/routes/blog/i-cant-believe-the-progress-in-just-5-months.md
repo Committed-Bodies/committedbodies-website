@@ -1,5 +1,5 @@
 ---
-title: I CAN'T BELIEVE THE PROGRESS IN JUST 5 MONTHS!
+title: I can't believe the progress in just 5 months!
 date: 2020-07-12T15:39:36.518Z
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642088458/blog/Sonja-BeforeAfter_ioadpc.jpg

@@ -1,12 +1,13 @@
 ---
-title: I TOOK BACK MY LIFE AT AGE 52
+title: I took back my life at age 52
 date: 2019-11-01T13:59:37.128Z
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642428022/blog/Committed_Bodies_Jill_take_back_your_life-e1594533049760_cptjnp.jpg
-excerpt: THE DAY I TURNED 52, I LOOKED IN THE MIRROR AND DID NOT RECOGNISE
-  THE WOMAN STARING BACK AT ME.
+excerpt: The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me
 layout: blog
 ---
+The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me.
+
 I had lost my energy, enthusiasm and figure. I looked like I felt – old, flabby and tired. I had two choices – continue down this road, or I could take back my life.
 
 The beautiful-people in the gym adverts made me doubt my resolve. “Sure”, I thought, “there’s no way my fifty-two-year-old body is going to look like that”. Still, I hated the idea of just giving up and resigning myself to the inevitable. So I enlisted the help of a nutritionist and a trainer.

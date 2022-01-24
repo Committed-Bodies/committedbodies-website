@@ -1,5 +1,5 @@
 ---
-title: 50 IS LOOMING – I’M STRONGER, FITTER, MORE MOTIVATED THAN EVER!
+title: 50 is looming - I'm stronger, fitter, more moticated than ever!
 date: 2020-01-10T13:57:30.123Z
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427891/blog/IlzeBeforeAfter-Body-For-Life-Keptom-park-Benoni_lsqfpx.jpg
