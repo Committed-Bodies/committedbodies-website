@@ -7,7 +7,7 @@
     <ul>
         {#each subNavList as item}
             <li>
-                <a class="xxxl" href="{item.link}">{item.title}</a>
+                <a href="{item.link}">{item.title}</a>
             </li>
         {/each}
     </ul>
@@ -33,6 +33,18 @@
                     justify-content: center;
                     align-items: center;
                     width: 100%;
+                    font-size: var(--fontSizeXXL);
+                }
+            }
+        }
+    }
+    @media (max-width: $mdScreen) {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: var(--fontSizeH5);
+                    }
                 }
             }
         }

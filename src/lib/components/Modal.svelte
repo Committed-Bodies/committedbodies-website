@@ -71,4 +71,9 @@
             }
         }
     }
+    @media (max-width: $mdScreen) {
+        .overlay {
+            padding: 1rem;
+        }
+    }
 </style>
