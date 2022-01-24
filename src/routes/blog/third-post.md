@@ -1,7 +1,7 @@
 ---
 title: JACQUES – I CHANGED MY BODY. YOU CAN TOO.
 date: 2020-04-04T10:00:37.128Z
-category: Transformation Stories
+category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427758/blog/JacqueBeforeAfter_mwqmce.jpg
 excerpt: I OWE IT TO MY FAMILY TO BE THE BEST I CAN BE!
 layout: blog

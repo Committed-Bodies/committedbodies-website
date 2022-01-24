@@ -1,7 +1,7 @@
 ---
 title: I CAN'T BELIEVE THE PROGRESS IN JUST 5 MONTHS!
 date: 2020-07-12T15:39:36.518Z
-category: Transformation Stories
+category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642088458/blog/Sonja-BeforeAfter_ioadpc.jpg
 excerpt: I am not saying it will be easy to achieve your greatest dreams,
   but I am saying it will be worth it, and the harder it is, the greater the

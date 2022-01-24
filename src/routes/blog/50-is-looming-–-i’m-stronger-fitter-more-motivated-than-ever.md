@@ -1,7 +1,7 @@
 ---
 title: 50 IS LOOMING – I’M STRONGER, FITTER, MORE MOTIVATED THAN EVER!
 date: 2020-01-10T13:57:30.123Z
-category: Transformation Stories
+category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427891/blog/IlzeBeforeAfter-Body-For-Life-Keptom-park-Benoni_lsqfpx.jpg
 excerpt: FIFTY IS LOOMING - I AM STRONGER, FITTER AND MORE MOTIVATED
 layout: blog
