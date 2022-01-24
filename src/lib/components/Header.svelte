@@ -1,15 +1,18 @@
 <script>
+	import ContactSocialLinks from '$lib/components/ContactSocialLinks.svelte';
     import BreadCrumbs from "$lib/components/NavBreadCrumbs.svelte";
     export let bgImage;
+    export let customClass;
 </script>
 
 
-<header style="background-image:url({bgImage});">
+<header class="{customClass}" style="background-image:url({bgImage});">
     <div class="titleWrap">
         <h1 class="titleLarge">
             <slot />
         </h1>
         <BreadCrumbs classList="theme-on-primary"></BreadCrumbs>
+        <ContactSocialLinks></ContactSocialLinks>
     </div>
 </header>
 
@@ -24,6 +27,9 @@
         background-image: var(--brandGradient);
         background-size: cover;
         background-position: center;
+        &.containPic {
+            background-size: contain;
+        }
         .titleWrap {
             padding-bottom: 120px;
             z-index: 3;
@@ -39,8 +45,17 @@
                 text-align: center;
                 padding: 0;
                 margin: 0;
+                max-width: 20ch;
             }
         }
-
+        &:before {
+            content: "";
+            position: absolute;
+            background-color: rgba(0,0,0,0.5);
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
     }
 </style>

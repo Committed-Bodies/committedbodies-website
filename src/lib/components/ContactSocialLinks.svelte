@@ -22,6 +22,7 @@
         gap: 1rem;
         margin-top: 2rem;
         color: inherit;
+        justify-content: center;
         li {
             border: 2px solid;
             border-radius: 3px;
