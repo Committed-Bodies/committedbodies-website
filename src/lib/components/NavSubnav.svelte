@@ -1,11 +1,11 @@
 <script>
+    import {page} from '$app/stores';
     import navigation from '$lib/data/navigation.json';
-    let listExplore = navigation.topNav[1].subnav;
-    let listMembership = navigation.topNav[2].subnav;
+    let subNavList = navigation.topNav[$page.url.searchParams.get('subNav')].subnav;
 </script>
 <nav>
     <ul>
-        {#each listExplore as item}
+        {#each subNavList as item}
             <li>
                 <a class="xxxl" href="{item.link}">{item.title}</a>
             </li>

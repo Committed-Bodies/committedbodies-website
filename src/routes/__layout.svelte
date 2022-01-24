@@ -29,9 +29,7 @@
 </main>
 
 <!-- Modal -->
-<Modal>
-   <Subnav></Subnav>
-</Modal>
+<Modal />
 
 
 <!-- ******STYLES -->
