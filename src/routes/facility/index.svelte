@@ -1,4 +1,5 @@
 <script>
+	import FacilitySection from '$lib/components/FacilitySection.svelte';
     import Header from '$lib/components/Header.svelte';
 </script>
 
