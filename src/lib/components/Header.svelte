@@ -3,11 +3,15 @@
     import BreadCrumbs from "$lib/components/NavBreadCrumbs.svelte";
     export let bgImage;
     export let customClass;
+    export let featuredImage;
 </script>
 
 
 <header class="{customClass}" style="background-image:url({bgImage});">
     <div class="titleWrap">
+        {#if featuredImage}
+            <img src="{featuredImage}" alt="Team Member Pic">
+        {/if}
         <h1 class="titleLarge">
             <slot />
         </h1>
@@ -30,10 +34,24 @@
         &.containPic {
             background-size: contain;
         }
+        &.featuredImage {
+            padding-top: 5rem;
+            .titleWrap {
+                padding-bottom: 2rem;
+                img {
+                    max-height: 50vh;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
         .titleWrap {
             padding-bottom: 120px;
             z-index: 3;
             color: hsl(var(--onImage) / var(--onImageStrength2));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             h1 {
                 color: hsl(var(--onImage) / var(--onImageStrength3));
                 font-family: $font_boldEmphasis;
