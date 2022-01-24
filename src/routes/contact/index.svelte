@@ -79,14 +79,5 @@
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
 			}
         }
-        // form {
-        //     margin-top: $space4;
-        //     background-color: #ffffff;
-        //     padding: $space3;
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: center;
-        //     align-items: flex-start;
-        // }
     }
 </style>
