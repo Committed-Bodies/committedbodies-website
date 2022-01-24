@@ -8,7 +8,7 @@
 		<div class="date">{new Date(post.metadata.date).toDateString()}</div>
 		<p class="excerpt">{post.metadata.excerpt}</p>
 		<div class="actionRow">
-			<a class="button primary" href="{post.path}">Read more</a>
+			<a class="button ghost" href="{post.path}">Read more</a>
 		</div>
 	</div>
 	<div class="numbers">
@@ -100,8 +100,13 @@
 				.button {
 					@include button;
 					font-size: 1.2em;
-					&.primary {
-						@include buttonPrimary;
+					&.ghost {
+						@include buttonGhost;
+						border-color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+						color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
+						&:hover {
+							color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+						}
 					}
 				}
 			}
