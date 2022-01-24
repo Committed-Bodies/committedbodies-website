@@ -7,7 +7,6 @@
     import contactPage from '$lib/data/contactPage.json' 
     //Donavan
     import Header from '$lib/components/Header.svelte';
-    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
     import ContactSection from "$lib/components/ContactSection.svelte";
 
 </script>

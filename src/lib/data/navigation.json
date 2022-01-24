@@ -7,7 +7,7 @@
         },
         {
             "title":"Explore",
-            "link":"",
+            "link":"?modal=explore",
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
@@ -29,7 +29,7 @@
         },
         {
             "title":"Membership",
-            "link":"/membership",
+            "link":"?modal=membership",
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {

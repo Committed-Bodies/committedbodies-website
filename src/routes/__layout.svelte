@@ -2,8 +2,9 @@
     import "../styles/app.scss";
     import IconsCombined from "$lib/svg/icons/Icons_combined.svelte";
     import TopNav from "$lib/components/NavTopLevel.svelte";
+    import Subnav from "$lib/components/NavSubnav.svelte";
     import ActionNav from "$lib/components/NavActions.svelte";
-    import Overlay from "$lib/components/Overlay.svelte";
+    import Modal from "$lib/components/Modal.svelte";
     import LogoWrap from "$lib/components/NavlogoWrap.svelte";
     import Footer from "$lib/components/Footer.svelte";
     export let y;
@@ -28,7 +29,9 @@
 </main>
 
 <!-- Modal -->
-<Overlay></Overlay> 
+<Modal>
+   <Subnav></Subnav>
+</Modal>
 
 
 <!-- ******STYLES -->

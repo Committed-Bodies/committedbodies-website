@@ -1,12 +1,11 @@
 <script>
     import Header from '$lib/components/Header.svelte';
-    import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
     export let thumbnail;
     export let title;
 </script>
 
 
-<div class="pageWrap" in:slideFadeIn out:slideFadeOut>
+<div class="pageWrap">
     <Header>{title}</Header>
     <section>
         <img class="featured-image" src="{thumbnail}" alt="thumbnail description" />

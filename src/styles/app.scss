@@ -74,15 +74,6 @@ body {
 		grid-area: actionNav;
 		z-index: 1000;
 	}
-	nav.overlay {
-		position: fixed;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		z-index: 2000;
-		display: none;
-	}
 	main {
 		// border: 10px solid red;
 		position: relative;

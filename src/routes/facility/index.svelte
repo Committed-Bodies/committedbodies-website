@@ -1,10 +1,5 @@
 <script>
     import Header from '$lib/components/Header.svelte';
-    import FacilitySection from "$lib/components/FacilitySection.svelte";
-    
-    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
-    // Using fade transition for now - custom slideFade transition messes with the home page gsap scrolltrigger animations 
-    import { fade } from 'svelte/transition';
 </script>
 
 
