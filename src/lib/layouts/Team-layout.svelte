@@ -14,6 +14,3 @@
         <slot />
     </div>
 </div>
-
-<style lang="scss">
-</style>
