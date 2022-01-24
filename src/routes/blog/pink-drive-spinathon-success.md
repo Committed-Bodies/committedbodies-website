@@ -1,5 +1,5 @@
 ---
-title: PINK DRIVE SPINATHON SUCCESS!
+title: Pink drive spinathon success!
 date: 2019-10-19T14:01:50.289Z
 author: Name of Person
 category: News
