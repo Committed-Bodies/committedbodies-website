@@ -1,5 +1,5 @@
 ---
-title: 50 is looming - I'm stronger, fitter, more moticated than ever!
+title: 50 is looming - I'm stronger, fitter, more motivated than ever!
 date: 2020-01-10T13:57:30.123Z
 category: Transformation
 author: Name of Person
