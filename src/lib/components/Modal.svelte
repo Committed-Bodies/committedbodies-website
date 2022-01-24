@@ -1,12 +1,14 @@
 <script>
-	import navigationStore from '$lib/stores/navigationStore';
-    console.log(navigationStore);
+    import {page} from '$app/stores';
 </script>
-<div class="overlay">
-    <div class="modalWrap">
-        <slot></slot>
+
+{#if $page.url.searchParams.get('modal') == "explore"}
+    <div class="overlay">
+        <div class="modalWrap">
+            <slot></slot>
+        </div>
     </div>
-</div>
+{/if}
 
 
 
@@ -23,7 +25,6 @@
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        display: none;
         .modalWrap {
             position: relative;
             width: 100%;
