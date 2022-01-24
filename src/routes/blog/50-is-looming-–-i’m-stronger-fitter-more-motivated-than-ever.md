@@ -2,6 +2,7 @@
 title: 50 is looming - I'm stronger, fitter, more moticated than ever!
 date: 2020-01-10T13:57:30.123Z
 category: Transformation
+author: Name of Person
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427891/blog/IlzeBeforeAfter-Body-For-Life-Keptom-park-Benoni_lsqfpx.jpg
 excerpt: As I’m turning 50 next year I wanted to train with someone who understands the challenges mature ladies face
 layout: blog

@@ -22,7 +22,6 @@
     import Header from '$lib/components/Header.svelte';
     import BlogListItem from '$lib/components/BlogListItem.svelte'
     export let posts;
-    console.log(posts);
     const dateSortedPosts = posts.slice().sort((post1, post2) => {
         return new Date(post2.metadata.date) - new Date(post1.metadata.date);
     })

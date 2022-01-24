@@ -9,7 +9,6 @@
 			Tutorials: "chevrons-right"
 	};
 	let icon = catIcons[post.metadata.category];
-	console.log("icon", icon);
 </script>
 <section>
 	<div class="contentPrimary">
