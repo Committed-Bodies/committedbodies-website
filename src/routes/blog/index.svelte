@@ -22,7 +22,7 @@
     import Header from '$lib/components/Header.svelte';
     import BlogListItem from '$lib/components/BlogListItem.svelte'
     export let posts;
-    // console.log(posts);
+    console.log(posts);
 </script>
 
 <div class="pageWrap">

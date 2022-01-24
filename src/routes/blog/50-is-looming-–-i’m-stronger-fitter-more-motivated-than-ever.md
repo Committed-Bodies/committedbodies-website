@@ -3,7 +3,7 @@ title: 50 IS LOOMING – I’M STRONGER, FITTER, MORE MOTIVATED THAN EVER!
 date: 2020-01-10T13:57:30.123Z
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427891/blog/IlzeBeforeAfter-Body-For-Life-Keptom-park-Benoni_lsqfpx.jpg
-excerpt: FIFTY IS LOOMING - I AM STRONGER, FITTER AND MORE MOTIVATED
+excerpt: As I’m turning 50 next year I wanted to train with someone who understands the challenges mature ladies face
 layout: blog
 ---
 I have always loved sport and gym but as we get older, life with its challenges takes over and we simply don’t afford yourself the luxury of personal space & time. Eventually we become demoralised around the effort associated with getting back into shape.

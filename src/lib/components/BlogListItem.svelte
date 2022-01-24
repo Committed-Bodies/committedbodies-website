@@ -5,7 +5,8 @@
 	<div class="contentPrimary">
 		<h3 class="h1">{post.metadata.title}</h3>
 		<p class="subtitle h4">{post.metadata.category}</p>
-		<p>{post.metadata.excerpt}</p>
+		<div class="date">{new Date(post.metadata.date).toDateString()}</div>
+		<p class="excerpt">{post.metadata.excerpt}</p>
 		<div class="actionRow">
 			<a class="button primary" href="{post.path}">Read more</a>
 		</div>
@@ -79,6 +80,18 @@
 				font-family: $font_cursiveEmphasis;
 				margin-top: 1em;
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+			}
+			.date {
+				margin-top: 1rem;
+				margin-bottom: 0;
+				font-weight: 600;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				font-size: 0.8rem;
+				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+			}
+			.excerpt {
+				margin-top: 0;
 			}
 			.actionRow {
 				display: flex;
