@@ -14,7 +14,7 @@
     </Header>
     <div class="postWrap">
         <div class="meta">
-            Posted on {new Date(date).toDateString()} by {author} in category: {category}
+            Posted on <span class="date">{new Date(date).toDateString()}</span> by <span class="author">{author}</span> in category: <span class="category">{category}</span>
         </div>
         <div class="content">
             <slot />
@@ -30,7 +30,18 @@
             max-width: 900px;
             margin: 0 auto;
             color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-
+            .meta {
+                font-size: 0.9rem;
+                color: hsl(var(--onNeutral) / var(--onNeutralStrength-1));
+                span {
+                    background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 15%));
+                    color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
+                    padding: 3px 6px;
+                    border-radius: 3px;
+                    margin: 0 5px;
+                    font-weight: 500;
+                }
+            }
         }
     }
 </style>
