@@ -18,7 +18,7 @@
 		<div class="date">{new Date(post.metadata.date).toDateString()}</div>
 		<p class="excerpt">{post.metadata.excerpt}</p>
 		<div class="actionRow">
-			<a class="button ghost" href="{post.path}">Read more</a>
+			<a class="button ghost" href="{`/blog/${post.path.replace(".md", "")}`}">Read more</a>
 		</div>
 	</div>
 	<div class="numbers">
