@@ -9,17 +9,18 @@
 
 
 <div class="pageWrap">
-     <Header customClass="containPic" bgImage="{thumbnail}">
-        {title}
-    </Header>
-    <div class="postWrap">
-        <div class="meta">
-            Posted on <span class="date">{new Date(date).toDateString()}</span> by <span class="author">{author}</span> in category: <span class="category">{category}</span>
+        <Header customClass="containPic" bgImage="{thumbnail}">
+            {title}
+        </Header>
+
+        <div class="postWrap contentTypography">
+            <div class="meta">
+                Posted on <span class="date">{new Date(date).toDateString()}</span> by <span class="author">{author}</span> in category: <span class="category">{category}</span>
+            </div>
+            <div class="content">
+                <slot />
+            </div>
         </div>
-        <div class="content">
-            <slot />
-        </div>
-    </div>
 </div>
 
 
@@ -33,6 +34,7 @@
             .meta {
                 font-size: 0.9rem;
                 color: hsl(var(--onNeutral) / var(--onNeutralStrength-1));
+                margin-bottom: 3rem;
                 span {
                     background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 15%));
                     color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
