@@ -182,7 +182,7 @@ body {
 .contentTypography {
 	color: inherit;
 	p:first-child:first-letter {
-		color: hsl(var(--primaryHS) var(--primaryL));
+		color: hsl(var(--accentHS) var(--accentL));
 		float: left;
 		font-family: Georgia;
 		font-size: 75px;
