@@ -39,8 +39,8 @@
                 color: #ffffff;
                 font-size: 2em;
                 line-height: 1.2;
-                padding: 0 0.5rem;
-                max-width: 10ch;
+                padding: 0 0 1rem 1rem;
+                max-width: 12ch;
             }
             img {
                 display: block;
