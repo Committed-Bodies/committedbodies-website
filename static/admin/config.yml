@@ -114,6 +114,8 @@ collections:
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
