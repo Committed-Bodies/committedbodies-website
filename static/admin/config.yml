@@ -163,7 +163,7 @@ collections:
             widget: "string"
     - label: "Facilitiy Page"
       name: "facilitypage"
-      file: "/src/lib/data/facility.json"
+      file: "/src/lib/data/facilityPage.json"
       fields:
         - label: "Page Intro"
           name: "intro"

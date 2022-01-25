@@ -15,9 +15,6 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        // transform-origin: center;
-        // transform: scale(0);
-        // opacity: 0;
         img {
             display: block;
             height: 100%;

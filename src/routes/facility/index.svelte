@@ -1,6 +1,10 @@
 <script>
-	import FacilitySection from '$lib/components/FacilitySection.svelte';
+    import faciltyData from '$lib/data/facilityPage.json'
+	import MasonryList from '$lib/components/MasonryListSection.svelte';
     import Header from '$lib/components/Header.svelte';
+    import PageIntroSection from '$lib/components/PageIntroSection.svelte';
+    let introData = faciltyData.intro;
+    let masonryList = faciltyData.facilityFeatures;
 </script>
 
 
@@ -9,6 +13,8 @@
         Facility
     </Header>
 
-    <FacilitySection />
+    <PageIntroSection {introData}/>
+
+    <MasonryList {masonryList}/>
 
 </div>
