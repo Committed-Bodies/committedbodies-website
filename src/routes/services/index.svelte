@@ -1,17 +1,22 @@
 <script context="module">
     // An array of all posts in this directory
     const allServices = import.meta.glob('./*.md')
-    let service = [];
-    for (let path in allServices) {
+    let serviceArray = [];
 
-        service.push(
+    for (let path in allServices) {
+        serviceArray.push(
+            // Renaming stuff to align the masonry item component props
             allServices[path]().then(({ metadata }) => {
-                return {path, metadata};
+                let title = metadata.title;
+                let price = metadata.price;
+                let content = metadata.blurb;
+                let thumbnail = metadata.thumbnail;
+                return {path, title, price, content, thumbnail};
             })
         );
     }
     export const load = async() => {
-        const services = await Promise.all(service);
+        const services = await Promise.all(serviceArray);
         return {
             props: {
                 services,
@@ -23,11 +28,12 @@
 <script>
     import Header from '$lib/components/Header.svelte';
     import PageIntro from '$lib/components/PageIntroSection.svelte'
-    import ServicesSection from "$lib/components/ServicesListSection.svelte";
+    import MasonryListSection from '$lib/components/MasonryListSection.svelte';
     import servicesData from "$lib/data/servicesPage.json"
     
     export let services;
-    let introData = servicesData.intro;
+    let introData = servicesData.intro;    
+    let masonryList = services;
 </script>
 
 
@@ -38,5 +44,5 @@
 
     <PageIntro {introData} />
 
-    <ServicesSection {services} />
+    <MasonryListSection {masonryList} />
 </div>
