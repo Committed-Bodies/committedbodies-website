@@ -114,7 +114,7 @@ collections:
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
   - name: "pages"
@@ -184,10 +184,9 @@ collections:
           widget: "list"
           summary: '{{fields.title}}'
           fields:
-            - {label: "Unique ID Number", name: "id", widget: "number"}
             - {label: "Title", name: "title", widget: "string", default: "Title for this facility feature"}
             - {label: "Name", name: "name", widget: "string", default: "Emmet"}
-            - {label: "Image", name: "image", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
+            - {label: "Image", name: "thumbnail", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
             - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
       # Donavan
     - label: "Contact Page"

@@ -4,7 +4,7 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661836/
 price: Contact us for prices
 blurb: With our prepped meals we work according to your BMI to plan your meals
   should you wish to lose weight or build etc.
-layout: team
+layout: service
 ---
 With our prepped meals we work according to your BMI to plan your meals should you wish to lose weight or build etc.  Pricing is as follows:
 

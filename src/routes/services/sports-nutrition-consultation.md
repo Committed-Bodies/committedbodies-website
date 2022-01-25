@@ -4,7 +4,7 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661657/
 price: Contact us for fee
 blurb: This is a specialized field we offer, to assist you with your
   requirements albeit professional training or just being an exerciser.
-layout: team
+layout: service
 ---
 This is a specialized field we offer, to assist you with your requirements albeit professional training or just being an exerciser.  You can benefit from knowing what to eat, when to eat and why to eat, especially if it is linked to a certain type of training.
 

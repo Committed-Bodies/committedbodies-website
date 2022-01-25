@@ -7,6 +7,7 @@ const config = {
 
   "layout": {
     blog: "./src/lib/layouts/Blog-layout.svelte",
+    service: "./src/lib/layouts/Service-layout.svelte",
     team: "./src/lib/layouts/Team-layout.svelte"
   },
 
