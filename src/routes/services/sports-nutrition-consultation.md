@@ -2,8 +2,9 @@
 title: SPORTS NUTRITION CONSULTATION
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661657/services/nutrition-consultation.png
 price: Contact us for fee
-blurb: This is a specialized field we offer, to assist you with your
-  requirements albeit professional training or just being an exerciser.
+blurb: This is a specialized field we offer, to assist you with your requirements albeit professional training or just being an exerciser.
+actionHeading: Book now!
+actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
 layout: service
 ---
 This is a specialized field we offer, to assist you with your requirements albeit professional training or just being an exerciser.  You can benefit from knowing what to eat, when to eat and why to eat, especially if it is linked to a certain type of training.

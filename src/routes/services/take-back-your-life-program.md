@@ -2,7 +2,9 @@
 title: TAKE BACK YOUR LIFE PROGRAM
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: TBA
-blurb: 12 WEEKS TO CHANGE YOUR LIFE!
+blurb: 12 Weeks to take back your life!
+actionHeading: Book now!
+actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
 layout: service
 ---
 <mailto:bookings@committedbodies.co.za>

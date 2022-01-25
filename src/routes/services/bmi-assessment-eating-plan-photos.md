@@ -4,6 +4,8 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/
 price: R600
 blurb: We offer a professional BEFORE photo, together with the measurement of
   your body and weight.
+actionHeading: Book now!
+actionInstruction: Complete the form below to book a personal assessment and body-specs session.
 layout: service
 ---
 We offer a professional BEFORE photo, together with the measurement of your body and weight.  This is handy to have as a starting point when joining the gym.  It is always great to have this to show off to your family and friends, once you have achieved your goals.
