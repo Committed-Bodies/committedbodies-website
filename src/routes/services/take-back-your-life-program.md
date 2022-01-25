@@ -4,11 +4,9 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/
 price: TBA
 blurb: 12 Weeks to take back your life!
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
+actionInstruction: Complete the  form on our membership page (https://committedbodies.co.za/join/) or email us a bookings@committedbodies.co.za (mailto:bookings@committedbodies.co.za) for more information.
 layout: service
 ---
-<mailto:bookings@committedbodies.co.za>
-
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
 Why do this? If it doesn’t challenge you it won’t change you. So make this year to commit to taking your good and making it great!
@@ -17,9 +15,7 @@ We understand that your goals are as unique as you are, so whether you’re on a
 
 The transformation is perfect for those first timers who need to learn the fundamentals of good training and nutrition.
 
- 
-
-WHAT YOU GET:
+### What you get:
 
 * Dedicated trainers focusing on different exercises
 * Eating plan according to your BMI
@@ -30,11 +26,7 @@ WHAT YOU GET:
 * A chance to enter into national competitions
 * Whatsapp info & support group
 
-NEXT STARTING DATES:
+### Next starting dates:
 
-* September 2021
-
- 
-
-**[JOIN NOW!](https://committedbodies.co.za/membership/)**\
-Complete the [form on our membership page](https://committedbodies.co.za/join/) or email us at [bookings@committedbodies.co.za](mailto:bookings@committedbodies.co.za) for more information.
+* June 2022
+* November 2022
