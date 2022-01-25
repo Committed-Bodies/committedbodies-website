@@ -11,7 +11,8 @@
                 let price = metadata.price;
                 let content = metadata.blurb;
                 let thumbnail = metadata.thumbnail;
-                return {path, title, price, content, thumbnail};
+                let route = "services";
+                return {path, title, price, content, thumbnail, route};
             })
         );
     }

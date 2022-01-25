@@ -16,7 +16,7 @@
         <p>{item.content}</p>
         {#if item.path}
             <div class="actionRow">
-                <a class="button" href="{`/services/${item.path.replace(".md", "")}`}" alt="Read more">Read More</a>
+                <a class="button" href="{item.route}/{`${item.path.replace(".md", "")}`}" alt="Read more">Read More</a>
             </div>
         {/if}
     </div>

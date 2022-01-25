@@ -3,6 +3,14 @@
     import Masonry from 'svelte-bricks';
     export let masonryList;
 
+    // ITEM PROPERTIES (* required)
+    // - * title
+    // - * thumbnail
+    // - * content
+    // - price
+    // - path
+    // - if path then *route (see services/index.svelte script for example)
+
     // add unique id to each masonry item (I think masonry plugin needs it)
     function insertID() {
         for (let index = 0; index < masonryList.length; index++) {
