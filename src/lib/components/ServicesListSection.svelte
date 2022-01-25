@@ -1,20 +1,10 @@
 <script>
-    import servicesData from "$lib/data/servicesPage.json"
+    // List of services passed in from parent
     export let services;
-    console.log("Services", services);
-
+    // console.log("Services", services);
 </script>
 
 <section id="services">
-    <div class="content">
-        <h2>{servicesData.intro.title}</h2>
-        <p class="subtitle h4">
-            {servicesData.intro.subtitle}
-        </p>
-        <p>
-            {servicesData.intro.content}
-        </p>
-    </div>
     <div class="servicesGallery">
         {#each services as service}
             <div class="serviceWrap">
@@ -36,22 +26,6 @@
     section {
         padding: 3vw;
         color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-        .content {
-            grid-column: 2;
-            grid-row: 1;
-            color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-            h2 {
-                margin-top: 0;
-				font-family: $font_boldEmphasis;
-				line-height: 1;
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
-			}
-			.subtitle {
-				font-family: $font_cursiveEmphasis;
-				margin-top: 1em;
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
-			}
-        }
         .servicesGallery {
             .serviceWrap {
                 display: flex;

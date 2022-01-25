@@ -1,4 +1,5 @@
 <script context="module">
+    // An array of all posts in this directory
     const allServices = import.meta.glob('./*.md')
     let service = [];
     for (let path in allServices) {
@@ -17,13 +18,16 @@
             }
         }
     };
-
 </script>
 
 <script>
     import Header from '$lib/components/Header.svelte';
+    import PageIntro from '$lib/components/PageIntroSection.svelte'
     import ServicesSection from "$lib/components/ServicesListSection.svelte";
+    import servicesData from "$lib/data/servicesPage.json"
+    
     export let services;
+    let introData = servicesData.intro;
 </script>
 
 
@@ -32,15 +36,7 @@
         SERVICES
     </Header>
 
+    <PageIntro {introData} />
+
     <ServicesSection {services} />
 </div>
-
-
-
-<style lang="scss">
-    // section {
-    //     :global(ul) {
-    //         list-style-type: none;
-    //     }
-    // }
-</style>
