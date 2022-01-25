@@ -1,6 +1,8 @@
 <script>
-    import Header from '$lib/components/Header.svelte';
     import membershipPage from '$lib/data/membershipPage.json'
+    import Header from '$lib/components/Header.svelte';
+    import PageIntroSection from '$lib/components/PageIntroSection.svelte';
+    let introData = membershipPage.introSchedule;
 </script>
 
 <div class="pageWrap">
@@ -11,20 +13,16 @@
     
     <div class="contentWrap">
         
-        <div class="content">
-            <h2>
-                {membershipPage.introSchedule.title}
-            </h2>
-            <p class="subtitle h4">
-                {membershipPage.introSchedule.subtitle}
-            </p>
-            <p>
-                {membershipPage.introSchedule.content}
-            </p>
-        </div>
+        <PageIntroSection {introData} />
         
 <!-- svelte-ignore a11y-missing-attribute -->
 <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Booking/Forthcoming"></iframe>
         
     </div>
 </div>
+
+<style lang="scss">
+    iframe {
+        padding: 3vw;
+    }
+</style>
