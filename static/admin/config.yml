@@ -76,14 +76,15 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: "Categories"
-        name: "categories"
+      - {label: "Author", name: "author", widget: "string"}
+      - label: "Category"
+        name: "category"
         widget: "select"
-        options: ["Transformation Stories", "Events", "Advice", "News", "Announcements", "Tutorials"]
+        options: ["Transformation", "Events", "Advice", "News", "Announcements", "Tutorials"]
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Body", name: "body", widget: "markdown"}
   
   - name: "team"
     label: "Team"
@@ -113,7 +114,9 @@ collections:
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Blurb", name: "blurb", widget: "text"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
   - name: "pages"
@@ -162,7 +165,7 @@ collections:
             widget: "string"
     - label: "Facilitiy Page"
       name: "facilitypage"
-      file: "/src/lib/data/facility.json"
+      file: "/src/lib/data/facilityPage.json"
       fields:
         - label: "Page Intro"
           name: "intro"
@@ -183,10 +186,9 @@ collections:
           widget: "list"
           summary: '{{fields.title}}'
           fields:
-            - {label: "Unique ID Number", name: "id", widget: "number"}
             - {label: "Title", name: "title", widget: "string", default: "Title for this facility feature"}
             - {label: "Name", name: "name", widget: "string", default: "Emmet"}
-            - {label: "Image", name: "image", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
+            - {label: "Image", name: "thumbnail", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
             - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
       # Donavan
     - label: "Contact Page"

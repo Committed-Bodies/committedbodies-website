@@ -3,7 +3,6 @@
     import contactPage from '$lib/data/contactPage.json' 
     //Donavan
     import Header from '$lib/components/Header.svelte';
-    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
     import ContactSection from "$lib/components/ContactSection.svelte";
 
 </script>
@@ -76,14 +75,5 @@
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
 			}
         }
-        // form {
-        //     margin-top: $space4;
-        //     background-color: #ffffff;
-        //     padding: $space3;
-        //     display: flex;
-        //     flex-direction: column;
-        //     justify-content: center;
-        //     align-items: flex-start;
-        // }
     }
 </style>

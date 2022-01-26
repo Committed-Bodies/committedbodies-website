@@ -1,18 +1,8 @@
 <script>
-    import trainersData from "$lib/data/teamPage.json"
     export let teamMembers;
 </script>
 
 <section id="trainers">
-    <div class="content">
-        <h2>{trainersData.intro.title}</h2>
-        <p class="subtitle h4">
-            {trainersData.intro.subtitle}
-        </p>
-        <p>
-            {trainersData.intro.content}
-        </p>
-    </div>
     <div class="trainersGallery">
         {#each teamMembers as trainer}
             {#if trainer.metadata.group == "Trainers"}
@@ -36,22 +26,6 @@
     section {
         padding: 3vw;
         color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-        .content {
-            grid-column: 2;
-            grid-row: 1;
-            color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
-            h2 {
-                margin-top: 0;
-				font-family: $font_boldEmphasis;
-				line-height: 1;
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
-			}
-			.subtitle {
-				font-family: $font_cursiveEmphasis;
-				margin-top: 1em;
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
-			}
-        }
         .trainersGallery {
             .trainerWrap {
                 display: flex;

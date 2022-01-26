@@ -1,7 +1,8 @@
 <script>
 	import { page } from '$app/stores';
 	import navigation from '$lib/data/navigation.json';
-	import ContactDetails from '$lib/components/ContactDetails.svelte'
+	//  Hiding the contact section in nav - it's too much (may think about using it later)
+	// import ContactDetails from '$lib/components/ContactDetails.svelte'
 	let topNavList = navigation.topNav;
 	export let y;
 </script>
@@ -26,11 +27,12 @@
 				</ul>
 			</div>
 			{/if}
-			{#if item.title == "Contact"}
+			<!-- Hiding the contact details in nav - may use it later -->
+			<!-- {#if item.title == "Contact"}
 			<div class="subNav contactSubnav hideSM hideMD">
 				<ContactDetails classList="theme-on-primary"></ContactDetails>
 			</div>
-			{/if}
+			{/if} -->
 		</li>
 		{/each}
 	</ul>

@@ -20,6 +20,7 @@
 </script>
 
 <script>
+    import teamIntro from "$lib/data/teamPage.json"
     import Header from '$lib/components/Header.svelte';
     import TrainersSection from "$lib/components/TeamListSection.svelte";
     export let teamMembers;
@@ -31,6 +32,34 @@
         The Team
     </Header>
 
+    <section  class="content">
+        <h2>{teamIntro.intro.title}</h2>
+        <p class="subtitle h4">
+            {teamIntro.intro.subtitle}
+        </p>
+        <p>
+            {teamIntro.intro.content}
+        </p>
+    </section>
+
     <TrainersSection {teamMembers} />
 
 </div>
+
+<style lang="scss">
+    section {
+        padding: 3vw;
+        color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
+        h2 {
+            margin-top: 0;
+            font-family: $font_boldEmphasis;
+            line-height: 1;
+            color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+        }
+        .subtitle {
+            font-family: $font_cursiveEmphasis;
+            margin-top: 1em;
+            color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
+        }
+    }
+</style>

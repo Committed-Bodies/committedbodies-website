@@ -3,11 +3,11 @@
         {
             "title":"Home",
             "link":"/",
-            "class": "hideSM hideMD"
+            "class": "hideSM"
         },
         {
             "title":"Explore",
-            "link":"",
+            "link":"?modal=1&subNav=1",
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
@@ -29,9 +29,14 @@
         },
         {
             "title":"Membership",
-            "link":"/membership",
+            "link":"?modal=1&subNav=2",
             "subnavClass": "hideSM hideMD",
             "subnav": [
+                {
+                    "title": "Join",
+                    "link": "/membership",
+                    "class": "open"
+                },
                 {
                     "title":"Schedule",
                     "link":"/membership/schedule",
@@ -50,7 +55,7 @@
             ]
         },
         {
-            "title":"News",
+            "title":"Blog",
             "link":"/blog"
         },
         {

@@ -1,10 +1,10 @@
 <script>
+    import faciltyData from '$lib/data/facilityPage.json'
+	import MasonryList from '$lib/components/MasonryListSection.svelte';
     import Header from '$lib/components/Header.svelte';
-    import FacilitySection from "$lib/components/FacilitySection.svelte";
-    
-    // import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
-    // Using fade transition for now - custom slideFade transition messes with the home page gsap scrolltrigger animations 
-    import { fade } from 'svelte/transition';
+    import PageIntroSection from '$lib/components/PageIntroSection.svelte';
+    let introData = faciltyData.intro;
+    let masonryList = faciltyData.facilityFeatures;
 </script>
 
 
@@ -13,6 +13,8 @@
         Facility
     </Header>
 
-    <FacilitySection />
+    <PageIntroSection {introData}/>
+
+    <MasonryList {masonryList}/>
 
 </div>

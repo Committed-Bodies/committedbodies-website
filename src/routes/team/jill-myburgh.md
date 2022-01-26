@@ -11,6 +11,12 @@ thumbnail: /assets/images/trainers/jill-trainer.png
 blurb: I will help you take back your life!
 layout: team
 ---
-The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me. I had lost my energy, enthusiasm and figure. I looked like I felt - old, flabby and tired. I had two choices - continue down this road, or I could *take back my life.* Nine months later I had transformed my body and my life.
+My name is Julienne Myburgh. I am proud to be co-owner together with my husband Jacques.
+I have always been interested in healthy living and decided in 2000 to complete my personal training and aerobic and spinning course. Previously, I owned a health shop in the East Rand Mall, and from there my interest in living healthy just increased. I’ve done numerous courses on nutrition and this year I got my diploma in “Sports Nutrition”.
 
-In 2018, my husband and I launched Committed Bodies Gym. We specialise in transformations - our mission is to help *you* take back your life.
+One of my babies at Committed Bodies is a programme that Helps people of all ages and sizes, is the Take Back Your Life programme. This is a programme that assists with teaching people how to learn to listen to their bodies and train and eat correctly, in order to stay younger, fitter and healthier for longer. It is a real passion of mine to see people succeed in their goals and achievements.
+Besides the running of the gym, I have 2 teenage boys, who also enjoy the benefits of training and eating healthy. I love music and socialising and just enjoy being around a lot of people.
+
+I have a lot of mistakes that I make along the way, but I am never afraid of apologising and I enjoy enormous challenges that come my way.
+
+I will endeavour to keep everyone on their path to success and take them by the hand if need be to get them to their results.

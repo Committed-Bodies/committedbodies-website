@@ -1,7 +1,5 @@
 import { writable } from "svelte/store";
 
-const navigationStore = writable(
-    {from:null, to:null}
+export const navigationStore = writable(
+    { modal: null}
 );
-
-export default navigationStore;

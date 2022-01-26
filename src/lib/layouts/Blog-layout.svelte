@@ -1,29 +1,47 @@
 <script>
     import Header from '$lib/components/Header.svelte';
-    import { slideFadeIn, slideFadeOut } from "$lib/animation/transition-slideFade";
     export let thumbnail;
     export let title;
+    export let date;
+    export let category;
+    export let author
 </script>
 
 
-<div class="pageWrap" in:slideFadeIn out:slideFadeOut>
-    <Header>{title}</Header>
-    <section>
-        <img class="featured-image" src="{thumbnail}" alt="thumbnail description" />
-        <div class="content">
-            <slot />
+<div class="pageWrap">
+        <Header customClass="containPic" bgImage="{thumbnail}">
+            {title}
+        </Header>
+
+        <div class="postWrap contentTypography">
+            <div class="meta">
+                Posted on <span class="date">{new Date(date).toDateString()}</span> by <span class="author">{author}</span> in category: <span class="category">{category}</span>
+            </div>
+            <div class="content">
+                <slot />
+            </div>
         </div>
-    </section>
 </div>
 
 
-
-<style lang="scss">
-    section {
-        padding: $space5;
-        margin: $space5;
-        :global(ul) {
-            list-style-type: none;
-        }
+<style>
+    .pageWrap .postWrap {
+    padding: 4vw;
+    max-width: 900px;
+    margin: 0 auto;
+    color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
+    }
+    .pageWrap .postWrap .meta {
+    font-size: 0.9rem;
+    color: hsl(var(--onNeutral) / var(--onNeutralStrength-1));
+    margin-bottom: 3rem;
+    }
+    .pageWrap .postWrap .meta span {
+    background-color: hsl(var(--neutralHS) calc(var(--neutralL) - 15%));
+    color: hsl(var(--onNeutral) / var(--onNeutralStrength0));
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin: 0 5px;
+    font-weight: 500;
     }
 </style>

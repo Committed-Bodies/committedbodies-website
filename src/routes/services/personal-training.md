@@ -4,6 +4,8 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663481/
 price: Affordable Packages Available
 blurb: Our personal trainers are highly qualified in their individual fields of
   expertise.
-layout: team
+actionHeading: Book now!
+actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
+layout: service
 ---
 Our personal trainers are highly qualified in their individual fields of expertise. A personal training service can normally be quite expensive, but Committed Bodies has exceptionally good value for money – contact us for our special packages.
