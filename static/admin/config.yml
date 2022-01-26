@@ -101,6 +101,9 @@ collections:
         options: ["Trainers", "Personnel"]
       - {label: "Profile Pic", name: "thumbnail", widget: "image"}
       - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
       - {label: "Bio", name: "body", widget: "markdown"}
   

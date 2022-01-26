@@ -16,16 +16,13 @@
     <div class="contentWrap">
         
         <PageIntroSection {introData} />
+    <p>
+        Copy the code from services index page and tweek to show memberships instead.
+    </p>
 
-        <!-- svelte-ignore a11y-missing-attribute -->
+        <!-- svelte-ignore a11y-missing-attribute
         <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Member/Joining.mvc"></iframe>
-                        
+                         -->
     </div>
 
 </div>
-
-<style>
-    iframe {
-        padding: 3vw;
-    }
-</style>

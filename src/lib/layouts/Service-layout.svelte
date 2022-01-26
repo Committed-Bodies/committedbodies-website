@@ -5,6 +5,7 @@
     export let price;
     export let actionHeading;
     export let actionInstruction;
+    export let actionLink;
 </script>
 
 
@@ -29,7 +30,7 @@
             <div class="action">
                 <h3>{actionHeading}</h3>
                 <p>{actionInstruction}</p>
-                <p>Embedded form or button here?</p>
+                <a class="button primary" href="{actionLink}">Complete Sign Up Form</a>
             </div>
         </div>
 </div>
@@ -64,5 +65,30 @@
         font-weight: 500;
         color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
     }
-    
+    .button.primary {
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        padding: 0.3em 1em;
+        border-radius: 3px;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        box-shadow: 0 0 0 rgb(0 0 0 / 0), 0 0 0 rgb(0 0 0 / 0);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        border: 1px solid hsl(var(--accentHS) var(--accentL));
+        background-color: hsl(var(--accentHS) var(--accentL));
+        color: hsl(var(--onAccent) / var(--onAccentStrength0));
+        box-shadow: 0 14px 28px rgb(0 0 0 / 0%), 0 10px 10px rgb(0 0 0 / 0%);
+    }
+
+    .button.primary:hover {
+        border: 1px solid hsl(var(--accentHS) calc(var(--accentL) - 10%));
+        background-color: hsl(var(--accentHS) calc(var(--accentL) - 10%));
+        color: hsl(var(--onAccent) / var(--onAccentStrength0));
+        box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    }
+
 </style>
