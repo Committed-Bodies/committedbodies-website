@@ -9,6 +9,9 @@ title: COO
 group: Trainers
 thumbnail: /assets/images/trainers/jill-trainer.png
 blurb: I will help you take back your life!
+actionHeading: Book personal trainer
+actionInstruction: Book a session with Jill Myburgh using the time table form below.
+actionLink: https://secure.clubmanagercentral.com/Portal/61e68416-3d0e-4302-bd0f-dca493494bb3/Booking/Timetable?staffId=8903
 layout: team
 ---
 My name is Julienne Myburgh. I am proud to be co-owner together with my husband Jacques.
