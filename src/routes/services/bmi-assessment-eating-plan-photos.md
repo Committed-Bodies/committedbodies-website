@@ -1,7 +1,7 @@
 ---
-title: BMI ASSESSMENT, EATING PLAN, PHOTOS
+title: BMI ASSESSMENT, MEAL PLAN & PHOTOS
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
-price: R600
+price: From R200
 blurb: We offer a professional BEFORE photo, together with the measurement of
   your body and weight.
 actionHeading: Book now!
