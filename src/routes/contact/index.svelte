@@ -1,7 +1,3 @@
-<script context="module">
-    export const prerender = true;
-</script>
-
 <script>
     //Donavan
     import contactPage from '$lib/data/contactPage.json' 
