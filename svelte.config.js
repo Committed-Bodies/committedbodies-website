@@ -11,12 +11,6 @@ const config = {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
         adapter: adapter(),
-        prerender: {
-			crawl: false,
-			enabled: true,
-			onError: "continue",
-			entries: ['*'],
-        },
         
         vite: {
             css: {
