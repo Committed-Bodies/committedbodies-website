@@ -30,10 +30,10 @@
     import Header from '$lib/components/Header.svelte';
     import PageIntro from '$lib/components/PageIntroSection.svelte'
     import MasonryListSection from '$lib/components/MasonryListSection.svelte';
-    import servicesData from "$lib/data/servicesPage.json"
+    import membershipData from "$lib/data/membership.json"
     
     export let memberships;
-    let introData = servicesData.intro;    
+    let introData = membershipData.introJoin;    
     let masonryList = memberships;
 </script>
 
