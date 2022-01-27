@@ -1,7 +1,7 @@
 ---
 title: 3 Month BMI ASSESSMENT, MEAL PLAN & PHOTOS
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
-price: R200
+price: R200 pm
 blurb: We offer a professional BEFORE photo, together with the measurement of
   your body and weight.
 actionHeading: Book now!
