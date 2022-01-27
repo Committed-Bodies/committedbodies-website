@@ -5,7 +5,7 @@ specialisations:
   - Fitness Competition
 firstName: Mathew
 fullName: Mathew (Surname)
-title: Personal Trainer
+title: Kick Boxing Coach
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
 blurb: Let me help you achieve your body goals.
