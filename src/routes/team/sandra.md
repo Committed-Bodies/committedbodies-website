@@ -1,16 +1,16 @@
 ---
-firstName: "Sandra"
-fullName: "Sandra Surname"
-title: "Receptionist"
-group: "Personnel"
-thumbnail: "/assets/images/trainers/shaun-trainer.png"
-blurb: "Here to help!"
 specialisations:
-  - "Accounts"
-  - "Admin"
+  - Accounts
+  - Admin
+firstName: Cameron
+fullName: Cameron Birnie
+title: Personal Trainer
+group: Trainers
+thumbnail: /assets/images/trainers/shaun-trainer.png
+blurb: I'll be your partner for body creation
+actionHeading: Book a personal training session today!!!
+actionInstruction: Book a session with Cameron Birnie  by using the time table form below.
+actionLink: https://secure.clubmanagercentral.com/Portal/61e68416-3d0e-4302-bd0f-dca493494bb3/Booking/Timetable?staffId=10477
 layout: team
 ---
-
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis.
+Enter a bio for Cameron here (get Cameron to write a bio about himself).
