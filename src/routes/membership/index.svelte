@@ -1,28 +1,49 @@
+<script context="module">
+    // An array of all posts in this directory
+    const allMemebrships = import.meta.glob('./*.md')
+    let membershipArray = [];
+
+    for (let path in allMemebrships) {
+        membershipArray.push(
+            // Renaming stuff to align the masonry item component props
+            allMemebrships[path]().then(({ metadata }) => {
+                let title = metadata.title;
+                let price = metadata.price;
+                let content = metadata.blurb;
+                let thumbnail = metadata.thumbnail;
+                let route = "membership";
+                return {path, title, price, content, thumbnail, route};
+            })
+        );
+    }
+    export const load = async() => {
+        const memberships = await Promise.all(membershipArray);
+        return {
+            props: {
+                memberships,
+            }
+        }
+    };
+</script>
+
 <script>
-    import membershipPage from '$lib/data/membershipPage.json'
     import Header from '$lib/components/Header.svelte';
-    let introData = membershipPage.introJoin;
-    import PageIntroSection from '$lib/components/PageIntroSection.svelte';
+    import PageIntro from '$lib/components/PageIntroSection.svelte'
+    import MasonryListSection from '$lib/components/MasonryListSection.svelte';
+    import servicesData from "$lib/data/servicesPage.json"
+    
+    export let memberships;
+    let introData = servicesData.intro;    
+    let masonryList = memberships;
 </script>
 
 
 <div class="pageWrap">
     <Header bgImage="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto,t_pageHeader/v1631431623/gym/Gym-in-Benoni_m5uh6j.jpg">
-        Membership
+        MEMBERSHIPS
     </Header>
-    <!-- See about putting this script just before the closing body tag on this page -->
-    <script src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Home/clubmanager-integration.js"></script>
 
-    <div class="contentWrap">
-        
-        <PageIntroSection {introData} />
-    <p>
-        Copy the code from services index page and tweek to show memberships instead.
-    </p>
+    <PageIntro {introData} />
 
-        <!-- svelte-ignore a11y-missing-attribute
-        <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Member/Joining.mvc"></iframe>
-                         -->
-    </div>
-
+    <MasonryListSection {masonryList} />
 </div>
