@@ -123,6 +123,22 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
+  - name: "memberships"
+    label: "Memberships"
+    folder: "/src/routes/membership"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      
+
   - name: "pages"
     label: "Pages"
     files:
@@ -244,21 +260,7 @@ collections:
       fields:
         - label: "Page Intro"
           name: "intro"
-    - name: "memberships"
-        label: "Memberships"
-        folder: "/src/routes/membership"
-        create: true
-        identifier_field: fullName
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Service Pic", name: "thumbnail", widget: "image"}
-          - {label: "Price", name: "price", widget: "string"}
-          - {label: "Blurb", name: "blurb", widget: "text"}
-          - {label: "Action Heading", name: "actionHeading", widget: "string"}
-          - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-          - {label: "Action Link", name: "actionLink", widget: "string"}
-          - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-          - {label: "Service Description", name: "body", widget: "markdown"}
+    - {label: "Service Description", name: "body", widget: "markdown"}
         - label: "Portal Page Intro"
           name: "introPortal"
           widget: "object"
