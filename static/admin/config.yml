@@ -123,9 +123,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
-  - name: "memberships"
+- name: "memberships"
     label: "Memberships"
-    folder: "/src/routes/membership"
+    folder: "/src/routes/memberhsip"
     create: true
     identifier_field: fullName
     fields:
@@ -137,7 +137,8 @@ collections:
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Action Link", name: "actionLink", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-      
+      - {label: "Service Description", name: "body", widget: "markdown"}
+
 
   - name: "pages"
     label: "Pages"
@@ -259,8 +260,7 @@ collections:
       file: "/src/lib/data/teamPage.json"
       fields:
         - label: "Page Intro"
-          name: "intro"
-    - {label: "Service Description", name: "body", widget: "markdown"}
+          name: "intro"          
         - label: "Portal Page Intro"
           name: "introPortal"
           widget: "object"
