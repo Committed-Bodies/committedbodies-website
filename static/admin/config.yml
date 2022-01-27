@@ -125,7 +125,7 @@ collections:
 
   - name: "membership"
     label: "Memberships"
-    folder: "/src/routes/memberhsip"
+    folder: "/src/routes/membership"
     create: true
     identifier_field: fullName
     fields:
