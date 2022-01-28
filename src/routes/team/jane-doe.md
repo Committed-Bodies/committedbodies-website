@@ -1,8 +1,4 @@
 ---
-specialisations:
-  - Meal Prep
-  - Smoothies
-  - Health Thyme Grill
 firstName: Dylann
 fullName: Dylann De Beer
 title: Personal Trainer

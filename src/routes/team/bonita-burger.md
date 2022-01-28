@@ -1,7 +1,4 @@
 ---
-specialisations:
-  - Accounts
-  - Admin
 firstName: Bonita
 fullName: Bonita Burger
 title: Personal Trainer

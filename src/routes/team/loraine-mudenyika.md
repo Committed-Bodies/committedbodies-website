@@ -1,7 +1,4 @@
 ---
-specialisations:
-  - Accounts
-  - Admin
 firstName: Loraine
 fullName: Loraine Mudenyika
 title: Receptionist

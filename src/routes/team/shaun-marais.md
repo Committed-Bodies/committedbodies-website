@@ -1,8 +1,4 @@
 ---
-specialisations:
-  - Weight-loss
-  - Nutrition
-  - Fitness Competition
 firstName: Mathew
 fullName: Mathew (Surname)
 title: Kick-Boxing Coach

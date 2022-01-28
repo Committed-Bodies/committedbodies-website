@@ -1,7 +1,4 @@
 ---
-specialisations:
-  - Accounts
-  - Admin
 firstName: Gina
 fullName: Gina Makumbe
 title: Nutritional Chef

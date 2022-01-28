@@ -1,7 +1,4 @@
 ---
-specialisations:
-  - Accounts
-  - Admin
 firstName: Candice
 fullName: Candice (Surname)
 title: Yoga &Aerobics Instructor

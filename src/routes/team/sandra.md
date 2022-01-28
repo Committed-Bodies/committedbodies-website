@@ -1,7 +1,4 @@
 ---
-specialisations:
-  - Accounts
-  - Admin
 firstName: Cameron
 fullName: Cameron Birnie
 title: Personal Trainer

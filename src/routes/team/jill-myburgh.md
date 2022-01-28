@@ -1,8 +1,4 @@
 ---
-specialisations:
-  - Resistance
-  - Body Building
-  - Strength
 firstName: Jill
 fullName: Jill Myburgh
 title: COO
