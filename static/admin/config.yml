@@ -100,6 +100,12 @@ collections:
         widget: "select"
         options: ["Trainers", "Personnel"]
       - {label: "Profile Pic", name: "thumbnail", widget: "image"}
+      - label: "Specialisations"
+        name: "specialisations"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Eg. Nutrition"}
       - {label: "Blurb", name: "blurb", widget: "text"}
       - {label: "Action Heading", name: "actionHeading", widget: "string"}
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
@@ -121,12 +127,6 @@ collections:
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Action Link", name: "actionLink", widget: "string"}
       - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
-      - label: "Specialisations"
-        name: "specialisations"
-        widget: "list"
-        summary: '{{fields.title}}'
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "Eg. Nutrition"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
