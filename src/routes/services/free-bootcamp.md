@@ -4,7 +4,9 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662265/
 price: Free every Sunday
 blurb: Our bootcamp is free of charge for you and anyone you bring with.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
+actionInstruction: Describe what they must do to take action. Fill in a form?
+  Click a button? Phone us?
+actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service
 ---
