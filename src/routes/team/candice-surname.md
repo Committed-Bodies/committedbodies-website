@@ -4,6 +4,9 @@ fullName: Candice (Surname)
 title: Yoga &Aerobics Instructor
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
+specialisations:
+  - title: Yoga
+  - title: Aerobis
 blurb: Yoga and Aerobics adds years to your life and life to your years.
 actionHeading: Join a yoga or aerobic class with Candice today!!!
 actionInstruction: Click on the button bellow to select the class you want to join.
