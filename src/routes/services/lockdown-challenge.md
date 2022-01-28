@@ -4,7 +4,10 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642660570/
 price: Contact us for fee
 blurb: No need to pay gym fees, just work in the comfort of your own home.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form? Click a button? Phone us?
+actionInstruction: Describe what they must do to take action. Fill in a form?
+  Click a button? Phone us?
+actionLink: https://committedbodies.netlify.app/contact
+actionButtonText: Contact us
 layout: service
 ---
 Some people found that during lockdown, they coped quite well at home with on line videos etc.  Our team is geared up to assist you with this for a small fee.  No need to pay gym fees, just work in the comfort of your own home.  We will give you weekly exercises and nutritional tips and lots of other advise to keep you motivated, eating well and training hard.
