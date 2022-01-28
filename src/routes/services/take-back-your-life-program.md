@@ -8,6 +8,8 @@ actionInstruction: Complete the  form on our membership page
   (https://committedbodies.co.za/join/) or email us a
   bookings@committedbodies.co.za (mailto:bookings@committedbodies.co.za) for
   more information.
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
+actionButtonText: Sign up here
 layout: service
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
