@@ -6,6 +6,8 @@ blurb: Theona Looker is an expert when it comes to any form of rehabilitation.
 actionHeading: Book now!
 actionInstruction: Describe what they must do to take action. Fill in a form?
   Click a button? Phone us?
+actionLink: https://committedbodies.netlify.app/contact
+actionButtonText: Contact us
 layout: service
 ---
 Theona Looker is an expert when it comes to any form of rehabilitation.  She has years of experience and many diplomas.  She has assisted many clients in this regard.  Pricing is R450 per session.
