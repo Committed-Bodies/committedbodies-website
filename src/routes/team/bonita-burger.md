@@ -4,6 +4,9 @@ fullName: Bonita Burger
 title: Personal Trainer
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
+specialisations:
+  - title: Nutrition
+  - title: Trainer
 blurb: I can help you achieve your body goals.
 actionHeading: Book a personal training session today!!!
 actionInstruction: |+
