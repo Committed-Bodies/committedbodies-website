@@ -8,6 +8,7 @@ actionHeading: Book now!
 actionInstruction: Complete the form below to book a 3 month of personal
   assessment and body-specs session. Jill add more description here.
 actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=72655&joinAsNew=True
+actionButtonText: Sign up now
 layout: service
 ---
 We offer a professional BEFORE photo, together with the measurement of your body and weight.  This is handy to have as a starting point when joining the gym.  It is always great to have this to show off to your family and friends, once you have achieved your goals.
