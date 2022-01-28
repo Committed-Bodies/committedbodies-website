@@ -6,6 +6,8 @@ blurb: Train to professional videos and lively music.
 actionHeading: Book now!
 actionInstruction: Describe what they must do to take action. Fill in a form?
   Click a button? Phone us?
+actionLink: https://committedbodies.netlify.app/contact
+actionButtonText: Contact us
 layout: service
 ---
 Challenge a few friends to a virtual spinning class and have fun while losing weight.  Train to professional videos and lively music –  This is great fun to do.  No need to have a trainer.
