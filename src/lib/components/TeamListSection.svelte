@@ -10,11 +10,13 @@
                 <div class="trainerWrap">
                     <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
                     <h3 class="h5">{trainer.metadata.fullName}</h3>
+                    {#if trainer.metadata.specialisations}
                     <ul class="specialisations">
                         {#each trainer.metadata.specialisations as specialisation}
-                            <li>{specialisation}</li>
+                            <li>{specialisation.title}</li>
                         {/each}
                     </ul>
+                    {/if}
                     <p>{trainer.metadata.blurb}</p>
                     <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
                 </div>
@@ -31,11 +33,13 @@
                 <div class="trainerWrap">
                     <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
                     <h3 class="h5">{trainer.metadata.fullName}</h3>
+                    {#if trainer.metadata.specialisations}
                     <ul class="specialisations">
                         {#each trainer.metadata.specialisations as specialisation}
-                            <li>{specialisation}</li>
+                            <li>{specialisation.title}</li>
                         {/each}
                     </ul>
+                    {/if}
                     <p>{trainer.metadata.blurb}</p>
                     <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Train with {trainer.metadata.firstName}</a>
                 </div>
