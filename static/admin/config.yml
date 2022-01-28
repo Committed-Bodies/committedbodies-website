@@ -121,6 +121,12 @@ collections:
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Action Link", name: "actionLink", widget: "string"}
       - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
+      - label: "Specialisations"
+        name: "specialisations"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Eg. Nutrition"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
@@ -136,7 +142,7 @@ collections:
       - label: "Summary List"
         name: "summaryList"
         widget: "list"
-        summary: '{{fields.title}}'
+        summary: '{{fields.listItems}}'
         fields:
           - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
       - {label: "Action Heading", name: "actionHeading", widget: "string"}
