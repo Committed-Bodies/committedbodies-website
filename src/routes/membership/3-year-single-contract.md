@@ -8,4 +8,8 @@ actionInstruction: Click the button to sign up and join on a 3 year single contr
 actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=60251&joinAsNew=True
 layout: service
 ---
-Add membership details
+* Add membership details
+* 1
+* 2
+* 3
+* 4
