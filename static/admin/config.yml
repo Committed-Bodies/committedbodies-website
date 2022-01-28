@@ -120,6 +120,7 @@ collections:
       - {label: "Action Heading", name: "actionHeading", widget: "string"}
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 

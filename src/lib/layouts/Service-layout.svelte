@@ -6,6 +6,7 @@
     export let actionHeading;
     export let actionInstruction;
     export let actionLink;
+    export let actionButtonText;
 </script>
 
 
@@ -30,7 +31,7 @@
             <div class="action">
                 <h3>{actionHeading}</h3>
                 <p>{actionInstruction}</p>
-                <a class="button primary" href="{actionLink}">Complete Sign Up Form</a>
+                <a class="button primary" href="{actionLink}">{actionButtonText}</a>
             </div>
         </div>
 </div>
