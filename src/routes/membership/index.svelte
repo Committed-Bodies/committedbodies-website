@@ -11,8 +11,9 @@
                 let price = metadata.price;
                 let content = metadata.blurb;
                 let thumbnail = metadata.thumbnail;
+                let summaryList = metadata.summaryList;
                 let route = "membership";
-                return {path, title, price, content, thumbnail, route};
+                return {path, title, price, content, thumbnail, summaryList, route};
             })
         );
     }
@@ -29,12 +30,11 @@
 <script>
     import Header from '$lib/components/Header.svelte';
     import PageIntro from '$lib/components/PageIntroSection.svelte'
-    import MasonryListSection from '$lib/components/MasonryListSection.svelte';
     import membershipData from "$lib/data/membershipPage.json"
     
     export let memberships;
-    let introData = membershipData.introJoin;    
-    let masonryList = memberships;
+    let introData = membershipData.introJoin;
+    console.log(memberships)
 </script>
 
 
@@ -45,5 +45,25 @@
 
     <PageIntro {introData} />
 
-    <MasonryListSection {masonryList} />
+    <section>
+        {#each memberships as membership}
+            <h1>
+                {membership.title}
+            </h1>
+            <div>
+                {membership.price}
+                <img src="{membership.thumbnail}" alt="Thumbnail pic of membership option">
+            </div>
+            <ul>
+                {#each membership.summaryList as item}
+                <li>
+                    {item}
+                </li>
+                {/each}
+            </ul>
+            <a href="/">Reda More</a>
+            <a href="{membership.actionLink}">Join</a>
+        {/each}
+    </section>
+
 </div>

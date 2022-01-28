@@ -16,7 +16,7 @@
                     "class": "scrollTo "
                 },
                 {
-                    "title":"Trainers",
+                    "title":"Team",
                     "link":"/team",
                     "class": "scrollTo "
                 },
@@ -38,6 +38,11 @@
                     "class": "open"
                 },
                 {
+                    "title": "Portal",
+                    "link": "/membership/portal",
+                    "class": "open"
+                },
+                {
                     "title":"Schedule",
                     "link":"/membership/schedule",
                     "class": "open"
@@ -45,11 +50,6 @@
                 {
                     "title":"Download the app",
                     "link":"/membership/download-app",
-                    "class": "open"
-                },
-                {
-                    "title": "Portal",
-                    "link": "/membership/portal",
                     "class": "open"
                 }
             ]

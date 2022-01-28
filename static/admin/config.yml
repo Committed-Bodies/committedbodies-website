@@ -132,7 +132,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
-      - {label: "Blurb", name: "blurb", widget: "text"}
+      - label: "Summary List"
+        name: "summaryList"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
       - {label: "Action Heading", name: "actionHeading", widget: "string"}
       - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
       - {label: "Action Link", name: "actionLink", widget: "string"}
