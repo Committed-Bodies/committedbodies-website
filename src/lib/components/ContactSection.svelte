@@ -1,11 +1,7 @@
 <script>
 	import ContactSocialLinks from '$lib/components/ContactSocialLinks.svelte';
-    import contactData from '$lib/data/contact.json';
 	import ContactDetails from '$lib/components/ContactDetails.svelte'
     import Logo from '$lib/svg/logo/Logo.svelte';
-
-    // Contact details from data
-    let contacts = contactData.contacts[0];
 </script>
 
 <section class="contactSection">
@@ -16,7 +12,7 @@
             <div class="logoWrap">
                 <Logo></Logo>
             </div>  
-            <ContactDetails {contacts} classList="theme-on-primary" /> 
+            <ContactDetails classList="theme-on-primary" /> 
             <ContactSocialLinks />
         </div>
         <!-- Map Column -->

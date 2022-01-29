@@ -1,6 +1,6 @@
 <script>
-    import contactData from '$lib/data/contact.json';
-    let contacts = contactData.contacts[0];
+    import contactData from '$lib/data/contactPage.json';
+    let contacts = contactData.contacts;
 </script>
 <ul class="contactDetails">
     <li>
