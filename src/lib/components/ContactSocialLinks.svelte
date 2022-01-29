@@ -1,18 +1,18 @@
 <script>
-    import contactData from '$lib/data/contact.json';
+    import contactData from '$lib/data/contactPage.json';
     let socials = contactData.socials;
 </script>
 <ul class="socialDetails">
-    {#each Object.entries(socials) as [media, link]}
-    {#if link}
-        <li>
-            <a class="{media} socialLink" href="{link}">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
-                    <use xlink:href="#{media}"></use>
-                </svg>
-            </a>
-        </li>
-    {/if}
+    {#each socials as social}
+        {#if social}
+            <li>
+                <a class="{social.title} socialLink" href="{social.link}">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                        <use xlink:href="#{social.title}"></use>
+                    </svg>
+                </a>
+            </li>
+        {/if}
     {/each}
 </ul>
 
