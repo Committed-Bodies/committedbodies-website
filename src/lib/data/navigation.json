@@ -79,7 +79,7 @@
         },
         {
             "title":"Log-in",
-            "link":"/portal",
+            "link":"/membership/portal",
             "icon": "user",
             "class": "ghost"
         },
