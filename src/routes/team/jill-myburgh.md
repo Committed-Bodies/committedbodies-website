@@ -4,6 +4,10 @@ fullName: Jill Myburgh
 title: COO
 group: Trainers
 thumbnail: /assets/images/trainers/jill-trainer.png
+specialisations:
+  - title: Nutrition Expert
+  - title: COO
+  - title: Personal Traienr
 blurb: I will help you take back your life!
 actionHeading: Book a personal training session today!!!
 actionInstruction: Book a session with Jill Myburgh using the time table form below.
