@@ -4,6 +4,8 @@ fullName: Cameron Birnie
 title: Personal Trainer
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
+specialisations:
+  - title: Personal Trainer
 blurb: I'll be your partner for body creation
 actionHeading: Book a personal training session today!!!
 actionInstruction: Book a session with Cameron Birnie  by using the time table form below.
