@@ -4,6 +4,8 @@ fullName: Dylann De Beer
 title: Personal Trainer
 group: Trainers
 thumbnail: /assets/images/trainers/jill-trainer.png
+specialisations:
+  - title: Eg. Nutrition
 blurb: I can help you get that body you've been dreaming about!
 actionHeading: Book a personal training session today!!!
 actionInstruction: Book a session with Dylann De Beer by using the time table form below.
