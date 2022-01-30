@@ -4,6 +4,8 @@ fullName: Gina Makumbe
 title: Nutritional Chef
 group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
+specialisations:
+  - title: Nutritional Chef
 blurb: A healthy outside starts with a healthy inside
 actionHeading: We offer all kinds of food and drinks at our Health Thyme Gril
 actionInstruction: Check out the facilities by clicking on the link bellow.
