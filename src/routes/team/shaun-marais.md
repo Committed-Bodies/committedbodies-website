@@ -1,9 +1,11 @@
 ---
 firstName: Mathew
 fullName: Mathew (Surname)
-title: Kick-Boxing Coach
+title: Kick-Boxing Instructor
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
+specialisations:
+  - title: Kick-Boxing
 blurb: Let me help you achieve your body goals.
 actionHeading: Book a personal training session today!!!
 actionInstruction: Book a session with Mathew using the time table form below.
