@@ -2,6 +2,8 @@
 title: 3 Year single contract
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663368/services/spinning-committed-bodies-benoni-2.png
 price: R250 pm
+order: 2
+featured: false
 summaryList:
     - Item 1
     - Item 2

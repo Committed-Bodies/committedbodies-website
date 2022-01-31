@@ -1,8 +1,8 @@
 ---
-title: 6 Month Contract
+title: Fake contract by Sonya
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663748/services/functional-training-gym-benoni-scaled.png
-price: R385 pm
-order: 1
+price: R500 pm
+order: 4
 featured: false
 summaryList:
     - Item 1

@@ -12,8 +12,10 @@
                 let content = metadata.blurb;
                 let thumbnail = metadata.thumbnail;
                 let summaryList = metadata.summaryList;
+                let order = metadata.order;
+                let featured = metadata.featured;
                 let route = "membership";
-                return {path, title, price, content, thumbnail, summaryList, route};
+                return {path, title, price, content, thumbnail, summaryList, route, featured, order};
             })
         );
     }
@@ -28,6 +30,7 @@
 </script>
 
 <script>
+    import ComparisonTable from '$lib/components/ComparisonTable.svelte';
     import Header from '$lib/components/Header.svelte';
     import PageIntro from '$lib/components/PageIntroSection.svelte'
     import membershipData from "$lib/data/membershipPage.json"
@@ -43,27 +46,6 @@
         MEMBERSHIPS
     </Header>
 
-    <PageIntro {introData} />
-
-    <section>
-        {#each memberships as membership}
-            <h1>
-                {membership.title}
-            </h1>
-            <div>
-                {membership.price}
-                <img src="{membership.thumbnail}" alt="Thumbnail pic of membership option">
-            </div>
-            <ul>
-                {#each membership.summaryList as item}
-                <li>
-                    {item}
-                </li>
-                {/each}
-            </ul>
-            <a href="/">Reda More</a>
-            <a href="{membership.actionLink}">Join</a>
-        {/each}
-    </section>
-
+    <PageIntro {introData} />   
+    <ComparisonTable comparisonData = "{memberships}"/>
 </div>

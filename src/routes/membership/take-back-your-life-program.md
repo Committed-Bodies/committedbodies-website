@@ -1,7 +1,9 @@
 ---
-title: TAKE BACK YOUR LIFE PROGRAM
+title: Take back your life
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: ENTRY FEE – R3000, R2500 PER MONTH
+price: Entry fee R3000, R2500/month
+order: 3
+featured: true
 summaryList:
     - Item 1
     - Item 2
