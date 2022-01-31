@@ -44,6 +44,13 @@
                         background: hsl(var(--accentHS) var(--accentL));
                     }
                 }
+                .actionRow {
+                    .primary {
+                        background: hsl(var(--primaryHS) var(--primaryL));
+                        border: hsl(var(--primaryHS) var(--primaryL));
+                        color: hsl(var(--onPrimary) / var(--onPrimaryStrength3));
+                    }
+                }
             }
             header {
                 display: grid;
