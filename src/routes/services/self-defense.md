@@ -5,10 +5,10 @@ price: R120
 blurb: This is especially good for women and children, to learn the tactics of
   how to defend yourself in a crisis.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form?
-  Click a button? Phone us?
+actionInstruction: Contact us and we will add you to a list of people that will
+  be contacted as soon as classes starts up again.
 actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service
 ---
-Our self defence classes are run by Chris Anthony.  This is especially good for women and children, to learn the tactics of how to defend yourself in a crisis.  Classes are R130 per class.  Discounts are given if you bring a friend or family member along.
+This is especially good for women and children, to learn the tactics of how to defend yourself in a crisis.  Classes are R120 per class.  Discounts are given if you bring a friend or family member along.
