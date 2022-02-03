@@ -11,13 +11,13 @@
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
-                    "title":"Facility",
-                    "link":"/facility",
+                    "title":"Team",
+                    "link":"/team",
                     "class": "scrollTo "
                 },
                 {
-                    "title":"Team",
-                    "link":"/team",
+                    "title":"Facility",
+                    "link":"/facility",
                     "class": "scrollTo "
                 },
                 {
