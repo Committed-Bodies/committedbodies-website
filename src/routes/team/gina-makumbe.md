@@ -1,15 +1,15 @@
 ---
-firstName: Gina
-fullName: Gina Makumbe
-title: Nutritional Chef
+firstName: Sandra
+fullName: (Surname)
+title: Admin Manager
 group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
 specialisations:
-  - title: Nutritional Chef
-blurb: A healthy outside starts with a healthy inside
-actionHeading: We offer all kinds of food and drinks at our Health Thyme Gril
-actionInstruction: Check out the facilities by clicking on the link bellow.
+  - title: Admin
+blurb: Sees to the day to day running of the gym and accounts.
+actionHeading: Contact us for any enquiries
+actionInstruction: "Use the contact form or contact us via email at "
 actionLink: https://committedbodies.netlify.app/facility
 layout: team
 ---
-Enter menu items here!!!
+Sandra sees to the day to day running of the gym and accounts.
