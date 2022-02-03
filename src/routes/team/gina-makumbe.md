@@ -1,6 +1,6 @@
 ---
 firstName: Sandra
-fullName: (Surname)
+fullName: Sandra (Surname)
 title: Admin Manager
 group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
