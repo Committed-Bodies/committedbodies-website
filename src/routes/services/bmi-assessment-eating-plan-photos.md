@@ -7,7 +7,7 @@ blurb: We offer a professional BEFORE photo, together with the measurement of
 actionHeading: Book now!
 actionInstruction: Complete the form below to book a 3 month of personal
   assessment and body-specs session. Jill add more description here.
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=72655&joinAsNew=True
+actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Sign up now
 layout: service
 ---
