@@ -11,4 +11,4 @@ actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service
 ---
-This is especially good for women and children, to learn the tactics of how to defend yourself in a crisis.  Classes are R120 per class.
+This is especially good for women and children, to learn the tactics of how to defend yourself in a crisis.  Classes are R130 per class.
