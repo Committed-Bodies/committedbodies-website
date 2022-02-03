@@ -1,18 +1,26 @@
 ---
-firstName: Bonita
-fullName: Bonita Burger
-title: Personal Trainer
-group: Trainers
+firstName: Jacques
+fullName: Jacques Myburgh
+title: CEO
+group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
 specialisations:
-  - title: Nutrition
-  - title: Trainer
-blurb: I can help you achieve your body goals.
-actionHeading: Book a personal training session today!!!
-actionInstruction: |+
-  Book a session with Bonita Burger by using the time table form below.
-
-actionLink: add Bonitas time table to club manager
+  - title: Tool Maker
+  - title: Civil Engineer
+blurb: My name is Jacques Myburgh, co-owner together with my wife Jill of
+  Committed Bodies.
+actionHeading: Join our amazing gym today.
+actionInstruction: |
+  Fill in the contact form or contact us via email at 
+actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---
-Enter a bio for Mathew here (get Mathew to write a bio about himself)
+My name is Jacques Myburgh, co-owner together with my wife Jill of Committed Bodies.
+
+I am a tool maker by trade and I have my degree in civil engineering.\
+I got interested in living healthy, when I saw the results from Jill changing our lifestyle to eating and training healthy. In a matter of 4 weeks I lost 10kg on a body challenge which I won and since then, I have enjoyed the benefits of this lifestyle.
+
+I can encourage anyone to join our facility. The various exercise regimes we offer will have an impact on the way you look at life. Not only do you look and feel better, but your mindset is different and the power and energy you have from living a healthy lifestyle is very rewarding.
+
+My hobbies are rally-driving, hunting and fishing and building vehicles for the sport of rally.\
+I enjoy supporting Jill in her passion to drive people to live healthy. Seeing the results of the groups from their before and after pictures is really amazing.
