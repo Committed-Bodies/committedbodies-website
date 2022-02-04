@@ -15,8 +15,10 @@
         
         <PageIntroSection {introData} />
         
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <script src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Home/clubmanager-integration.js"></script><iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Booking/Weekly?showLogo=true&"></iframe>        
+       
+        <script src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Home/clubmanager-integration.js"></script>
+         <!-- svelte-ignore a11y-missing-attribute -->
+        <iframe width="100%" height="1700" allowtransparency="true" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://CommittedBodiesFitnessCentresa.clubm.mobi/Portal/Booking/Forthcoming?showLogo=true&"></iframe>        
     </div>
 </div>
 
