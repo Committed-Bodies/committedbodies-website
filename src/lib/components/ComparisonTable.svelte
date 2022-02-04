@@ -1,6 +1,7 @@
 <script>
     export let comparisonData;
     comparisonData.sort((a, b) => (a.order > b.order) ? 1 : -1);
+    // console.log(comparisonData.summaryList);
 </script>
 
 
@@ -15,7 +16,7 @@
             <ul>
                 {#each item.summaryList as point}
                 <li>
-                    {point}
+                    {point.listItems}
                 </li>
                 {/each}
             </ul>

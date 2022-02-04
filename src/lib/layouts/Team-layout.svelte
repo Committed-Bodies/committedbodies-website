@@ -19,7 +19,7 @@
             <span class="blurb">{blurb}</span>
             <div class="meta">
                 {#each specialisations as specialisation}
-                    <span>{specialisation}</span>
+                    <span>{specialisation.title}</span>
                 {/each}
             </div>
             <div class="content">
