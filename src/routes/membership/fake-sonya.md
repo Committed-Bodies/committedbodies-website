@@ -1,13 +1,16 @@
 ---
-title: Fake contract by Sonya
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663748/services/functional-training-gym-benoni-scaled.png
-price: R500 pm
-order: 4
-featured: false
+title: Single 3 year
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1643966006/memberships/membership-gym-couples-Benoni.png
+price: R250 pm
 summaryList:
+  - listItems: 36 month package
+  - listItems: Access to all classes and to the gym
+  - listItems: Fingerprints and photo
 actionHeading: Join now!
 actionInstruction: Click the button to sign up.
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=59918&joinAsNew=True
 layout: service
+featured: false
+order: 4
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=60251&joinAsNew=True
 ---
-Description of what this membership includes
+36 month package includes all classes and access to the gym, fingerprints and photo
