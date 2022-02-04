@@ -5,9 +5,6 @@ price: Entry fee R3000, R2500/month
 order: 3
 featured: true
 summaryList:
-    - Item 1
-    - Item 2
-    - Item 3
 actionHeading: Book now!
 actionInstruction: Complete the form on our membership page
   (https://committedbodies.co.za/membership/) or email us a

@@ -5,9 +5,6 @@ price: R500 pm
 order: 4
 featured: false
 summaryList:
-    - Item 1
-    - Item 2
-    - Item 3
 actionHeading: Join now!
 actionInstruction: Click the button to sign up.
 actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=59918&joinAsNew=True
