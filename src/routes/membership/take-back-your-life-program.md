@@ -2,7 +2,16 @@
 title: Take back your life
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: Entry fee R3000, R2500/month
-summaryList: null
+summaryList:
+  - listItems: PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
+  - listItems: BOOK TO TRACK PROGRESS
+  - listItems: T-SHIRT AND BUFF
+  - listItems: MEAL BAG
+  - listItems: BEFORE, DURING AND AFTER PICS
+  - listItems: SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
+  - listItems: EATING PLAN + 2 MEALS PER DAY
+  - listItems: 1 SESSION OF SPORTS MASSAGE  PRIZES TO BE WON
+  - listItems: A NEW BODY TRANSFORMED
 actionHeading: Book now!
 actionInstruction: Click the button to sign up or contact us via email at
   gi-jill@committedbodies.co.za
