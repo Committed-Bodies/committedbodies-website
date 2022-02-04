@@ -38,13 +38,13 @@
                     "class": "open"
                 },
                 {
-                    "title": "Portal",
-                    "link": "/membership/portal",
+                    "title":"Schedule",
+                    "link":"/membership/schedule",
                     "class": "open"
                 },
                 {
-                    "title":"Schedule",
-                    "link":"/membership/schedule",
+                    "title": "Member's Portal",
+                    "link": "/membership/portal",
                     "class": "open"
                 },
                 {
