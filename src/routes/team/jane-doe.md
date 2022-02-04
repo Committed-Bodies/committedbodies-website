@@ -8,7 +8,8 @@ specialisations:
   - title: Personal trainer
 blurb: I can help you get that body you've been dreaming about!
 actionHeading: Book a personal training session today!!!
-actionInstruction: Book a session with Dylann De Beer by using the time table form below.
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---
