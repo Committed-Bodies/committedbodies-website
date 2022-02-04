@@ -1,7 +1,12 @@
 ---
 title: Take back your life
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: Entry fee R3000, R2500/month
+price: R2500 pm
+actionHeading: Book now!
+actionInstruction: Click the button to sign up or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
+layout: service
 summaryList:
   - listItems: PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
   - listItems: BOOK TO TRACK PROGRESS
@@ -12,13 +17,8 @@ summaryList:
   - listItems: EATING PLAN + 2 MEALS PER DAY
   - listItems: 1 SESSION OF SPORTS MASSAGE  PRIZES TO BE WON
   - listItems: A NEW BODY TRANSFORMED
-actionHeading: Book now!
-actionInstruction: Click the button to sign up or contact us via email at
-  gi-jill@committedbodies.co.za
-layout: service
 featured: true
 order: 1
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
@@ -27,6 +27,8 @@ Why do this? If it doesn’t challenge you it won’t change you. So make this y
 We understand that your goals are as unique as you are, so whether you’re on a mission to lose weight, tone up, break a fitness plateau, prepare for a fitness competition or simply change to healthier habits – the 12 week challenge will equip you with the tools and support you need to achieve and maintain.
 
 The transformation is perfect for those first timers who need to learn the fundamentals of good training and nutrition.
+
+Entry fee R3000, R2500 pm
 
 ### What you get:
 
