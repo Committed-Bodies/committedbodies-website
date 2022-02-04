@@ -12,6 +12,7 @@ actionInstruction: |-
   Phone - 079 837 3780
   Email - gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
+order: 3
 layout: team
 ---
 Gina is qualified in making nutrient dense good healthy food.  She makes people smile with her secrets of her cooking.

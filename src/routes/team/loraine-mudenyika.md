@@ -12,6 +12,7 @@ actionInstruction: |-
   Phone - 079 837 3780
   Email - gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
+order: 4
 layout: team
 ---
 Loraine will assist you with sign ups and any other queries.

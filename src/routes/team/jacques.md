@@ -15,6 +15,7 @@ actionInstruction: >
   Fill in the contact form or contact us via email
   at  gi-jill@committedbodies.co.za.
 actionLink: https://committedbodies.netlify.app/contact
+order: 1
 layout: team
 ---
 My name is Jacques Myburgh, co-owner together with my wife Jill of Committed Bodies.

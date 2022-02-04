@@ -24,6 +24,8 @@
     import Header from '$lib/components/Header.svelte';
     import TrainersSection from "$lib/components/TeamListSection.svelte";
     export let teamMembers;
+    teamMembers.sort((a, b) => (a.order > b.order) ? 1 : -1);
+    console.log(teamMembers);
 </script>
 
 

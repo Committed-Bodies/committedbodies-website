@@ -13,6 +13,7 @@ actionHeading: Book a personal training session today!!!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
+order: 1
 layout: team
 ---
 My name is Julienne Myburgh. I am proud to be co-owner together with my husband Jacques.
