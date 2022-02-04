@@ -7,10 +7,11 @@ summaryList:
   - listItems: Access to all classes and to the gym
   - listItems: Fingerprints and photo
 actionHeading: Join now!!!
-actionInstruction: Click the button to sign up and join on a 3 year single contract.
+actionInstruction: Click the button to sign up or contact us via email at
+  gi-jill@committedbodies.co.za
 layout: service
 featured: false
 order: 2
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=60251&joinAsNew=True
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=58927&joinAsNew=True
 ---
 12 month package includes all classes and access to the gym, fingerprints and photo
