@@ -2,16 +2,14 @@
 title: Take back your life
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: Entry fee R3000, R2500/month
-order: 3
-featured: true
-summaryList:
+summaryList: null
 actionHeading: Book now!
-actionInstruction: Complete the form on our membership page
-  (https://committedbodies.co.za/membership/) or email us a
-  bookings@committedbodies.co.za (mailto:bookings@committedbodies.co.za) for
-  more information.
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
+actionInstruction: Click the button to sign up or contact us via email at
+  gi-jill@committedbodies.co.za
 layout: service
+featured: true
+order: 3
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
