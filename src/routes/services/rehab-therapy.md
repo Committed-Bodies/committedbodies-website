@@ -1,13 +1,13 @@
 ---
-title: REHAB THERAPY
+title: "Rehab therapy "
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661933/services/rehab-therapy-gym-benoni-scaled.png
 price: Contact us for prices
-blurb: Theona Looker is an expert when it comes to any form of rehabilitation.
+blurb: We have experts when it comes to any form of rehabilitation.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form?
-  Click a button? Phone us?
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service
 ---
-Theona Looker is an expert when it comes to any form of rehabilitation.  She has years of experience and many diplomas.  She has assisted many clients in this regard.  Pricing is R450 per session.
+We have experts when it comes to any form of rehabilitation.
