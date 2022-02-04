@@ -1,11 +1,11 @@
 ---
-title: VIRTUAL SPINNING
+title: Virtual spinning
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663368/services/spinning-committed-bodies-benoni-2.png
 price: R120
 blurb: Train to professional videos and lively music.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form?
-  Click a button? Phone us?
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service
