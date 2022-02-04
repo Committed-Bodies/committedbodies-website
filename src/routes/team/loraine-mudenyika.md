@@ -14,4 +14,4 @@ actionInstruction: |-
 actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---
-Add a short bio here
+Loraine will assist you with sign ups and any other queries.
