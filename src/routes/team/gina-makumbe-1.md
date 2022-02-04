@@ -1,12 +1,12 @@
 ---
-firstName: Loraine
-fullName: Loraine Mudenyika
-title: Receptionist
+firstName: Gina
+fullName: Gina Makumbe
+title: Nutritional chef
 group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
 specialisations:
-  - title: Receptionist
-blurb: Always here to greet you with a happy smile.
+  - title: Nutritional chef
+blurb: A healthy outside starts on the inside.
 actionHeading: Contact us for any enquiries.
 actionInstruction: |-
   Phone - 079 837 3780
@@ -14,4 +14,4 @@ actionInstruction: |-
 actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---
-Loraine will assist you with sign ups and any other queries.
+Gina is qualified in making nutrient dense good healthy food.  She makes people smile with her secrets of her cooking.

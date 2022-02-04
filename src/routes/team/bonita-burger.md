@@ -6,12 +6,14 @@ group: Personnel
 thumbnail: /assets/images/trainers/shaun-trainer.png
 specialisations:
   - title: Tool Maker
+  - title: CEO
   - title: Civil Engineer
-blurb: My name is Jacques Myburgh, co-owner together with my wife Jill of
-  Committed Bodies.
+blurb: My name is Jacques Myburgh, co-owner of Committed Bodies together with my
+  wife Jill.
 actionHeading: Join our amazing gym today.
-actionInstruction: |
-  Fill in the contact form or contact us via email at 
+actionInstruction: >
+  Fill in the contact form or contact us via email
+  at  gi-jill@committedbodies.co.za.
 actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---

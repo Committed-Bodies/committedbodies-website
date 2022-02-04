@@ -1,15 +1,16 @@
 ---
 firstName: Mathew
 fullName: Mathew (Surname)
-title: Kick-Boxing Instructor
+title: Boxing instructor
 group: Trainers
 thumbnail: /assets/images/trainers/shaun-trainer.png
 specialisations:
-  - title: Kick-Boxing
-blurb: Let me help you achieve your body goals.
-actionHeading: Book a personal training session today!!!
-actionInstruction: Book a session with Mathew using the time table form below.
-actionLink: https://secure.clubmanagercentral.com/Portal/61e68416-3d0e-4302-bd0f-dca493494bb3/Booking/Timetable?staffId=10666
+  - title: Boxing
+blurb: Every champion was once a contender who refused to give up.
+actionHeading: Book a boxing class today!!!
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: https://committedbodies.netlify.app/contact
 layout: team
 ---
 Enter a bio for Mathew here (get Mathew to write a bio about himself).
