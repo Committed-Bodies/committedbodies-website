@@ -139,18 +139,17 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Service Pic", name: "thumbnail", widget: "image"}
       - {label: "Price", name: "price", widget: "string"}
-      - {label: "Action Heading", name: "actionHeading", widget: "string"}
-      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-      - {label: "Action Link", name: "actionLink", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-      - {label: "Service Description", name: "body", widget: "markdown"}
       - label: "Summary List"
         name: "summaryList"
         widget: "list"
         summary: '{{fields.listItems}}'
         fields:
           - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
-          
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
