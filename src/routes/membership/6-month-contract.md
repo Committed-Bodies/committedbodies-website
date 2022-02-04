@@ -7,8 +7,7 @@ summaryList:
   - listItems: Access to all classes and to the gym
   - listItems: Fingerprints and photo
 actionHeading: Join now!
-actionInstruction: Click the button to sign up or contact us via email at
-  gi-jill@committedbodies.co.za
+actionInstruction: Click the button to sign up or contact us via email at gi-jill@committedbodies.co.za
 layout: service
 featured: false
 order: 1
