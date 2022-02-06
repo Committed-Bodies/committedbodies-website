@@ -1,12 +1,13 @@
 ---
 title: Boxing
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642509310/services/selfDefenseClasses-committed-Bodies-gym-benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644131036/services/DSC08550.png
 price: R130
+order: 4
 blurb: Fly like a butterfly, sting like a bee.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
+actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
