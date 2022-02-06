@@ -9,10 +9,10 @@ specialisations:
   - title: Manager
 blurb: Sees to the day to day running of the gym and accounts.
 actionHeading: Contact us for any enquiries
+order: 2
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/facility
-order: 2
+actionLink: /contact
 layout: team
 ---
 Sandra sees to the day to day running of the gym and accounts.
