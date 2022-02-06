@@ -8,10 +8,10 @@ specialisations:
   - title: Personal trainer
 blurb: I'll be your partner for body creation.
 actionHeading: Book a personal training session today!!!
+order: 4
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
-order: 4
+actionLink: /contact
 layout: team
 ---
 Why should I be your first choice as a personal trainer...
