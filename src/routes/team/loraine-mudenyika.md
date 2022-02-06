@@ -8,11 +8,11 @@ specialisations:
   - title: Receptionist
 blurb: Always here to greet you with a happy smile.
 actionHeading: Contact us for any enquiries.
+order: 4
 actionInstruction: |-
   Phone - 079 837 3780
   Email - gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
-order: 4
+actionLink: /contact
 layout: team
 ---
 Loraine will assist you with sign ups and any other queries.
