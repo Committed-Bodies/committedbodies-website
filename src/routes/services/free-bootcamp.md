@@ -2,11 +2,12 @@
 title: Free bootcamp
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662265/services/Bootcamp-Every-Saturday-CommittedBodies-Benoni-scaled.png
 price: Free every Sunday
+order: 5
 blurb: Our bootcamp is free of charge for you and anyone you bring with.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
+actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
