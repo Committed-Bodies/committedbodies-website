@@ -2,12 +2,13 @@
 title: BMI assessment, meal plans & photos
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
 price: From R200
+order: 2
 blurb: We offer a professional before photo, together with the measurement of
   your body and weight.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
+actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
