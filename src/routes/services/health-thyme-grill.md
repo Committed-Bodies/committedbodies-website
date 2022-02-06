@@ -2,11 +2,12 @@
 title: Health thyme grill
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662882/services/Committed-Bodies-Meals-Delivery-meal-prep-2.png
 price: Check out our menu
+order: 8
 blurb: Healthy food that tastes like cheating.
 actionHeading: View our menu
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: link to Health Thyme Grill menu page
+actionLink: /menu
 actionButtonText: Check out our menu
 layout: service
 ---
