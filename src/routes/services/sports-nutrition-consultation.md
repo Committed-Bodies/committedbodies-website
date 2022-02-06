@@ -2,12 +2,13 @@
 title: Sports nutrition consultation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661657/services/nutrition-consultation.png
 price: Contact us for prices
+order: 15
 blurb: This is a specialized field we offer, to assist you with your
   requirements albeit professional training or just being an exerciser.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
+actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
