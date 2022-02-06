@@ -10,10 +10,10 @@ specialisations:
   - title: Personal trainer
 blurb: I will help you take back your life!
 actionHeading: Book a personal training session today!!!
+order: 1
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodies.netlify.app/contact
-order: 1
+actionLink: /contact
 layout: team
 ---
 My name is Julienne Myburgh. I am proud to be co-owner together with my husband Jacques.
