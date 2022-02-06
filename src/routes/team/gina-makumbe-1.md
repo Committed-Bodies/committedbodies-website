@@ -3,7 +3,7 @@ firstName: Gina
 fullName: Gina Makumbe
 title: Nutritional chef
 group: Personnel
-thumbnail: /assets/images/trainers/shaun-trainer.png
+thumbnail: /assets/images/trainers/gina.png
 specialisations:
   - title: Nutritional chef
 blurb: A healthy outside starts on the inside.

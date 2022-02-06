@@ -3,11 +3,11 @@ firstName: Sandra
 fullName: Sandra Jansen Van Rensburg
 title: Admin manager
 group: Personnel
-thumbnail: /assets/images/trainers/shaun-trainer.png
+thumbnail: /assets/images/trainers/sandra.png
 specialisations:
   - title: Admin
   - title: Manager
-blurb: Sees to the day to day running of the gym and accounts.
+blurb: I keep everything running smoothly.
 actionHeading: Contact us for any enquiries
 order: 2
 actionInstruction: Fill in the contact form or contact us via email at
