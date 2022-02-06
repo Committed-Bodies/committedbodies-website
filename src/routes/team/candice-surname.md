@@ -3,7 +3,7 @@ firstName: Candice
 fullName: Candice (Surname)
 title: Yoga instructor
 group: Trainers
-thumbnail: /assets/images/trainers/shaun-trainer.png
+thumbnail: /assets/images/trainers/candice-trainer.png
 specialisations:
   - title: Yoga
 blurb: Yoga adds years to your life and life to your years.

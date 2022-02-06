@@ -3,7 +3,7 @@ firstName: Cameron
 fullName: Cameron Birnie
 title: Personal trainer
 group: Trainers
-thumbnail: /assets/images/trainers/shaun-trainer.png
+thumbnail: /assets/images/trainers/cameron-trainer.png
 specialisations:
   - title: Personal trainer
 blurb: I'll be your partner for body creation.

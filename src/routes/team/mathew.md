@@ -3,7 +3,7 @@ firstName: Mathew
 fullName: Mathew (Surname)
 title: Boxing instructor
 group: Trainers
-thumbnail: /assets/images/trainers/shaun-trainer.png
+thumbnail: /assets/images/trainers/mathew-trainer.png
 specialisations:
   - title: Boxing
 blurb: Every champion was once a contender who refused to give up.

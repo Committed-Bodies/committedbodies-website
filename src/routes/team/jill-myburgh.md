@@ -5,7 +5,7 @@ title: CEO
 group: Trainers
 thumbnail: /assets/images/trainers/jill-trainer.png
 specialisations:
-  - title: Nutrition expert
+  - title: Nutrition
   - title: CEO
   - title: Personal trainer
 blurb: I will help you take back your life!
