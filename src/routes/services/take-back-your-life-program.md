@@ -1,6 +1,6 @@
 ---
 title: Take back your life program
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: Entry fee – R3000, Monthly fee - R2500
 order: 1
 blurb: 12 Weeks to take back your life!

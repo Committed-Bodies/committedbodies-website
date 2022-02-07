@@ -1,6 +1,6 @@
 ---
 title: "Rehab therapy "
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661933/services/rehab-therapy-gym-benoni-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642661933/services/rehab-therapy-gym-benoni-scaled.png
 price: Contact us for prices
 order: 12
 blurb: We have experts when it comes to any form of rehabilitation.

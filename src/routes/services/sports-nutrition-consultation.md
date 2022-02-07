@@ -1,6 +1,6 @@
 ---
 title: Sports nutrition consultation
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642661657/services/nutrition-consultation.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642661657/services/nutrition-consultation.png
 price: Contact us for prices
 order: 15
 blurb: This is a specialized field we offer, to assist you with your
