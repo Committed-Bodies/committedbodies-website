@@ -1,6 +1,6 @@
 ---
 title: Health thyme grill
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662882/services/Committed-Bodies-Meals-Delivery-meal-prep-2.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642662882/services/Committed-Bodies-Meals-Delivery-meal-prep-2.png
 price: Check out our menu
 order: 8
 blurb: Healthy food that tastes like cheating.
