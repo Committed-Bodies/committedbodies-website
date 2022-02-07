@@ -7,7 +7,7 @@ blurb: Healthy food that tastes like cheating.
 actionHeading: View our menu
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: /assets/uploads/menu.pdf
+actionLink: static/assets/uploads/menu.pdf
 actionButtonText: Check out our menu
 layout: service
 ---
