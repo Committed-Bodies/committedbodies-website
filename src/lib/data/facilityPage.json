@@ -6,40 +6,40 @@
   },
   "facilityFeatures": [
     {
-      "title": "Circuit section",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
-      "name": "Circuit"
-    },
-    {
-      "title": "Another Feature",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/56448917_310473129632471_3502240363223973888_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=_RGfjf1YuJ0AX97b3j-&_nc_ht=scontent.fdur7-1.fna&oh=00_AT_DPug4enHLl-u1SLZJ4J3xc_4L-pzpfKdS7mEfZuJEWw&oe=61FF5D22",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
-      "name": "Extra"
-    },
-    {
-      "title": "Cardio",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55932453_310473179632466_7589220938747478016_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=K-kaUqAbC6MAX-p8qTM&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9coDzaAaSz4QJt226Zdps1vQWIX9t0kl04gqaaScf1Sw&oe=6202247D",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
-      "name": "Cardio"
-    },
-    {
-      "title": "Weights",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55795239_310473109632473_1254009066066280448_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=EATIeUfrNFsAX_K9Z5L&_nc_ht=scontent.fdur7-1.fna&oh=00_AT8TyvKsO2-57aZaw365uBhjnGI-l6ToTQBPkPEWwahQqw&oe=6203379F",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
+      "title": "Weights section",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226803/facilities/DSC08386.png",
+      "content": "Weight lifting isn't just about bulking up and building muscle mass, the experts say. Its benefits include improved posture, better sleep, gaining bone density, maintaining weight loss, boosting metabolism, lowering inflammation and staving off chronic disease, among a laundry list of positives.",
       "name": "Weights"
     },
     {
-      "title": "Another Feature",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/56247828_310473259632458_5025330603558436864_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3Y0KcitjAM8AX8AwDyY&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9PaWUdqM2EhrkuKnAZB2XfW649_KRhi7E_PcEae89t8g&oe=62016AF3",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
-      "name": "Extra"
+      "title": "Weights section",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226800/facilities/DSC08387.png",
+      "content": "Just another angle of our weights section and all we have to offer in this section.",
+      "name": "Weights"
     },
     {
-      "title": "One more feature",
-      "thumbnail": "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/56749275_315252652487852_1753502337978073088_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ZZhM894B_xEAX95vK0z&_nc_ht=scontent.fdur7-1.fna&oh=00_AT_Lo13mnr-LWu4cUO1a7N7Y-VQBwIOMbNLtcs5D9rFGFA&oe=62000719",
-      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel enim tempore tenetur molestiae ipsa quasi eveniet ea consequatur commodi. Quas aut excepturi repellat expedita, dignissimos voluptate error ipsum iusto sapiente",
-      "name": "Extra"
+      "title": "Cardio section",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226802/facilities/DSC08390.png",
+      "content": "When it comes to cardiovascular exercises, the options are endless to improve your overall quality of life.",
+      "name": "Cardio"
+    },
+    {
+      "title": "Leg's section",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226801/facilities/DSC08389.png",
+      "content": "Leg workouts are an important aspect of a balanced, whole-body fitness routine that builds strength, speed, and stability. Lower-body muscles create a strong, stable foundation. Rooting your lower body into the ground helps to create resistance that travels upward into your core and upper body.",
+      "name": "Legs"
+    },
+    {
+      "title": "Health thyme grill",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226814/facilities/DSC08445.png",
+      "content": "A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+      "name": "Health thyme grill"
+    },
+    {
+      "title": "Waiting and coffee area",
+      "thumbnail": "https://res.cloudinary.com/committed-bodies/image/upload/v1644226818/facilities/DSC08457.png",
+      "content": "Enjoy a coffee, a nice meal or what ever our menu has to offer while you wait.",
+      "name": "Waiting and coffee area"
     }
   ]
 }
