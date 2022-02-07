@@ -1,6 +1,6 @@
 ---
 title: Virtual spinning
-thumbnail: https://res.cloudinary.com/committed-bodies/image/f_auto,q_auto/upload/v1642663368/services/spinning-committed-bodies-benoni-2.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642663368/services/spinning-committed-bodies-benoni-2.png
 price: R120
 order: 17
 blurb: Train to professional videos and lively music.
