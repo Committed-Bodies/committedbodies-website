@@ -182,22 +182,22 @@ collections:
               widget: "text"
 # Services posts
   - name: "services"
-      label: "Services"
-      folder: "/src/routes/services"
-      create: true
-      identifier_field: fullName
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Service Pic", name: "thumbnail", widget: "image"}
-        - {label: "Price", name: "price", widget: "string"}
-        - {label: "Order", name: "order", widget: "number"}
-        - {label: "Blurb", name: "blurb", widget: "text"}
-        - {label: "Action Heading", name: "actionHeading", widget: "string"}
-        - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-        - {label: "Action Link", name: "actionLink", widget: "string"}
-        - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
-        - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-        - {label: "Service Description", name: "body", widget: "markdown"}
+    label: "Services"
+    folder: "/src/routes/services"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
 #Services page collection
   - name: "servicespage"
     label: "Services Page"
