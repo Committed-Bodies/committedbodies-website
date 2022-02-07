@@ -68,4 +68,48 @@ collections:
               fields:
                 - {label: Title, name: title, widget: string, default: "Link text"}
                 - {label: Url, name: url, widget: string, default: "/"}
-         
+# Home page collection
+  - name: "homepage"
+    label: "Home Page"
+    files:
+    - label: "Home Page"
+      name: "homePage"
+      file: "/src/lib/data/homePage.json"
+      fields:
+      - label: "Video"
+        name: "video"
+        widget: "object"
+        collapsed: true
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Button Text"
+            name: "buttonText"
+            widget: "string"
+          - label: "Button Link"
+            name: "buttonLink"
+            widget: "string"
+          - label: "Video URL"
+            name: "videoUrl"
+            widget: "string"
+      - label: "Intro"
+        name: "intro"
+        widget: "object"
+        collapsed: true
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Subtitle"
+            name: "subtitle"
+            widget: "string"
+          - label: "Text"
+            name: "text"
+            widget: "text"
+          - label: "Button Text"
+            name: "buttonText"
+            widget: "string"
+          - label: "Button Link"
+            name: "buttonLink"
+            widget: "string"
