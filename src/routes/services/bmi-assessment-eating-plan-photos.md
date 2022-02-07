@@ -1,6 +1,6 @@
 ---
 title: BMI assessment, meal plans & photos
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
 price: From R200
 order: 2
 blurb: We offer a professional before photo, together with the measurement of
