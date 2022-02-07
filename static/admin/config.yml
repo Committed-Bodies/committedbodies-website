@@ -220,4 +220,90 @@ collections:
             - label: "Content"
               name: "content"
               widget: "text"
+# Membership posts
+  - name: "membership"
+    label: "Memberships"
+    folder: "/src/routes/membership"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "string"}
+      - label: "Summary List"
+        name: "summaryList"
+        widget: "list"
+        summary: '{{fields.listItems}}'
+        fields:
+          - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
+# Memberships page collection
+- label: "Membership Pages"
+      name: "membershippages"
+      file: "/src/lib/data/membershipPage.json"
+      fields:
+        - label: "Join Intro"
+          name: "intro"          
+        - label: "Join Page Intro"
+          name: "introJoin"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"  
+        - label: "Page Intro"
+          name: "intro"          
+        - label: "Portal Page Intro"
+          name: "introPortal"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"                  
+        - label: "Schedule Page Intro"
+          name: "introSchedule"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"   
+        - label: "Download Page Intro"
+          name: "introDownload"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
   
