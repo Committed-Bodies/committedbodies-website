@@ -2,23 +2,23 @@
 title: Take back your life
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: R2500 pm
+summaryList:
+  - listItems: Professional training by the best dedicated trainers
+  - listItems: Book to track progress
+  - listItems: T-shirt and buff
+  - listItems: Meal bag
+  - listItems: Before, during and after pics
+  - listItems: Show day = spray tan, hair, and make-up
+  - listItems: Eating plan + 2 meals per day
+  - listItems: 1 session of sports massage prizes to be won
+  - listItems: A new body transformed
 actionHeading: Book now!
 actionInstruction: Click the button to sign up or contact us via email at
   gi-jill@committedbodies.co.za
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
 layout: service
-summaryList:
-  - listItems: PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
-  - listItems: BOOK TO TRACK PROGRESS
-  - listItems: T-SHIRT AND BUFF
-  - listItems: MEAL BAG
-  - listItems: BEFORE, DURING AND AFTER PICS
-  - listItems: SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
-  - listItems: EATING PLAN + 2 MEALS PER DAY
-  - listItems: 1 SESSION OF SPORTS MASSAGE  PRIZES TO BE WON
-  - listItems: A NEW BODY TRANSFORMED
 featured: true
 order: 1
+actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=66277&joinAsNew=True
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
