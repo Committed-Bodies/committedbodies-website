@@ -31,7 +31,7 @@
             <div class="action">
                 <h3>{actionHeading}</h3>
                 <p>{actionInstruction}</p>
-                <a class="button primary" href="{actionLink}">{actionButtonText}</a>
+                <a rel=external class="button primary" href="{actionLink}">{actionButtonText}</a>
             </div>
         </div>
 </div>
