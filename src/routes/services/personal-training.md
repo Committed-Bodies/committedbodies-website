@@ -1,6 +1,6 @@
 ---
 title: Personal training
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663481/services/personal-trainer-committed-bodies-gym-benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642663481/services/personal-trainer-committed-bodies-gym-benoni.png
 price: Affordable packages available
 order: 10
 blurb: Our personal trainers are highly qualified in their individual fields of
