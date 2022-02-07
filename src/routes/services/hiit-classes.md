@@ -1,6 +1,6 @@
 ---
 title: HIIT Classes
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662185/services/Take-back-Your_Life-Gallery2.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642662185/services/Take-back-Your_Life-Gallery2.png
 price: R120
 order: 7
 blurb: Come and enjoy any of our classes at a nominal fee of R120 per class.
