@@ -153,6 +153,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
+# Home page collection
   - name: "homepage"
     label: "Home Page"
     files:
@@ -224,7 +225,6 @@ collections:
             - {label: "Name", name: "name", widget: "string", default: "Emmet"}
             - {label: "Image", name: "thumbnail", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
             - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
-      # Donavan
     - label: "Contact Page"
       name: "contactpage"
       file: "/src/lib/data/contactPage.json"
@@ -333,4 +333,193 @@ collections:
               widget: "string"
             - label: "Content"
               name: "content"
-              widget: "text"        
+              widget: "text" 
+# Facility page collection
+  - name: ""facilitypage""
+    label: Facility Page"
+    files:
+    - label: "Facilitiy Page"
+      name: "facilitypage"
+      file: "/src/lib/data/facilityPage.json"
+      fields:
+        - label: "Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+        - label: "Facility Features"
+          name: "facilityFeatures"
+          widget: "list"
+          summary: '{{fields.title}}'
+          fields:
+            - {label: "Title", name: "title", widget: "string", default: "Title for this facility feature"}
+            - {label: "Name", name: "name", widget: "string", default: "Emmet"}
+            - {label: "Image", name: "thumbnail", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
+            - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
+# Contact page collection
+- name: "contactpage"
+    label: "Contact Page"
+    files:
+    - label: "Contact Page"
+      name: "contactpage"
+      file: "/src/lib/data/contactPage.json"
+      fields:
+        - label: "Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+        - label: "Contact Details"
+          name: "contacts"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "phone"
+              name: "phone"
+              widget: "string"
+            - label: "email"
+              name: "email"
+              widget: "string"
+            - label: "address"
+              name: "address"
+              widget: "string"
+            - label: "mapLink"
+              name: "mapLink"
+              widget: "string"
+        - label: "Social Links"
+          name: "socials"
+          widget: "list"
+          collapsed: true
+          summary: '{{fields.title}}'
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
+# Contact Page Collection
+- name: "teampage"
+    label: "Team Page Content"
+    files:
+    - label: "Trainers Page"
+      name: "teampage"
+      file: "/src/lib/data/teamPage.json"
+      fields:
+        - label: "Page Intro"
+          name: "intro"          
+        - label: "Portal Page Intro"
+          name: "introPortal"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"                  
+# Memberships page collection
+- label: "Membership Pages"
+      name: "membershippages"
+      file: "/src/lib/data/teamPage.json"
+      fields:
+        - label: "Join Intro"
+          name: "intro"          
+        - label: "Join Page Intro"
+          name: "introJoin"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"  
+        - label: "Page Intro"
+          name: "intro"          
+        - label: "Portal Page Intro"
+          name: "introPortal"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"                  
+        - label: "Schedule Page Intro"
+          name: "introSchedule"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"   
+        - label: "Download Page Intro"
+          name: "introDownload"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+# Home page collection
+  - name: "servicespage"
+    label: "Services Page"
+    files:
+    - label: "Services Pages"
+      name: "servicespages"
+      file: "/src/lib/data/servicesPage.json"
+      fields:
+        - label: "Service Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
