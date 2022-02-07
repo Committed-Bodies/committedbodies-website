@@ -248,9 +248,7 @@ collections:
     - label: "Membership Pages"
       name: "membershippages"
       file: "/src/lib/data/membershipPage.json"
-      fields:
-        - label: "Join Intro"
-          name: "intro"          
+      fields:         
         - label: "Join Page Intro"
           name: "introJoin"
           widget: "object"
@@ -264,9 +262,7 @@ collections:
               widget: "string"
             - label: "Content"
               name: "content"
-              widget: "text"
-        - label: "Page Intro"
-          name: "intro"      
+              widget: "text"    
         - label: "Portal Page Intro"
           name: "introPortal"
           widget: "object"
