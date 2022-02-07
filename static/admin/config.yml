@@ -306,8 +306,8 @@ collections:
               name: "content"
               widget: "text"
 #Facility page collection
-  - name: ""facilitypage""
-    label: Facility Page"
+  - name: "facilitypage"
+    label: "Facility Page"
     files:
     - label: "Facilitiy Page"
       name: "facilitypage"
@@ -375,12 +375,12 @@ collections:
             - label: "mapLink"
               name: "mapLink"
               widget: "string"
-          - label: "Social Links"
-            name: "socials"
-            widget: "list"
-            collapsed: true
-            summary: '{{fields.title}}'
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Link", name: "link", widget: "string"}
-    
+        - label: "Social Links"
+          name: "socials"
+          widget: "list"
+          collapsed: true
+          summary: '{{fields.title}}'
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Link", name: "link", widget: "string"}
+  
