@@ -8,11 +8,11 @@
       },
       {
         "title": "Book a class",
-        "url": "/services"
+        "url": "/membership/schedule"
       },
       {
         "title": "Download the app",
-        "url": "/download"
+        "url": "/membership/download-app"
       }
     ]
   },
@@ -21,15 +21,15 @@
     "links": [
       {
         "title": "Make an appointment",
-        "url": "/appointment"
+        "url": "/contact"
       },
       {
         "title": "Health and Fitness advice",
-        "url": "/"
+        "url": "/blog"
       },
       {
-        "title": "Live Chat",
-        "url": "/"
+        "title": "Check out our facility",
+        "url": "/facility"
       }
     ]
   }
