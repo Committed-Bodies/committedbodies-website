@@ -1,6 +1,6 @@
 ---
 title: Female Yoga
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663660/services/pilates-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642663660/services/pilates-scaled.png
 price: R120
 order: 3
 blurb: Come and enjoy any of our classes at a nominal fee of R120 per class.
