@@ -153,8 +153,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "Service Description", name: "body", widget: "markdown"}
 
-  - name: "pages"
-    label: "Pages"
+  - name: "homepage"
+    label: "Home Page"
     files:
     - label: "Home Page"
       name: "homePage"
