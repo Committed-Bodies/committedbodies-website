@@ -14,4 +14,4 @@ actionInstruction: Fill in the contact form or contact us via email at
 actionLink: /contact
 layout: team
 ---
-Enter a bio for Mathew here (get Mathew to write a bio about himself).
+Boxing is a sport where you can never take anything for granted. The smallest margin of error alter your career…and life. To succeed, skill and talent alone is not enough, but instead, the will to win is worth much more.
