@@ -1,15 +1,18 @@
 ---
-firstName: Cameron
-fullName: Cameron Birnie
-title: Personal Trainer
-group: Trainers
-thumbnail: /assets/images/trainers/shaun-trainer.png
+firstName: Sandra
+fullName: Sandra Jansen Van Rensburg
+title: Admin manager
+group: Personnel
+thumbnail: /assets/images/trainers/sandra.png
 specialisations:
-  - title: Personal Trainer
-blurb: I'll be your partner for body creation
-actionHeading: Book a personal training session today!!!
-actionInstruction: Book a session with Cameron Birnie  by using the time table form below.
-actionLink: https://secure.clubmanagercentral.com/Portal/61e68416-3d0e-4302-bd0f-dca493494bb3/Booking/Timetable?staffId=10477
+  - title: Admin
+  - title: Manager
+blurb: I keep everything running smoothly.
+actionHeading: Contact us for any enquiries
+order: 2
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: /contact
 layout: team
 ---
-Enter a bio for Cameron here (get Cameron to write a bio about himself).
+Sandra sees to the day to day running of the gym and accounts.

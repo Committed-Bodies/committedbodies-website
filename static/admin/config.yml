@@ -68,91 +68,9 @@ collections:
               fields:
                 - {label: Title, name: title, widget: string, default: "Link text"}
                 - {label: Url, name: url, widget: string, default: "/"}
-
-  - name: "blog"
-    label: "Blog"
-    folder: "/src/routes/blog" # The path to the folder where our blog posts are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "string"}
-      - label: "Category"
-        name: "category"
-        widget: "select"
-        options: ["Transformation", "Events", "Advice", "News", "Announcements", "Tutorials"]
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Excerpt", name: "excerpt", widget: "text"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Body", name: "body", widget: "markdown"}
-  
-  - name: "team"
-    label: "Team"
-    folder: "/src/routes/team"
-    create: true
-    identifier_field: fullName
-    fields:
-      - {label: "First Name", name: "firstName", widget: "string"}
-      - {label: "Full Name", name: "fullName", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - label: "Group"
-        name: "group"
-        widget: "select"
-        options: ["Trainers", "Personnel"]
-      - {label: "Profile Pic", name: "thumbnail", widget: "image"}
-      - label: "Specialisations"
-        name: "specialisations"
-        widget: "list"
-        summary: '{{fields.title}}'
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "Eg. Nutrition"}
-      - {label: "Blurb", name: "blurb", widget: "text"}
-      - {label: "Action Heading", name: "actionHeading", widget: "string"}
-      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-      - {label: "Action Link", name: "actionLink", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
-      - {label: "Bio", name: "body", widget: "markdown"}
-  
-  - name: "services"
-    label: "Services"
-    folder: "/src/routes/services"
-    create: true
-    identifier_field: fullName
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Service Pic", name: "thumbnail", widget: "image"}
-      - {label: "Price", name: "price", widget: "string"}
-      - {label: "Blurb", name: "blurb", widget: "text"}
-      - {label: "Action Heading", name: "actionHeading", widget: "string"}
-      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-      - {label: "Action Link", name: "actionLink", widget: "string"}
-      - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-      - {label: "Service Description", name: "body", widget: "markdown"}
-
-  - name: "membership"
-    label: "Memberships"
-    folder: "/src/routes/membership"
-    create: true
-    identifier_field: fullName
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Service Pic", name: "thumbnail", widget: "image"}
-      - {label: "Price", name: "price", widget: "string"}
-      - label: "Summary List"
-        name: "summaryList"
-        widget: "list"
-        summary: '{{fields.listItems}}'
-        fields:
-          - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
-      - {label: "Action Heading", name: "actionHeading", widget: "string"}
-      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
-      - {label: "Action Link", name: "actionLink", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
-      - {label: "Service Description", name: "body", widget: "markdown"}
-
-  - name: "pages"
-    label: "Pages"
+# Home page collection
+  - name: "homepage"
+    label: "Home Page"
     files:
     - label: "Home Page"
       name: "homePage"
@@ -195,6 +113,202 @@ collections:
           - label: "Button Link"
             name: "buttonLink"
             widget: "string"
+# Blog page      
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "/src/routes/blog" # The path to the folder where our blog posts are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Transformation", "Events", "Advice", "News", "Announcements", "Tutorials"]
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Excerpt", name: "excerpt", widget: "text"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Body", name: "body", widget: "markdown"}
+# Team members
+  - name: "teamMembers"
+    label: "Team Members"
+    folder: "/src/routes/team"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "First Name", name: "firstName", widget: "string"}
+      - {label: "Full Name", name: "fullName", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Group"
+        name: "group"
+        widget: "select"
+        options: ["Trainers", "Personnel"]
+      - {label: "Profile Pic", name: "thumbnail", widget: "image"}
+      - label: "Specialisations"
+        name: "specialisations"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Eg. Nutrition"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
+      - {label: "Bio", name: "body", widget: "markdown"}
+#Team page collection
+  - name: "teampage"
+    label: "Team Page"
+    files:
+    - label: "Team Page"
+      name: "teampage"
+      file: "/src/lib/data/teamPage.json"
+      fields:
+        - label: "Team Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+# Services posts
+  - name: "services"
+    label: "Services"
+    folder: "/src/routes/services"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Blurb", name: "blurb", widget: "text"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Action Button Text", name: "actionButtonText", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
+#Services page collection
+  - name: "servicespage"
+    label: "Services Page"
+    files:
+    - label: "Services Pages"
+      name: "servicespage"
+      file: "/src/lib/data/servicesPage.json"
+      fields:
+        - label: "Service Page Intro"
+          name: "intro"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+# Membership posts
+  - name: "membership"
+    label: "Memberships"
+    folder: "/src/routes/membership"
+    create: true
+    identifier_field: fullName
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Service Pic", name: "thumbnail", widget: "image"}
+      - {label: "Price", name: "price", widget: "string"}
+      - label: "Summary List"
+        name: "summaryList"
+        widget: "list"
+        summary: '{{fields.listItems}}'
+        fields:
+          - {label: "List Items", name: "listItems", widget: "string", default: "Short summary of membership value-add"}
+      - {label: "Action Heading", name: "actionHeading", widget: "string"}
+      - {label: "Action Instruction", name: "actionInstruction", widget: "text"}
+      - {label: "Action Link", name: "actionLink", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Service Description", name: "body", widget: "markdown"}
+# Memberships page collection
+  - name: "membershipspage"
+    label: "Membership Page"
+    files:
+    - label: "Membership Pages"
+      name: "membershippages"
+      file: "/src/lib/data/membershipPage.json"
+      fields:         
+        - label: "Join Page Intro"
+          name: "introJoin"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"    
+        - label: "Portal Page Intro"
+          name: "introPortal"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"                  
+        - label: "Schedule Page Intro"
+          name: "introSchedule"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"   
+        - label: "Download Page Intro"
+          name: "introDownload"
+          widget: "object"
+          collapsed: true
+          fields:
+            - label: "Title"
+              name: "title"
+              widget: "string"
+            - label: "Subtitle"
+              name: "subtitle"
+              widget: "string"
+            - label: "Content"
+              name: "content"
+              widget: "text"
+#Facility page collection
+  - name: "facilitypage"
+    label: "Facility Page"
+    files:
     - label: "Facilitiy Page"
       name: "facilitypage"
       file: "/src/lib/data/facilityPage.json"
@@ -222,7 +336,10 @@ collections:
             - {label: "Name", name: "name", widget: "string", default: "Emmet"}
             - {label: "Image", name: "thumbnail", widget: "image", default: "https://scontent.fdur7-1.fna.fbcdn.net/v/t1.6435-9/55713719_310473159632468_5149878363015348224_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=reATQcCDbigAX_oSpHN&_nc_ht=scontent.fdur7-1.fna&oh=00_AT9eByjzvm-S1U4wZXplxeyG1aW5wvzoN-9zffFKZywrkw&oe=6202DB7C"}
             - {label: "Content", name: "content", widget: "text", default: "Describe this feature - how does it help your clients?"}
-      # Donavan
+#Contact page collection
+  - name: "contactpage"
+    label: "Contact Page"
+    files:
     - label: "Contact Page"
       name: "contactpage"
       file: "/src/lib/data/contactPage.json"
@@ -266,69 +383,4 @@ collections:
           fields:
             - {label: "Title", name: "title", widget: "string"}
             - {label: "Link", name: "link", widget: "string"}
-    - label: "Trainers Page"
-      name: "teampage"
-      file: "/src/lib/data/teamPage.json"
-      fields:
-        - label: "Page Intro"
-          name: "intro"          
-        - label: "Portal Page Intro"
-          name: "introPortal"
-          widget: "object"
-          collapsed: true
-          fields:
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Subtitle"
-              name: "subtitle"
-              widget: "string"
-            - label: "Content"
-              name: "content"
-              widget: "text"                  
-        - label: "Schedule Page Intro"
-          name: "introSchedule"
-          widget: "object"
-          collapsed: true
-          fields:
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Subtitle"
-              name: "subtitle"
-              widget: "string"
-            - label: "Content"
-              name: "content"
-              widget: "text"   
-        - label: "Download Page Intro"
-          name: "introDownload"
-          widget: "object"
-          collapsed: true
-          fields:
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Subtitle"
-              name: "subtitle"
-              widget: "string"
-            - label: "Content"
-              name: "content"
-              widget: "text"
-    - label: "Services Pages"
-      name: "servicespages"
-      file: "/src/lib/data/servicesPage.json"
-      fields:
-        - label: "Service Page Intro"
-          name: "intro"
-          widget: "object"
-          collapsed: true
-          fields:
-            - label: "Title"
-              name: "title"
-              widget: "string"
-            - label: "Subtitle"
-              name: "subtitle"
-              widget: "string"
-            - label: "Content"
-              name: "content"
-              widget: "text"        
+  

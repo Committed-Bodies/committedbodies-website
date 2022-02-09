@@ -15,7 +15,7 @@
             <ul>
                 {#each item.summaryList as point}
                 <li>
-                    {point}
+                    {point.listItems}
                 </li>
                 {/each}
             </ul>
@@ -94,7 +94,7 @@
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
-                    aspect-ratio: 3 / 4;
+                    aspect-ratio: 6/3;
                 }
             }
             ul {
@@ -115,11 +115,6 @@
                 flex-direction: column;
                 a {
                     @include button;
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
-                    // display: block;
-                    // text-decoration: none;
                     color: inherit;
                     &.primary {
                         @include buttonPrimary;
@@ -136,7 +131,7 @@
     // RESPONSIVE STYLES FOR MED - LARGE
     @media (min-width: $mdScreen) {
         section {
-            grid-template-columns: 1fr 1fr 1.3fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
 
         }  
     }

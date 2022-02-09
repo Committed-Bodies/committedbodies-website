@@ -11,8 +11,9 @@
                 let price = metadata.price;
                 let content = metadata.blurb;
                 let thumbnail = metadata.thumbnail;
+                let order = metadata.order;
                 let route = "services";
-                return {path, title, price, content, thumbnail, route};
+                return {path, title, price, content, thumbnail, route, order};
             })
         );
     }
@@ -33,6 +34,7 @@
     import servicesData from "$lib/data/servicesPage.json"
     
     export let services;
+    services.sort((a, b) => (a.order > b.order) ? 1 : -1);
     let introData = servicesData.intro;    
     let masonryList = services;
 </script>

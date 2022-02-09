@@ -1,17 +1,19 @@
 ---
 firstName: Jill
 fullName: Jill Myburgh
-title: COO
+title: CEO
 group: Trainers
 thumbnail: /assets/images/trainers/jill-trainer.png
 specialisations:
-  - title: Nutrition Expert
-  - title: COO
-  - title: Personal Traienr
+  - title: Nutrition
+  - title: CEO
+  - title: Personal trainer
 blurb: I will help you take back your life!
 actionHeading: Book a personal training session today!!!
-actionInstruction: Book a session with Jill Myburgh using the time table form below.
-actionLink: https://secure.clubmanagercentral.com/Portal/61e68416-3d0e-4302-bd0f-dca493494bb3/Booking/Timetable?staffId=8903
+order: 1
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: /contact
 layout: team
 ---
 My name is Julienne Myburgh. I am proud to be co-owner together with my husband Jacques.

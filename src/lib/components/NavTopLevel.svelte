@@ -131,7 +131,7 @@
 	@media screen and (min-width: $xlScreen) {
 		.topNav {
 			color: hsl(var(--onGradient) / var(--onGradientStrength0));
-			overflow-y: scroll;
+			// overflow-y: scroll;
 			padding: 0 10% 10% 10%;
 			justify-content: flex-start;
 			background-color: transparent;

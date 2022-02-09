@@ -30,7 +30,7 @@
             &copy; 2022 Committed Bodies
         </div>
         <div class="credit">
-            Site by <a href="www.sonya.ninja" alt="Kick-ass websites by Sonya.Ninja">SONYA.NINJA</a>
+            Site by <a href="https://www.sonya.ninja" alt="Kick-ass websites by Sonya.Ninja">SONYA.NINJA</a>
         </div>
     </div>
 </footer>

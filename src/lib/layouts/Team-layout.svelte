@@ -19,16 +19,16 @@
             <span class="blurb">{blurb}</span>
             <div class="meta">
                 {#each specialisations as specialisation}
-                    <span>{specialisation}</span>
+                    <span>{specialisation.title}</span>
                 {/each}
             </div>
             <div class="content">
                 <slot />        
             </div>
-            <div class="gallery">
+            <!-- <div class="gallery">
                 <h3>Gallery</h3>
                 <p>Gallery component should go here. Perhaps each service can have a route to a folder of images on cloudinary. The gallery component will automatically handle a gallery layout of the images with lightbox popups.</p>
-            </div>
+            </div> -->
             <div class="action">
                 <h3>{actionHeading}</h3>
                 <p>{actionInstruction}</p>

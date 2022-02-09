@@ -1,16 +1,17 @@
 ---
-title: BMI ASSESSMENT, MEAL PLAN & PHOTOS
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
+title: BMI assessment, meal plans & photos
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642508688/services/BMI-CommittedBodies-gym-benoni-scaled.png
 price: From R200
-blurb: We offer a professional BEFORE photo, together with the measurement of
+order: 2
+blurb: We offer a professional before photo, together with the measurement of
   your body and weight.
 actionHeading: Book now!
-actionInstruction: Complete the form below to book a 3 month of personal
-  assessment and body-specs session. Jill add more description here.
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=72655&joinAsNew=True
-actionButtonText: Sign up now
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: /contact
+actionButtonText: Contact us
 layout: service
 ---
 We offer a professional BEFORE photo, together with the measurement of your body and weight.  This is handy to have as a starting point when joining the gym.  It is always great to have this to show off to your family and friends, once you have achieved your goals.
 
-Should you wish to have a menu worked out for you, this will fall under the nutrition fee of R1200 – see the [Sports Nutrition Consultation service](https://committedbodies.co.za/services/nutrition-consultation/)
+Should you wish to have a menu worked out for you, this will fall under the nutrition fee of R1200.

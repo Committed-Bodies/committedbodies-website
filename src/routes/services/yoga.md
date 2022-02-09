@@ -1,12 +1,13 @@
 ---
-title: YOGA
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663583/services/yoga-committed-bodies-gym-benoni.png
+title: Male yoga
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642663583/services/yoga-committed-bodies-gym-benoni.png
 price: R120
-blurb: Come and enjoy any of our classes at a nominal fee of R80 per class.
+order: 9
+blurb: Come and enjoy any of our classes at a nominal fee of R120 per class.
 actionHeading: Book now!
-actionInstruction: Describe what they must do to take action. Fill in a form?
-  Click a button? Phone us?
-actionLink: https://committedbodies.netlify.app/contact
+actionInstruction: Fill in the contact form or contact us via email at
+  gi-jill@committedbodies.co.za
+actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
