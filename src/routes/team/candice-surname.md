@@ -1,6 +1,6 @@
 ---
 firstName: Candice
-fullName: Candice (Surname)
+fullName: Candice
 title: Yoga instructor
 group: Trainers
 thumbnail: /assets/images/trainers/candice-trainer.png
