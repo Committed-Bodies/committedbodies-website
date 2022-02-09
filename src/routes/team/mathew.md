@@ -1,6 +1,6 @@
 ---
 firstName: Mathew
-fullName: Mathew (Surname)
+fullName: Mathew
 title: Boxing instructor
 group: Trainers
 thumbnail: /assets/images/trainers/mathew-trainer.png
