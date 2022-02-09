@@ -1,6 +1,6 @@
 ---
 firstName: Candice
-fullName: Candice (Surname)
+fullName: Candice
 title: Yoga instructor
 group: Trainers
 thumbnail: /assets/images/trainers/candice-trainer.png
@@ -14,4 +14,4 @@ actionInstruction: Fill in the contact form or contact us via email at
 actionLink: /contact
 layout: team
 ---
-Enter a bio for Candice here (get Candice to write a bio about herself).
+Come and enjoy any of our classes at a nominal fee of R120 per class.
