@@ -9,11 +9,10 @@
     import Footer from "$lib/components/Footer.svelte";
     export let y;
 
-// LoadingBar script
+    // LoadingBar script
     import { fade } from 'svelte/transition';
-    import navigationState from '$lib/stores/navigationState';
+    import {navigationState} from '$lib/stores/navigationState';
     import PageLoader from '$lib/components/PageLoader.svelte';
-    // import '../styles/global.css';
 
 </script>
 
@@ -26,13 +25,6 @@
         $navigationState = 'loaded';
     }}
 />
-{#if $navigationState === 'loading'}
-    <div out:fade={{ delay: 500 }}>
-        <PageLoader />
-    </div>
-{/if}
-
-<!-- <slot /> -->
 
 <!-- Add hidden icon paths to use across all components -->
 <IconsCombined></IconsCombined>
@@ -48,6 +40,13 @@
 
 <!-- Main content -->
 <main on:scroll="{(e)=>y=e.target.scrollTop}">
+    <!-- {#if $navigationState === 'loading'}
+        <div out:fade={{ delay: 500 }}>
+            <PageLoader/>
+        </div>
+    {/if} -->
+    <PageLoader/>
+    <!-- {$navigationState} -->
     <slot></slot>
     <Footer></Footer>
 </main>
