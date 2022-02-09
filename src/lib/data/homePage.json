@@ -22,7 +22,7 @@
       "secondaryButtonText": "",
       "subtitle": "Not a will-power comittment",
       "title": "Make a character commitment",
-      "image": "/assets/images/kettlebell-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422527/ui-assets/homePageSections/kettlebell-LOGO.png"
     },
     {
       "secondaryButtonLink": "/membership",
@@ -33,7 +33,7 @@
       "secondaryButtonText": "Memberships",
       "subtitle": "Select a membership",
       "title": "Put some skin in the game",
-      "image": "/assets/images/boxing-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422532/ui-assets/homePageSections/boxing-LOGO.png"
     },
     {
       "secondaryButtonLink": "/team",
@@ -44,7 +44,7 @@
       "secondaryButtonText": "Our trainers",
       "subtitle": "Book a trainer",
       "title": "Find a mentor",
-      "image": "/assets/images/trainer-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png"
     },
     {
       "secondaryButtonLink": "/services",
@@ -55,7 +55,7 @@
       "secondaryButtonText": "Our services",
       "subtitle": "One day at a time",
       "title": "Change your habits",
-      "image": "/assets/images/ball-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/ball-LOGO.png"
     },
     {
       "secondaryButtonLink": "/blog",
@@ -66,7 +66,7 @@
       "secondaryButtonText": "News and Events",
       "subtitle": "Find a supportive community",
       "title": "Make it fun",
-      "image": "/assets/images/zumba-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/zumba-LOGO.png"
     },
     {
       "secondaryButtonLink": "",
@@ -77,7 +77,7 @@
       "secondaryButtonText": "",
       "subtitle": "9 months to Take back your life",
       "title": "Celebrate your success",
-      "image": "/assets/images/dumbbells-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png"
     }
   ]
 }
