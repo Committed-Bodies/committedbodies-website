@@ -8,7 +8,31 @@
     import LogoWrap from "$lib/components/NavlogoWrap.svelte";
     import Footer from "$lib/components/Footer.svelte";
     export let y;
+
+// LoadingBar script
+    import { fade } from 'svelte/transition';
+    import navigationState from '../stores/navigationState';
+    import PageLoader from '../components/PageLoader.svelte';
+    import '../styles/global.css';
+
 </script>
+
+<!-- Loading bar component -->
+<svelte:window
+    on:sveltekit:navigation-start={() => {
+        $navigationState = 'loading';
+    }}
+    on:sveltekit:navigation-end={() => {
+        $navigationState = 'loaded';
+    }}
+/>
+{#if $navigationState === 'loading'}
+    <div out:fade={{ delay: 500 }}>
+        <PageLoader />
+    </div>
+{/if}
+
+<slot />
 
 <!-- Add hidden icon paths to use across all components -->
 <IconsCombined></IconsCombined>
