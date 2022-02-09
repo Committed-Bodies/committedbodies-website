@@ -27,7 +27,7 @@
     <div class="progress-sliver" style={`--width: ${$progress * 100}%`} />
 </div>
 
-<style>
+<style lang="scss">
     .progress-bar {
         position: fixed;
         top: 0;
@@ -38,7 +38,7 @@
     }
     .progress-sliver {
         width: var(--width);
-        background-color: #f8485e;
+        background-color: $brandAccent;
         height: 100%;
     }
 </style>
