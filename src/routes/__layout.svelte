@@ -11,9 +11,9 @@
 
 // LoadingBar script
     import { fade } from 'svelte/transition';
-    import navigationState from '../stores/navigationState';
-    import PageLoader from '../components/PageLoader.svelte';
-    import '../styles/global.css';
+    import navigationState from '$lib/stores/navigationState';
+    import PageLoader from '$lib/components/PageLoader.svelte';
+    // import '../styles/global.css';
 
 </script>
 
@@ -32,7 +32,7 @@
     </div>
 {/if}
 
-<slot />
+<!-- <slot /> -->
 
 <!-- Add hidden icon paths to use across all components -->
 <IconsCombined></IconsCombined>
