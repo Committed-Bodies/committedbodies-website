@@ -36,12 +36,14 @@
 		</li>
 		{/each}
 	</ul>
+	<!-- Try put loading component here -->
 </nav>
 
 <style lang="scss">
 	// Default mobile-first styles
 	// Background-Color is set in __layout : div.navColor
 	.topNav {
+		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
