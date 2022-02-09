@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0;
+        padding: 3rem;
         .modalWrap {
             position: relative;
             width: 100%;
