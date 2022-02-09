@@ -48,14 +48,14 @@
 	
 	<div class="content">
 		<div class="graphicsWrap">
-			<img class="layer layerBG" src="/assets/images/Before-After/BG.png" alt="">
-			<img class="layer layerBeforeTextBG" src="/assets/images/Before-After/BeforeTextBG.png" alt="">
-			<img class="layer layerAfterTextBG" src="/assets/images/Before-After/AfterTextBG.png" alt="">
-			<img class="layer layerMirror" src="/assets/images/Before-After/mirror.png" alt="">
-			<img class="layer layerScale" src="/assets/images/Before-After/scale.png" alt="">
-			<img class="layer layerJillAfter" src="/assets/images/Before-After/AfterJill.png" alt="">
-			<img class="layerJillBefore" src="/assets/images/Before-After/beforeJill.png" alt="">
-			<img class="layer layerBeforeTextFG" src="/assets/images/Before-After/BeforeTextFG.png" alt="">
+			<img class="layer layerBG" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421673/ui-assets/Before-After/BG.png" alt="">
+			<img class="layer layerBeforeTextBG" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421671/ui-assets/Before-After/BeforeTextBG.png" alt="">
+			<img class="layer layerAfterTextBG" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421673/ui-assets/Before-After/AfterTextBG.png" alt="">
+			<img class="layer layerMirror" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421675/ui-assets/Before-After/mirror.png" alt="">
+			<img class="layer layerScale" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421676/ui-assets/Before-After/scale.png" alt="">
+			<img class="layer layerJillAfter" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421675/ui-assets/Before-After/AfterJill.png" alt="">
+			<img class="layerJillBefore" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421674/ui-assets/Before-After/BeforeJill.png" alt="">
+			<img class="layer layerBeforeTextFG" src="https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644421671/ui-assets/Before-After/BeforeTextFG.png" alt="">
 		</div>
 		<div class="textWrap">
 
