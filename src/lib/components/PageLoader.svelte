@@ -25,12 +25,11 @@
 
 <div class="progress-bar">
     <div class="progress-sliver" style={`--width: ${$progress * 100}%`} />
-    {$navigationState}
 </div>
 
 <style>
     .progress-bar {
-        position: relative;
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;

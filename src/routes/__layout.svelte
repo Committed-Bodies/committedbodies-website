@@ -2,7 +2,7 @@
     import "../styles/app.scss";
     import IconsCombined from "$lib/svg/icons/Icons_combined.svelte";
     import TopNav from "$lib/components/NavTopLevel.svelte";
-    import Subnav from "$lib/components/NavSubnav.svelte";
+    // import Subnav from "$lib/components/NavSubnav.svelte";
     import ActionNav from "$lib/components/NavActions.svelte";
     import Modal from "$lib/components/Modal.svelte";
     import LogoWrap from "$lib/components/NavlogoWrap.svelte";
@@ -14,14 +14,18 @@
     import {navigationState} from '$lib/stores/navigationState';
     import PageLoader from '$lib/components/PageLoader.svelte';
 
+    // $: $navigationState && console.log('changed');
+
 </script>
 
 <!-- Loading bar component -->
 <svelte:window
     on:sveltekit:navigation-start={() => {
+        // console.log("page is loading");
         $navigationState = 'loading';
     }}
     on:sveltekit:navigation-end={() => {
+        // console.log("page is loaded");
         $navigationState = 'loaded';
     }}
 />
@@ -40,13 +44,11 @@
 
 <!-- Main content -->
 <main on:scroll="{(e)=>y=e.target.scrollTop}">
-    <!-- {#if $navigationState === 'loading'}
+    {#if $navigationState === 'loading'}
         <div out:fade={{ delay: 500 }}>
             <PageLoader/>
         </div>
-    {/if} -->
-    <PageLoader/>
-    <!-- {$navigationState} -->
+    {/if}
     <slot></slot>
     <Footer></Footer>
 </main>
