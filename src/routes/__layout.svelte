@@ -2,19 +2,23 @@
     import "../styles/app.scss";
     import IconsCombined from "$lib/svg/icons/Icons_combined.svelte";
     import TopNav from "$lib/components/NavTopLevel.svelte";
-    // import Subnav from "$lib/components/NavSubnav.svelte";
     import ActionNav from "$lib/components/NavActions.svelte";
     import Modal from "$lib/components/Modal.svelte";
     import LogoWrap from "$lib/components/NavlogoWrap.svelte";
     import Footer from "$lib/components/Footer.svelte";
     export let y;
 
-    // LoadingBar script
+    // LoadingBar script and Page Transitions
     import { fade } from 'svelte/transition';
     import {navigationState} from '$lib/stores/navigationState';
     import PageLoader from '$lib/components/PageLoader.svelte';
 
-    // $: $navigationState && console.log('changed');
+    function transitionPageIn() {
+        gsap.set("main", {scrollTo: 0, autoAlpha:0, scale: 0.95});
+        gsap.to("main",{duration:0.4, scale:1, autoAlpha:1});
+    }
+
+
 
 </script>
 
@@ -27,6 +31,8 @@
     on:sveltekit:navigation-end={() => {
         // console.log("page is loaded");
         $navigationState = 'loaded';
+
+        transitionPageIn();
     }}
 />
 
@@ -59,6 +65,9 @@
 
 <!-- ******STYLES -->
 <style lang="scss">
+    // main {
+    //     border: 3px solid red;
+    // }
     //  Little hack to make a background color for topnav on scroll
     .navColor {
         grid-row: 1;

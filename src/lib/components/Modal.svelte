@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
+        padding: 0;
         .modalWrap {
             position: relative;
             width: 100%;
@@ -69,11 +69,6 @@
                     height: auto;
                 }
             }
-        }
-    }
-    @media (max-width: $mdScreen) {
-        .overlay {
-            padding: 1rem;
         }
     }
 </style>
