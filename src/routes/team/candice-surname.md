@@ -1,6 +1,6 @@
 ---
 firstName: Candice
-fullName: Candice
+fullName: Candice Berriman
 title: Yoga instructor
 group: Trainers
 thumbnail: /assets/images/trainers/candice-trainer.png
