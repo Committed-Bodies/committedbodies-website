@@ -3,7 +3,7 @@ firstName: Dylann
 fullName: Dylann De Beer
 title: Personal trainer
 group: Trainers
-thumbnail: /assets/images/trainers/dylan-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644513245/trainers/Dylan%20De%20Beer/dylann-trainer.png
 specialisations:
   - title: Personal trainer
 blurb: I can help you get that body you've been dreaming about!
