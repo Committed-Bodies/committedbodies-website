@@ -14,4 +14,5 @@ actionInstruction: Fill in the contact form or contact us via email at
 actionLink: /contact
 layout: team
 ---
-Come and enjoy any of our classes at a nominal fee of R120 per class.
+I am dedicated to helping others achieve their fitness goals and pays attention to the small details of my clients needs. My passions include teaching yoga, helping people feel better in their bodies and improving their range of motion, flexibility and overall mental and physical health.
+Let me help you start your personal yoga journey as you learn to practice yoga on and off the mat.
