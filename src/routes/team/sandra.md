@@ -3,7 +3,7 @@ firstName: Sandra
 fullName: Sandra Jansen Van Rensburg
 title: Admin manager
 group: Personnel
-thumbnail: /assets/images/trainers/sandra.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644515806/staff/Sandra%20Jansen%20Van%20Rensburg/sandra.png
 specialisations:
   - title: Admin
   - title: Manager
