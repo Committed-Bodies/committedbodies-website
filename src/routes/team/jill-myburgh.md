@@ -3,7 +3,7 @@ firstName: Jill
 fullName: Jill Myburgh
 title: CEO
 group: Trainers
-thumbnail: /assets/images/trainers/jill-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1643304414/trainers/Jill%20Myburgh/jill-trainer.png
 specialisations:
   - title: Nutrition
   - title: CEO
