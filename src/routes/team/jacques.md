@@ -3,7 +3,7 @@ firstName: Jacques
 fullName: Jacques Myburgh
 title: CEO
 group: Personnel
-thumbnail: /assets/images/trainers/jacques.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644515666/staff/Jacques%20Myburgh/jacques.png
 specialisations:
   - title: Tool Maker
   - title: CEO
