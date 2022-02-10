@@ -3,7 +3,7 @@ firstName: Matthew
 fullName: Matthew Dalton
 title: Boxing instructor
 group: Trainers
-thumbnail: /assets/images/trainers/mathew-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644512840/trainers/Mathew/mathew-trainer.png
 specialisations:
   - title: Boxing
 blurb: Every champion was once a contender who refused to give up.
