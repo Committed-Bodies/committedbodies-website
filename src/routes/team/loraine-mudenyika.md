@@ -3,7 +3,7 @@ firstName: Loraine
 fullName: Loraine Mudenyika
 title: Receptionist
 group: Personnel
-thumbnail: /assets/images/trainers/loraine-staff.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644515758/staff/Loraine%20Madenyika/loraine-staff.png
 specialisations:
   - title: Receptionist
 blurb: Always here to greet you with a happy smile.
