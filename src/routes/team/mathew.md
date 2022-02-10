@@ -1,6 +1,6 @@
 ---
-firstName: Mathew
-fullName: Mathew
+firstName: Matthew
+fullName: Matthew Dalton
 title: Boxing instructor
 group: Trainers
 thumbnail: /assets/images/trainers/mathew-trainer.png
