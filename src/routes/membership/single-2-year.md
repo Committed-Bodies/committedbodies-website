@@ -7,10 +7,11 @@ summaryList:
   - listItems: Access to all classes and to the gym
   - listItems: Fingerprints and photo
 actionHeading: Join now!
-actionInstruction: Click the button to sign up or contact us via email at gi-jill@committedbodies.co.za
+actionInstruction: Click the button to sign up or contact us via email at
+  gi-jill@committedbodies.co.za
 layout: service
 featured: false
 order: 3
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=59900&joinAsNew=True
+actionLink: /contact
 ---
 24 month package includes all classes and access to the gym, fingerprints and photo
