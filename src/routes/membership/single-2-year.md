@@ -12,6 +12,7 @@ actionInstruction: Click the button to sign up or contact us via email at
 layout: service
 featured: false
 order: 3
+actionButtonText: Contact us
 actionLink: /contact
 ---
 24 month package includes all classes and access to the gym, fingerprints and photo

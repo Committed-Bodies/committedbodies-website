@@ -14,8 +14,9 @@
                 let summaryList = metadata.summaryList;
                 let order = metadata.order;
                 let featured = metadata.featured;
+                let actionButtonText = metadata.actionButtonText;
                 let route = "membership";
-                return {path, title, price, content, thumbnail, summaryList, route, featured, order};
+                return {path, title, price, content, thumbnail, summaryList, route, featured, order, actionButtonText};
             })
         );
     }

@@ -18,7 +18,9 @@ actionInstruction: Click the button to sign up or contact us via email at
 layout: service
 featured: true
 order: 1
+actionButtonText: Contact us
 actionLink: /contact
+
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
