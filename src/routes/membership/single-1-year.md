@@ -12,6 +12,6 @@ actionInstruction: Click the button to sign up or contact us via email at
 layout: service
 featured: false
 order: 2
-actionLink: https://committedbodiesfitnesscentresa.clubm.mobi/Member/Joining.mvc?mtid=58927&joinAsNew=True
+actionLink: /contact
 ---
 12 month package includes all classes and access to the gym, fingerprints and photo
