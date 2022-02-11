@@ -1,6 +1,6 @@
 ---
 title: Boxing
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644131573/services/DSC08550.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644131573/services/DSC08550.png
 price: R130
 order: 4
 blurb: Fly like a butterfly, sting like a bee.

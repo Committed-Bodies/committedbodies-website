@@ -1,6 +1,6 @@
 ---
 title: Functional
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642663748/services/functional-training-gym-benoni-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642663748/services/functional-training-gym-benoni-scaled.png
 price: R120
 order: 6
 blurb: Come and enjoy any of our classes at a nominal fee of R120 per class.

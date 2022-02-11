@@ -1,6 +1,6 @@
 ---
 title: Self defense
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642509310/services/selfDefenseClasses-committed-Bodies-gym-benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642509310/services/selfDefenseClasses-committed-Bodies-gym-benoni.png
 price: R120
 order: 13
 blurb: This is especially good for women and children, to learn the tactics of

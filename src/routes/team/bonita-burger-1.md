@@ -3,7 +3,7 @@ firstName: Bonita
 fullName: Bonita Burger
 title: Personal trainer
 group: Trainers
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644431969/trainers/Bonita%20Burger/bonita-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644431969/trainers/Bonita%20Burger/bonita-trainer.png
 specialisations:
   - title: Personal trainer
 blurb: Let me help you get fit.

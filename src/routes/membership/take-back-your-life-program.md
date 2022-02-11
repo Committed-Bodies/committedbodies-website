@@ -1,6 +1,6 @@
 ---
 title: Take back your life
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
 price: R2500 pm
 summaryList:
   - listItems: Professional training by the best dedicated trainers

@@ -3,7 +3,7 @@ firstName: Candice
 fullName: Candice Berriman
 title: Yoga instructor
 group: Trainers
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644515559/trainers/Candice/candice-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644515559/trainers/Candice/candice-trainer.png
 specialisations:
   - title: Yoga
 blurb: Yoga adds years to your life and life to your years.

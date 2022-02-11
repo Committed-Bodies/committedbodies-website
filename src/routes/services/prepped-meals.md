@@ -1,6 +1,6 @@
 ---
 title: Prepped meals
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1642661836/services/mealPrep-Benoni-Food-Boxes-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642661836/services/mealPrep-Benoni-Food-Boxes-scaled.png
 price: Contact us for prices
 order: 11
 blurb: With our prepped meals we work according to your BMI to plan your meals

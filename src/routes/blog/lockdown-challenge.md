@@ -3,7 +3,7 @@ title: Lockdown Challenge
 date: 2020-06-13T19:30:59.000Z
 author: Name of Person
 category: Events
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642427564/blog/lockdown-take-back-your-life-winner-scaled_q5xhac.jpg
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642427564/blog/lockdown-take-back-your-life-winner-scaled_q5xhac.jpg
 excerpt: "If you really want it, then lockdown is an opportunity to focus."
 layout: blog
 ---

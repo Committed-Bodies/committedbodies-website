@@ -1,6 +1,6 @@
 ---
 title: Single 2 year
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1642663748/services/functional-training-gym-benoni-scaled.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642663748/services/functional-training-gym-benoni-scaled.png
 price: R300 pm
 summaryList:
   - listItems: 24 month package

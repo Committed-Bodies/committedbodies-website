@@ -1,6 +1,6 @@
 ---
 title: Single 3 year
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1643966006/memberships/membership-gym-couples-Benoni.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1643966006/memberships/membership-gym-couples-Benoni.png
 price: R250 pm
 summaryList:
   - listItems: 36 month package
