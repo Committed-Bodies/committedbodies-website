@@ -5,7 +5,7 @@ price: R2500 pm
 summaryList:
   - listItems: Professional training by the best dedicated trainers
   - listItems: Book to track progress
-  - listItems: T-shirt and buff
+  - listItems: T-shirt
   - listItems: Meal bag
   - listItems: Before, during and after pics
   - listItems: Show day = spray tan, hair, and make-up
@@ -18,9 +18,8 @@ actionInstruction: Click the button to sign up or contact us via email at
 layout: service
 featured: true
 order: 1
-actionButtonText: Contact us
 actionLink: /contact
-
+actionButtonText: Contact us
 ---
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
@@ -47,5 +46,5 @@ Entry fee R3000, R2500 pm
 
 ### Next starting dates:
 
-* June 2022
-* November 2022
+* 7 March 2022
+* 5 September 2022
