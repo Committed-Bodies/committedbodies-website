@@ -22,7 +22,7 @@
             <div class="button actionRow">
                 <!-- <a class="ghost" href="/">Read More</a> -->
                 <a class="ghost" href="{`/membership/${item.path.replace(".md", "")}`}">Read more</a>
-                <!-- <a class="button primary" href="{item.actionLink}">Join</a> -->
+                <a class="button primary" href="{item.actionLink}">Join</a>
             </div>
         </div>
     {/each}
