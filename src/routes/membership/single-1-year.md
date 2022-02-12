@@ -12,7 +12,9 @@ actionInstruction: Click the button to sign up or contact us via email at
 layout: service
 featured: false
 order: 2
-actionButtonText: Contact us
 actionLink: /contact
+actionButtonText: Contact us
 ---
+Registration fee R500 once-off.
+
 12 month package includes all classes and access to the gym, fingerprints and photo
