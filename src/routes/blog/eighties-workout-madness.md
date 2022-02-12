@@ -1,7 +1,7 @@
 ---
 title: Eighties workout madness
 date: 2019-09-07T14:04:27.343Z
-author: Name of Person
+author: Jill Myburgh
 category: News
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642428319/blog/69563516_384908092188974_2308941329901551616_n_omvsod.jpg
 excerpt: Our 80's explosive bootcamp - step aside Jane Fonda!
