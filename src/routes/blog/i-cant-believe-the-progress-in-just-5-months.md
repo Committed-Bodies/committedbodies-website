@@ -1,7 +1,7 @@
 ---
 title: I can't believe the progress in just 5 months!
 date: 2020-07-12T15:39:36.518Z
-author: Annonomous
+author: Anonymous
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642088458/blog/Sonja-BeforeAfter_ioadpc.jpg
 excerpt: I am not saying it will be easy to achieve your greatest dreams, but I
