@@ -1,10 +1,11 @@
 ---
 title: 50 is looming - I'm stronger, fitter, more motivated than ever!
 date: 2020-01-10T13:57:30.123Z
+author: Ilze Du Preez
 category: Transformation
-author: Name of Person
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642427891/blog/IlzeBeforeAfter-Body-For-Life-Keptom-park-Benoni_lsqfpx.jpg
-excerpt: As I’m turning 50 next year I wanted to train with someone who understands the challenges mature ladies face
+excerpt: As I’m turning 50 next year I wanted to train with someone who
+  understands the challenges mature ladies face
 layout: blog
 ---
 I have always loved sport and gym but as we get older, life with its challenges takes over and we simply don’t afford yourself the luxury of personal space & time. Eventually we become demoralised around the effort associated with getting back into shape.

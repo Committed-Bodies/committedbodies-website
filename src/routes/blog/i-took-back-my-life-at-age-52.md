@@ -1,10 +1,11 @@
 ---
 title: I took back my life at age 52
 date: 2019-11-01T13:59:37.128Z
-author: Name of Person
+author: Jill Myburgh
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642428022/blog/Committed_Bodies_Jill_take_back_your_life-e1594533049760_cptjnp.jpg
-excerpt: The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me
+excerpt: The day I turned 52, I looked in the mirror and did not recognise the
+  woman staring back at me
 layout: blog
 ---
 The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me.

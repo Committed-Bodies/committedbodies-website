@@ -1,7 +1,7 @@
 ---
 title: I changed my body - you can too
 date: 2020-04-04T10:00:37.128Z
-author: Name of Person
+author: Jacques Myburgh
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642427758/blog/JacqueBeforeAfter_mwqmce.jpg
 excerpt: I owe it to my family to be the best I can be!

@@ -28,7 +28,7 @@ The transformation is perfect for those first timers who need to learn the funda
 
 > * PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
 > * BOOK TO TRACK PROGRESS
-> * T-SHIRT AND BUFF
+> * T-SHIRT
 > * MEAL BAG
 > * BEFORE, DURING AND AFTER PICS
 > * SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
