@@ -39,7 +39,7 @@ The transformation is perfect for those first timers who need to learn the funda
 
 ### Next starting dates:
 
-* June 2022
-* November 2022
+* 7 March 2022
+* 5 September 2022
 
 <VideoSection {videoData}/>
