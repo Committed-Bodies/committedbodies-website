@@ -11,6 +11,11 @@ actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
+<script>
+  import VideoSection from "$lib/components/VideoSection.svelte"
+  import motivationVideo from "$lib/data/motivationVideo.json"
+  let videoData = motivationVideo.videoData;
+</script> 
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
 Why do this? If it doesn’t challenge you it won’t change you. So make this year to commit to taking your good and making it great!
@@ -36,3 +41,5 @@ The transformation is perfect for those first timers who need to learn the funda
 
 * June 2022
 * November 2022
+
+<VideoSection {videoData}/>

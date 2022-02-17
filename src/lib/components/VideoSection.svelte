@@ -3,7 +3,7 @@
 </script>
 
 
-<section>
+<section class="{videoData.style}">
     <video autoplay muted loop id="myVideo">
         <source src="{videoData.videoUrl}" type="video/mp4">
     </video>
@@ -15,7 +15,7 @@
             <svg class="line" preserveAspectRatio="none" viewbox="-1 -1 6 800" width="6" height="800">
                 <line x="0" y1="0" x2="0" y2="800"></line>
             </svg>
-            <a class="button primary" href="https://www.youtube.com/watch?v=PNIxmOTBQ8c">Watch</a>
+            <a class="button primary" href="{videoData.buttonLink}">Watch</a>
         </div>
     </div>
 </section>
@@ -101,6 +101,11 @@
                 }
             }
         }
+        &.noLine {
+            svg {
+                display: none;
+            }
+        } 
     }
 
     // Responsive styles
