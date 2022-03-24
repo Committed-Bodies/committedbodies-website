@@ -16,6 +16,7 @@ layout: service
   import motivationVideo from "$lib/data/motivationVideo.json"
   let videoData = motivationVideo.videoData;
 </script> 
+
 We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
 
 Why do this? If it doesn’t challenge you it won’t change you. So make this year to commit to taking your good and making it great!
@@ -32,7 +33,7 @@ The transformation is perfect for those first timers who need to learn the funda
 > * MEAL BAG
 > * BEFORE, DURING AND AFTER PICS
 > * SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
-> * EATING PLAN + 2 MEALS PER DAY
+> * EATING PLAN + ONE MEAL PER DAY
 > * 1 SESSION OF SPORTS MASSAGE
 > * PRIZES TO BE WON
 > * A NEW BODY TRANSFORMED
