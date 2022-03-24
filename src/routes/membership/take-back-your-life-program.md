@@ -9,7 +9,7 @@ summaryList:
   - listItems: Meal bag
   - listItems: Before, during and after pics
   - listItems: Show day = spray tan, hair, and make-up
-  - listItems: Eating plan + 2 meals per day
+  - listItems: Eating plan + one meal per day
   - listItems: 1 session of sports massage prizes to be won
   - listItems: A new body transformed
 actionHeading: Book now!
@@ -39,7 +39,7 @@ Entry fee R3000, R2500 pm
 > * MEAL BAG
 > * BEFORE, DURING AND AFTER PICS
 > * SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
-> * EATING PLAN + 2 MEALS PER DAY
+> * EATING PLAN + ONE MEAL PER DAY
 > * 1 SESSION OF SPORTS MASSAGE
 > * PRIZES TO BE WON
 > * A NEW BODY TRANSFORMED
