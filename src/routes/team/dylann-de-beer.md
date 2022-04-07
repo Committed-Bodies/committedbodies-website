@@ -1,9 +1,9 @@
 ---
-firstName: Dylann
-fullName: Dylann De Beer
+firstName: Siyabonga
+fullName: Siyabonga Mdluli
 title: Personal trainer
 group: Trainers
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644513245/trainers/Dylan%20De%20Beer/dylann-trainer.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1649342796/trainers/Siyabonga%20Mdluli/siya-trainer.png
 specialisations:
   - title: Personal trainer
 blurb: I can help you get that body you've been dreaming about!
@@ -14,4 +14,4 @@ actionInstruction: Fill in the contact form or contact us via email at
 actionLink: /contact
 layout: team
 ---
-I am dedicated to my clients by giving 1 on 1 personal training to assist you in reaching your health goals.  I believe the more you put in the better the results. I specialize in fitness training with weights and bootcamp.
+I do group training, kids sports, fitness training and high performance training for any sport fitness.
