@@ -38,6 +38,11 @@
                     "class": "open"
                 },
                 {
+                    "title": "Pay as You Go!",
+                    "link": "/membership/pay-as-you-go",
+                    "class": "open"
+                },
+                {
                     "title":"Schedule",
                     "link":"/membership/schedule",
                     "class": "open"
