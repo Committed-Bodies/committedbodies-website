@@ -28,9 +28,9 @@
 
     
 
-  <div class="timetable">
-    <img src="/assets/images/payg-timetable.jpg">
-  </div>
+  <a class="timetable" rel="external" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">
+    <img src="/assets/images/payg-timetable.jpg" alt="timetable">
+  </a>
 
 </div>
 
@@ -68,8 +68,5 @@
             object-fit: cover;
             object-position: center;
         }
-    }
-    .cta {
-        padding: 0 3vw ;
     }
 </style>
