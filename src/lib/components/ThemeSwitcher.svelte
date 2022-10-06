@@ -58,13 +58,13 @@
       }
     }
     &.dark {
-      .lightRadio {
+      .darkRadio {
         background-color: white;
         color: black;
       }
     }
     &.light {
-      .darkRadio {
+      .lightRadio {
         background-color: black;
         color: white;
       }

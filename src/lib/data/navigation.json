@@ -24,22 +24,34 @@
                     "title":"Services",
                     "link":"/services",
                     "class": "scrollTo "
+                },
+                {
+                    "title":"Blog",
+                    "link":"/blog",
+                    "class": "scrollTo "
+                }
+            ]
+        },
+        {
+            "title":"Promotions",
+            "link":"?modal=1&subNav=2",
+            "subnavClass": "hideSM hideMD",
+            "subnav": [
+                {
+                    "title": "Pay as You Go!",
+                    "link": "/promotions/pay-as-you-go",
+                    "class": "open"
                 }
             ]
         },
         {
             "title":"Membership",
-            "link":"?modal=1&subNav=2",
+            "link":"?modal=1&subNav=3",
             "subnavClass": "hideSM hideMD",
             "subnav": [
                 {
                     "title": "Join",
                     "link": "/membership",
-                    "class": "open"
-                },
-                {
-                    "title": "Pay as You Go!",
-                    "link": "/membership/pay-as-you-go",
                     "class": "open"
                 },
                 {
@@ -59,10 +71,7 @@
                 }
             ]
         },
-        {
-            "title":"Blog",
-            "link":"/blog"
-        },
+        
         {
             "title":"Contact",
             "link":"/contact",

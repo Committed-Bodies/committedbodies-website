@@ -22,11 +22,7 @@
 	<title>Committed Bodies - Weight-loss gym in Benoni</title>
 </svelte:head>
 
-<!-- Hero logo -->
-<HeroLogo></HeroLogo>
 
-<!-- (Intro) Jill's story -->
-<JillsStoryIntro {introData}></JillsStoryIntro>
 
 <div class="pageWrap">
     <div class="pageContentWrap">
@@ -48,6 +44,12 @@
         <ContactSection />
     </div>
 </div>
+
+<!-- Hero logo -->
+<HeroLogo></HeroLogo>
+
+<!-- (Intro) Jill's story -->
+<JillsStoryIntro {introData}></JillsStoryIntro>
 
 <style  lang="scss">
     .contactTitle {

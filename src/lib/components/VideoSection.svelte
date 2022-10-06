@@ -10,12 +10,13 @@
     <div class="contentWrap">
         <header>
             <h2 class="lookAtMeTitle">{videoData.title}</h2>
+            <p class="subtitle">{videoData.subtitle}</p>
         </header>
         <div class="buttonWrap">
             <svg class="line" preserveAspectRatio="none" viewbox="-1 -1 6 800" width="6" height="800">
                 <line x="0" y1="0" x2="0" y2="800"></line>
             </svg>
-            <a class="button primary" href="{videoData.buttonLink}">Watch</a>
+            <a class="button primary" href="{videoData.buttonLink}">{videoData.buttonText}</a>
         </div>
     </div>
 </section>
@@ -26,7 +27,8 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        aspect-ratio: 9 / 16;
+        // aspect-ratio: 9 / 16;
+        height: 100vh;
         overflow: hidden;
         justify-content: center;
         align-items: center;
@@ -42,7 +44,7 @@
             width: 100%;
             height: 100%;
             background: var(--brandGradient);
-            opacity: 0.8;
+            opacity: 0.5;
             z-index:2;
         }
         .contentWrap {
@@ -79,7 +81,7 @@
                     @include buttonPrimary;
                     z-index: 2;
                     font-size: 1.5em;
-                    text-transform: uppercase;
+                    // text-transform: uppercase;
                     font-weight: 900;
                 }
             }
@@ -92,20 +94,22 @@
                 .lookAtMeTitle {
                     font-family: $font_boldEmphasis;
                     font-size: var(--fontSizeXXXL);
-                    line-height: 0.9;
+                    line-height: 0.95;
                     text-align: center;
                     margin-top: 0;
-                    margin-bottom: 0.5em;
+                    // margin-bottom: 0.5em;
                     color: hsl(var(--onImage) / var(--onImageStrength2));
                     max-width: 16ch;
                 }
+                .subtitle {
+                    // font-family: $font_cursiveEmphasis;
+                    text-align: center;
+                    margin-top: 1em;
+                    font-size: 2rem;
+                    color: hsl(var(--onImage) / var(--onImageStrength2));
+                }
             }
         }
-        &.noLine {
-            svg {
-                display: none;
-            }
-        } 
     }
 
     // Responsive styles
@@ -113,7 +117,8 @@
     // MED > SCREENS SECTION LAYOUTS
 	@media screen and (min-width: $mdScreen) {
 		section {
-			aspect-ratio: 16 / 9;
+			// aspect-ratio: 16 / 7;
+            height: 40%;
             .contentWrap {
                 header {
                    .lookAtMeTitle {
