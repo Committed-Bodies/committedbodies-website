@@ -11,7 +11,7 @@
 
 <div class="pageWrap">
   <Header
-    bgImage="/assets/images/PAYG-Timetable-Banner.jpg"
+    bgImage="/assets/images/PAYG-Timetable-Banner.webp"
   >
     Pay as you go!
   </Header>
@@ -29,7 +29,7 @@
     
 
   <a class="timetable" rel="external" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">
-    <img src="/assets/images/payg-timetable.jpg" alt="timetable">
+    <img src="/assets/images/payg-timetable.webp" alt="timetable">
   </a>
 
 </div>
