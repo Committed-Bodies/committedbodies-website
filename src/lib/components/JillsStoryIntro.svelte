@@ -28,7 +28,8 @@
 				start: "center center",
 				end: "+=500px",
 				pin: ".intro .content",
-				anticipatePin: 1
+				anticipatePin: 1,
+				pinSpacer: false
 			}
 		});
 		tl2.from(".layerJillAfter",{duration:1, left:-300, autoAlpha:0},"<");
