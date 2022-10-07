@@ -1,6 +1,6 @@
 ---
 firstName: Steven Pienaar
-fullName: Steven
+fullName: Steven Pienaar
 title: Trainer
 group: Trainers
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644512895/trainers/Dylan%20De%20Beer/dylan-trainer.png
