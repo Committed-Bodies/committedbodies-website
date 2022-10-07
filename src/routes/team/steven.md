@@ -1,5 +1,5 @@
 ---
-firstName: Steven Pienaar
+firstName: "Steven "
 fullName: Steven Pienaar
 title: Trainer
 group: Trainers
