@@ -3,7 +3,7 @@ firstName: Luci
 fullName: Luci Pozyn
 title: Zumba class instructor
 group: Group Class Trainers
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644515620/staff/Gina%20Makumbe/gina.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644515806/staff/Sandra%20Jansen%20Van%20Rensburg/sandra.png
 specialisations:
   - title: S
 blurb: A
