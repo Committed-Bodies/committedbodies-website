@@ -8,7 +8,7 @@ specialisations:
   - title: Group class trainer
 blurb: Let me help you get fit.
 actionHeading: Book a class training session today!!!
-order: 7
+order: 6
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
 actionLink: /contact
