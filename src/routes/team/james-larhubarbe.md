@@ -8,7 +8,7 @@ specialisations:
   - title: Eg. Nutrition
 blurb: James
 actionHeading: Everyday
-order: 7
+order: 25
 actionInstruction: l
 actionLink: /contact
 layout: team

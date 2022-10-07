@@ -8,9 +8,9 @@ specialisations:
   - title: S
 blurb: A
 actionHeading: Contact us for any enquiries.
-order: 8
+order: 20
 actionInstruction: Email - gi-jill@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---
-L﻿uci
+Luci

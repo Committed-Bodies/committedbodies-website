@@ -8,7 +8,7 @@ specialisations:
   - title: Eg. Nutrition
 blurb: Lorem ipsum
 actionHeading: Lorem ipsum
-order: 1
+order: 3
 actionInstruction: Lorem ipsum
 actionLink: Lorem ipsum
 layout: team

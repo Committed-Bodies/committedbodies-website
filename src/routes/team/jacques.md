@@ -11,7 +11,7 @@ specialisations:
 blurb: My name is Jaques Myburgh, co-owner of Committed Bodies together with my
   wife Jill.
 actionHeading: Join our amazing gym today.
-order: 10
+order: 20
 actionInstruction: >
   Fill in the contact form or contact us via email
   at  gi-jill@committedbodies.co.za.

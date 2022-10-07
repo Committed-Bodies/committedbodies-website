@@ -3,7 +3,7 @@
 </script>
 
 <section id="trainers">
-    <h3> Our trainers </h3>
+    <h3> Our Personal Trainers </h3>
     <div class="trainersGallery">
         {#each teamMembers as trainer}
             {#if trainer.metadata.group == "Trainers"}
@@ -25,7 +25,31 @@
     </div>
 </section>
 
-<section id="trainers">
+<section id="class-trainers">
+    <h3> Class Trainers </h3>
+    <div class="trainersGallery">
+        {#each teamMembers as trainer}
+            {#if trainer.metadata.group == "Group Class Trainers"}
+                <div class="trainerWrap">
+                    <img src="{trainer.metadata.thumbnail}" alt="Cool profile pic for {trainer.metadata.firstName}">
+                    <h3 class="h5">{trainer.metadata.fullName}</h3>
+                    <p>{trainer.metadata.blurb}</p>
+                    {#if trainer.metadata.specialisations}
+                    <ul class="specialisations">
+                        {#each trainer.metadata.specialisations as specialisation}
+                            <li>{specialisation.title}</li>
+                        {/each}
+                    </ul>
+                    {/if}
+                    
+                    <a class="button" href="{`/team/${trainer.path.replace(".md", "")}`}" alt="Book {trainer.metadata.fistName}">Read more about {trainer.metadata.firstName}</a>
+                </div>
+            {/if}
+        {/each}
+    </div>
+</section>
+
+<section id="personnel">
     <h3> Our personnel </h3>
     <div class="trainersGallery">
         {#each teamMembers as trainer}

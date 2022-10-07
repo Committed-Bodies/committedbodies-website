@@ -8,7 +8,7 @@ specialisations:
   - title: Kick-boxing
 blurb: Every champion was once a contender who refused to give up.
 actionHeading: Book a kick-boxing class today!!!
-order: 9
+order: 30
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
 actionLink: /contact
