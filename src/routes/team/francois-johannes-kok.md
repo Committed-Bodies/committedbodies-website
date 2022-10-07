@@ -1,6 +1,6 @@
 ---
 firstName: FJ
-fullName: Francois Johannes Kok
+fullName: FJ Kok
 title: Trainer
 group: Trainers
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644512895/trainers/Dylan%20De%20Beer/dylan-trainer.png
