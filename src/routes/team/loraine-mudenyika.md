@@ -8,7 +8,7 @@ specialisations:
   - title: Receptionist
 blurb: Always here to greet you with a happy smile.
 actionHeading: Contact us for any enquiries.
-order: 4
+order: 12
 actionInstruction: |-
   Phone - 079 837 3780
   Email - gi-jill@committedbodies.co.za
