@@ -9,7 +9,7 @@ specialisations:
   - title: Manager
 blurb: I keep everything running smoothly.
 actionHeading: Contact us for any enquiries
-order: 2
+order: 12
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
 actionLink: /contact
