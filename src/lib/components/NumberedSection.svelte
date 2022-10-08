@@ -1,7 +1,9 @@
 <script>
     export let section;
 </script>
+<!-- <section style="background-image:url({section.background});"> -->
 <section>
+	<img class="bgImage" src="{section.background}" alt="">
 	<!-- <slot name="contentPrimary"></slot> -->
 	<div class="contentPrimary">
 		<h3 class="h1">{section.title}</h3>
@@ -30,13 +32,25 @@
 
 <style lang="scss">
 	section {
-		// max-width: 70em;
-    margin: 0 auto;
+		position: relative;
+    	margin: 0 auto;
 		display: grid;
 		grid-template-columns: 1fr 4em 1fr;
-		grid-template-rows: 9em auto auto;
+		grid-template-rows: 30em auto auto;
 		grid-template-areas: "left numbers right";
 		padding: 0;
+		
+		.bgImage {
+			grid-column: 1 / span 3;
+			grid-row: 1;
+			z-index: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		
+
 		.numbers {
 			position: relative;
 			grid-area: numbers;
@@ -46,7 +60,7 @@
 			justify-content: flex-start;
 			align-items: center;
 			height: 100%;
-			z-index: 1;
+			
 			svg {
 				height: 100%;
 				stroke-width: 4px;
@@ -82,7 +96,6 @@
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
 			}
 			.subtitle {
-				font-family: $font_cursiveEmphasis;
 				margin-top: 1em;
 				color: hsl(var(--onNeutral) / var(--onNeutralStrength1));
 			}
@@ -124,7 +137,19 @@
 		section {
 			grid-template-columns: 1fr 4em 1fr;
 			grid-template-areas: "left numbers right";
-			grid-template-rows: unset;
+			grid-template-rows: auto 30em;
+			z-index: 1;
+
+			.bgImage {
+				grid-column: 1 / span 3;
+				grid-row: 2;
+				z-index: 0;
+			}
+
+			.numbers {
+				z-index: 3;
+			}
+			
 			.contentPrimary {
 				background-color: transparent;
 				grid-row: 1;
@@ -140,6 +165,11 @@
 		}
 		// Alternate image and text on larger screens
 		:global(section:nth-of-type(odd)) {
+			&:before {
+				background: var(--brandGradient2FromRight);
+				right: 0;
+				top: 0;
+			}
 			.contentPrimary {
 				grid-area: right;
 			}
@@ -148,6 +178,9 @@
 			}
 		}
 		:global(section:nth-of-type(even)) {
+			&:before {
+				background: var(--brandGradient2FromLeft);
+			}
 			.contentPrimary {
 				grid-area: left;
 			}

@@ -23,7 +23,8 @@
       "secondaryButtonText": "",
       "subtitle": "Not a will-power comittment",
       "title": "Make a character commitment",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422527/ui-assets/homePageSections/kettlebell-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422527/ui-assets/homePageSections/kettlebell-LOGO.png",
+      "background": "/assets/images/moveThese/pexels-ketut-subiyanto-4720254.jpg"
     },
     {
       "secondaryButtonLink": "/membership",
@@ -34,7 +35,8 @@
       "secondaryButtonText": "Memberships",
       "subtitle": "Select a membership",
       "title": "Put some skin in the game",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422532/ui-assets/homePageSections/boxing-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422532/ui-assets/homePageSections/boxing-LOGO.png",
+      "background": "/assets/images/moveThese/Lose-weight-in-Benoni.jpg"
     },
     {
       "secondaryButtonLink": "/team",
@@ -45,7 +47,8 @@
       "secondaryButtonText": "Our trainers",
       "subtitle": "Book a trainer",
       "title": "Find a mentor",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png",
+      "background": "static/assets/images/moveThese/pexels-pixabay-414029.jpg"
     },
     {
       "secondaryButtonLink": "/services",
@@ -56,7 +59,8 @@
       "secondaryButtonText": "Our services",
       "subtitle": "One day at a time",
       "title": "Change your habits",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/ball-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/ball-LOGO.png",
+      "background": "/assets/images/moveThese/pexels-tima-miroshnichenko-5327508.jpg"
     },
     {
       "secondaryButtonLink": "/blog",
@@ -67,7 +71,8 @@
       "secondaryButtonText": "News and Events",
       "subtitle": "Find a supportive community",
       "title": "Make it fun",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/zumba-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/zumba-LOGO.png",
+      "background": "/assets/images/moveThese/bruce-mars-ZXq7xoo98b0-unsplash.jpg"
     },
     {
       "secondaryButtonLink": "",
@@ -76,9 +81,10 @@
       "text": "<p>Our flagship 12 week transformation program is designed to sculpt your body, improve fitness and increase your strength. We can and will help you change your body and take back your life.</p>",
       "primaryButtonLink": "/services/take-back-your-life",
       "secondaryButtonText": "",
-      "subtitle": "9 months to Take back your life",
+      "subtitle": "3 months to Take back your life",
       "title": "Celebrate your success",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png",
+      "background": "static/assets/images/moveThese/pexels-frans-van-heerden-1566414.jpg"
     }
   ]
 }

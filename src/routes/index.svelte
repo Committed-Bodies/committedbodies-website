@@ -93,10 +93,19 @@
                 padding: 1rem 2rem;
                 text-align: center;
                 width: auto;
+                background-color: hsl(var(--neutralHS) var(--neutralL));
+                z-index: 5;
             }
         }
     }
-    :global(.pageContentWrap section:nth-last-child(3) .contentSecondary) {
-		margin-bottom: 9rem;
+    :global(.pageContentWrap section:nth-last-child(3) .numbers) {
+		height: 110%;
 	}
+    :global(.pageContentWrap section:nth-last-child(3)) {
+		padding-bottom: 10%;
+	}
+
+    section{
+        
+    }
 </style>

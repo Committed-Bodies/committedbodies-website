@@ -307,6 +307,10 @@ body {
 	--onGradientStrength1: 0.85;
 	--onGradientStrength2: 0.95;
 	--onGradientStrength3: 1; //No transparency
+
+	// LIGHT GRADIENT 2: uses opacity for font
+	--brandGradient2FromLeft: #{$brandGradient2FromLeft};
+	--brandGradient2FromRight: #{$brandGradient2FromRight};
 	
 	// LIGHT ONIMAGE: Font color over an image uses opacity
 	--onImage: 100 100% 100%;

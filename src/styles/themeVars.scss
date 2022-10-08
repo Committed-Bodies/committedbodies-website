@@ -61,6 +61,8 @@ $brandAccent: hsl(22, 98%, 54%);
 $brandAccentAlt: hsl(0, 1%, 17%);
 $neutralLight: hsl(49, 41%, 90%);
 $brandGradient: linear-gradient(180deg, hsl(180, 53%, 38%) 0%, hsl(119, 44%, 45%) 36.66%, hsl(77, 59%, 54%) 95.45%);
+$brandGradient2FromLeft: linear-gradient(88deg, #319686 0%, #8bc244 30%, #f4f4f44d 90%);
+$brandGradient2FromRight: linear-gradient(-88deg, #319686 0%, #8bc244 30%, #f4f4f44d 90%);
 
 $brandAccentAltDark: hsl(0, 1%, 10%);
 $brandGradientDark: linear-gradient(180deg, hsl(0, 1%, 22%) 0%, hsl(0, 1%, 27%) 60.66%, hsl(0, 1%, 20%) 95.45%);
