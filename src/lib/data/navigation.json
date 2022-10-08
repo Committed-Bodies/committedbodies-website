@@ -41,6 +41,11 @@
                     "title": "Pay as You Go!",
                     "link": "/promotions/pay-as-you-go",
                     "class": "open"
+                },
+                {
+                    "title": "Sunbed Special",
+                    "link": "/promotions/sunbed",
+                    "class": "open"
                 }
             ]
         },

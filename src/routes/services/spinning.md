@@ -1,7 +1,7 @@
 ---
-title: Virtual spinning
+title: Spinning
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642663368/services/spinning-committed-bodies-benoni-2.png
-price: R120
+price: Enquire
 order: 17
 blurb: Train to professional videos and lively music.
 actionHeading: Book now!
@@ -11,4 +11,4 @@ actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
-Challenge a few friends to a virtual spinning class and have fun while losing weight.  Train to professional videos and lively music –  This is great fun to do.  No need to have a trainer.
+Challenge a few friends to a spinning class and have fun while losing weight.  Train to professional videos and lively music.

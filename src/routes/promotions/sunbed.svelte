@@ -6,21 +6,21 @@
   import contactData from '$lib/data/contactPage.json';
   let contacts = contactData.contacts;
 
-  let introData = promotions.introPayAsYouGo;
+  let introData = promotions.introSunbed;
 </script>
 
 <div class="pageWrap">
   <Header
-    bgImage="/assets/images/PAYG-Timetable-Banner.webp"
+    bgImage="/assets/images/moveThese/BG-UV-SUNBEDS.jpg"
   >
-    Pay as you go!
+    10 X Sunbed for R400!
   </Header>
 
   <div class="contentWrap">
     <div class="text">
         <PageIntroSection {introData} />
         <div class="buttonsWrap">
-            <a rel="external" class="button" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">Download a printable timetable</a>
+            <!-- <a rel="external" class="button" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">Download a printable timetable</a> -->
             <a class="button primary" href="tel:{contacts.phone}">Call to book</a>
         </div>
     </div>
@@ -28,8 +28,8 @@
 
     
 
-  <a class="timetable" rel="external" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">
-    <img src="/assets/images/payg-timetable.webp" alt="timetable">
+  <a class="imgWrap" href="tel:{contacts.phone}">
+    <img src="/assets/images/moveThese/tanning-offer.gif" alt="sunbed-offer">
   </a>
 
 </div>
@@ -38,7 +38,7 @@
     .contentWrap {
         padding: 3vw 3vw 0 0;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
     .text {
@@ -58,7 +58,7 @@
 
         }
     }
-  .timetable {
+  .imgWrap {
         display: flex;
         justify-content: center;
         align-items: center;
