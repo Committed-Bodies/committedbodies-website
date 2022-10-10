@@ -1,6 +1,6 @@
 ---
 title: Step Class
-thumbnail: static/assets/images/moveThese/step.jpeg
+thumbnail: /assets/images/moveThese/step.jpeg
 price: Enquire
 order: 4
 blurb: Step it up!

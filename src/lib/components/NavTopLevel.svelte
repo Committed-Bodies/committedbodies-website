@@ -147,6 +147,7 @@
 				justify-content: flex-start;
 				align-items: flex-start;
 				li {
+					line-height: 1.4;
 					a.LinkLevel1 {
 						font-size: var(--fontSizeH5);
 						color: hsl(var(--onGradient) / var(--onGradientStrength1));

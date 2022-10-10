@@ -48,7 +48,7 @@
       "subtitle": "Book a trainer",
       "title": "Find a mentor",
       "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png",
-      "background": "static/assets/images/moveThese/pexels-pixabay-414029.jpg"
+      "background": "/assets/images/moveThese/pexels-pixabay-414029.jpg"
     },
     {
       "secondaryButtonLink": "/services",
@@ -84,7 +84,7 @@
       "subtitle": "3 months to Take back your life",
       "title": "Celebrate your success",
       "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png",
-      "background": "static/assets/images/moveThese/pexels-frans-van-heerden-1566414.jpg"
+      "background": "/assets/images/moveThese/pexels-frans-van-heerden-1566414.jpg"
     }
   ]
 }

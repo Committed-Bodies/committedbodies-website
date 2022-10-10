@@ -3,7 +3,11 @@
 </script>
 <!-- <section style="background-image:url({section.background});"> -->
 <section>
-	<img class="bgImage" src="{section.background}" alt="">
+	<div class="bgImage" style="background-image:url({section.background})">
+
+	</div>
+	<!-- <img class="bgImage" src="{section.background}" alt=""> -->
+
 	<!-- <slot name="contentPrimary"></slot> -->
 	<div class="contentPrimary">
 		<h3 class="h1">{section.title}</h3>
@@ -46,8 +50,11 @@
 			z-index: 0;
 			width: 100%;
 			height: 100%;
-			object-fit: cover;
-			object-position: center;
+			// object-fit: cover;
+			// object-position: center;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
 		}
 		
 

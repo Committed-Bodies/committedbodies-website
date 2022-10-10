@@ -48,38 +48,31 @@
 <!-- Hero logo -->
 <HeroLogo></HeroLogo>
 
-<section class="intro">
-	<div class="introTitle">
-		<h1 class="xxxl">{introData.title}</h1>
-		<p class="subtitle h2">{introData.subtitle}</p>
-	</div>
-</section>
-
 <!-- (Intro) Jill's story -->
 <JillsStoryIntro {introData}></JillsStoryIntro>
 
 <style  lang="scss">
-    section.intro {
-		padding: 3vw;
-		position: relative;
-		width: 100%;
+    // section.intro {
+	// 	padding: 3vw;
+	// 	position: relative;
+	// 	width: 100%;
 
-		.introTitle {
-			padding: 6vw 0;
-			h1 {
-				margin: 0;
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
-				text-align: center;
-				font-family: $font_boldEmphasis;
-			}
-			.subtitle {
-				color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
-				margin: 0.5em 0;
-				text-align: center;
-				font-family: $font_cursiveEmphasis;
-			}
-		}
-    }
+	// 	.introTitle {
+	// 		padding: 6vw 0;
+	// 		h1 {
+	// 			margin: 0;
+	// 			color: hsl(var(--onNeutral) / var(--onNeutralStrength3));
+	// 			text-align: center;
+	// 			font-family: $font_boldEmphasis;
+	// 		}
+	// 		.subtitle {
+	// 			color: hsl(var(--onNeutral) / var(--onNeutralStrength2));
+	// 			margin: 0.5em 0;
+	// 			text-align: center;
+	// 			font-family: $font_cursiveEmphasis;
+	// 		}
+	// 	}
+    // }
     .contactTitle {
         h2 {
             display: flex;
@@ -104,8 +97,4 @@
     :global(.pageContentWrap section:nth-last-child(3)) {
 		padding-bottom: 10%;
 	}
-
-    section{
-        
-    }
 </style>
