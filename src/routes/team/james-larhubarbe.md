@@ -8,14 +8,14 @@ specialisations:
   - title: Aerobics
   - title: Functional Fitness
   - title: Spinniing
-blurb: "I’m James, aka “The Punisher”, a Trainer specialising in Group training "
+blurb: "Hi Peeps. I’m James, aka “The Punisher” "
 actionHeading: Join my classes today and let’s do this!!!!!🌹
 order: 25
 actionInstruction: Book a class today!
 actionLink: /contact
 layout: team
 ---
-Hi Peeps, I’m James aka “The Punisher”. I’m a Trainer specialising in Group training in the areas of: 
+I’m a Trainer specialising in Group training in the areas of: 
 1. Aerobics - High and Low-intensity Cardio training such as HIIT, Tabata, Cardiolates, Kickboxing, Xtreme burn workout, and Bootcamp; 
 2. Functional training with an emphasis on Flexibility, mobility, and building core strength, and YogiStretch - stretching with a hint of Yoga. 
 3. Spinning- I’m passionate about Spinning: It’s one of the high-intensity training classes where you burn tons of calories, build stronger leg, glute, and core muscles. 
