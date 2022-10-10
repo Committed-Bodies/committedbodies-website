@@ -6,11 +6,11 @@ group: Trainers
 thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Personal training
-blurb: f
-actionHeading: Do it
+blurb: I ama personal trainer.
+actionHeading: Tabula Rassa
 order: 2
-actionInstruction: d
-actionLink: e
+actionInstruction: Come and train with me.
+actionLink: /contact
 layout: team
 ---
-r
+I﻿ am Morne Lourens. I am a personal trainer.
