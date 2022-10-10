@@ -19,7 +19,7 @@ I'm a personal trainer specialising in:
 Strength development
 strength-based rehabilitation - for clients that want to improve following an injury and prevent further injuries, not just recover from it.
 
-I have 13 years experience and have worked with various clients and athletes ranging from powerlifters, and various team sports, and clients wishing to increase their functional fitness and general health. 
+I have 13 years of experience and have worked with various athletes from powerlifters, and various team sports, as well as clients, wishing to increase their functional fitness and general health. 
 
 I have extensive knowledge of supplements, nutrition, and herbal remedies to keep clients at peak performance and feeling great in and outside the gym.
 
