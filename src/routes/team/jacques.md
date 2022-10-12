@@ -8,8 +8,7 @@ specialisations:
   - title: CEO
   - title: Tool Maker
   - title: Civil Engineer
-blurb: My name is Jacques Myburgh, co-owner of Committed Bodies together with my
-  wife Jill.
+blurb: I am Jacques Myburgh, co-owner of Committed Bodies together with my wife Jill.
 actionHeading: Join our amazing gym today.
 order: 20
 actionInstruction: >
@@ -18,7 +17,7 @@ actionInstruction: >
 actionLink: /contact
 layout: team
 ---
-My name is Jacques Myburgh, co-owner together with my wife Jill of Committed Bodies.
+Hi, I am Jacques Myburgh, co-owner together with my wife Jill of Committed Bodies.
 
 I am a tool maker by trade and I have a degree in civil engineering.
 I got interested in healthy living when I saw the results of Jill changing our lifestyle to eating and training healthily. In a matter of 4 weeks, I lost 10kg on a body challenge which I won and since then, I have enjoyed the benefits of this lifestyle.
