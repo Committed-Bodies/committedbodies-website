@@ -16,10 +16,9 @@ Always use responsibly
 
 Some tips, etiquette, and advice
 
-
 * Always wipe the sunbed yourself before and after any session. 
   No cosmetics, makeup, or medicinal topical creams.
-  Use sunscreen for indoor tanning.
+  Use sunscreen for indoor tanning
   Know your own skin - always keep all sessions short.
   10 minutes equates to 2+ sun hours
   Very sensitive skin  - do not use, stay out of the sun - you are not likely to tan either way.
