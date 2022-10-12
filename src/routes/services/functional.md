@@ -1,9 +1,9 @@
 ---
-title: Functional
+title: Functional fitness
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642663748/services/functional-training-gym-benoni-scaled.png
-price: R120
+price: Enquire
 order: 6
-blurb: Come and enjoy any of our classes at a nominal fee of R120 per class.
+blurb: This is strength training that prepares your body for those daily activities.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   gi-jill@committedbodies.co.za
@@ -11,4 +11,8 @@ actionLink: /contact
 actionButtonText: Contact us
 layout: service
 ---
-Come and enjoy any of our classes at a nominal fee of R120 per class.
+
+
+Functional fitness is **strength training that prepares your body for daily life activities.**
+
+Activities like hauling, pushing and pulling, lifting, twisting, loading, and squatting
