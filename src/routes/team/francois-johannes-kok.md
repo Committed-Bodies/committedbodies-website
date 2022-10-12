@@ -7,7 +7,7 @@ thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Weight training
   - title: Sports nutrition
-blurb: NO matter your goal we can get you there!
+blurb: No matter your goal we can get you there!
 actionHeading: Lorem ipsum
 order: 4
 actionInstruction: Come and train with me and let's do this!
