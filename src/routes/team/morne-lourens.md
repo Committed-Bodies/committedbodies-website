@@ -6,7 +6,7 @@ group: Trainers
 thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Personal training
-blurb: I ama personal trainer.
+blurb: I am a personal trainer.
 actionHeading: Tabula Rassa
 order: 2
 actionInstruction: Come and train with me.
