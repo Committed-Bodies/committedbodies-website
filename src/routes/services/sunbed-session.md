@@ -2,7 +2,7 @@
 title: Sunbed session
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1665575169/CB_sunbed.png
 price: R40 per session,  or R400- pay for 10 get 12
-order: 20
+order: 16
 blurb: |-
   Avoid the burn, be Summer ready - because even your skin needs protection.
   Every day's a sun day!
