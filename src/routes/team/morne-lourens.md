@@ -1,7 +1,7 @@
 ---
 firstName: Morne
 fullName: Morne Lourens
-title: Trainer
+title: Manager
 group: Trainers
 thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
@@ -13,4 +13,4 @@ actionInstruction: Come and train with me.
 actionLink: /contact
 layout: team
 ---
-I﻿ am Morne Lourens. I am a personal trainer.
+I﻿ am Morne Lourens, the gym manager. I am a personal trainer
