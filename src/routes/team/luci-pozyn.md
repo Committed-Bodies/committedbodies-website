@@ -7,7 +7,7 @@ thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Choreographer
   - title: Fitness Instructor
-blurb: A
+blurb: I am passionate about sharing Zumba with you!
 actionHeading: Contact us for any enquiries.
 order: 20
 actionInstruction: Email - gi-jill@committedbodies.co.za
