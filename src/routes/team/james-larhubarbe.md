@@ -3,7 +3,7 @@ firstName: James
 fullName: James Larhubarbe
 title: Group class trainer
 group: Group Class Trainers
-thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644512895/trainers/Dylan%20De%20Beer/dylan-trainer.png
+thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Aerobics
   - title: Functional Fitness
