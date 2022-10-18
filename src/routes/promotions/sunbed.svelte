@@ -13,7 +13,7 @@
   <Header
     bgImage="/assets/images/moveThese/BG-UV-SUNBEDS.jpg"
   >
-    10 X Sunbed for R400!
+    12 X Sunbed for R400!
   </Header>
 
   <div class="contentWrap">
@@ -29,7 +29,7 @@
     
 
   <a class="imgWrap" href="tel:{contacts.phone}">
-    <img src="/assets/images/moveThese/tanning-offer.gif" alt="sunbed-offer">
+    <img src="/assets/images/tanning-offer.gif" alt="sunbed-offer">
   </a>
 
 </div>
