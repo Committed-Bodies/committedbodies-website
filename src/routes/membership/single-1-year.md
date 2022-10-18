@@ -1,7 +1,7 @@
 ---
 title: Single 1 year
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1643965379/memberships/gym-membership-Benoni-Kempton-park-SINGLE-406x250.png
-price: R350 pm
+price: R400 pm
 summaryList:
   - listItems: 12 month package
   - listItems: Access to all classes and to the gym
