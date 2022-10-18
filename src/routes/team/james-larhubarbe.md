@@ -7,7 +7,7 @@ thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
   - title: Aerobics
   - title: Functional Fitness
-  - title: Spinniing
+  - title: Spinning
 blurb: "Hi Peeps. I’m James, aka “The Punisher” "
 actionHeading: Join my classes today and let’s do this!!!!!🌹
 order: 25
