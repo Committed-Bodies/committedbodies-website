@@ -7,7 +7,7 @@ blurb: Zumba dance class. Shake it off, burn calories, and have a blast while
   doing it.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: https://committedbodies.netlify.app/contact
 actionButtonText: Contact us
 layout: service

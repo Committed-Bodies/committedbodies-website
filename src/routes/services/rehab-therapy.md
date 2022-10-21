@@ -6,7 +6,7 @@ order: 12
 blurb: We have experts when it comes to any form of rehabilitation.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 actionButtonText: Contact us
 layout: service

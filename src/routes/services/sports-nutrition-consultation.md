@@ -7,7 +7,7 @@ blurb: This is a specialized field we offer, to assist you with your
   requirements albeit professional training or just being an exerciser.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 actionButtonText: Contact us
 layout: service

@@ -10,7 +10,7 @@ blurb: Let me help you get fit.
 actionHeading: Book a class training session today!!!
 order: 15
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---

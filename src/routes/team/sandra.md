@@ -11,7 +11,7 @@ blurb: I keep everything running smoothly.
 actionHeading: Contact us for any enquiries
 order: 25
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---

@@ -14,7 +14,7 @@ summaryList:
   - listItems: A new body transformed
 actionHeading: Book now!
 actionInstruction: Click the button to sign up or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 layout: service
 featured: true
 order: 1

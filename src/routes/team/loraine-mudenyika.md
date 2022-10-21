@@ -11,7 +11,7 @@ actionHeading: Contact us for any enquiries.
 order: 30
 actionInstruction: |-
   Phone - 079 837 3780
-  Email - gi-jill@committedbodies.co.za
+  Email - bookings@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---

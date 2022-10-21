@@ -6,7 +6,7 @@ order: 7
 blurb: HIIT - A great way to get, and stay in shape!
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 actionButtonText: Contact us
 layout: service

@@ -6,7 +6,7 @@ order: 10
 blurb: Our personal trainers are highly qualified in their individual fields of
   expertise.
 actionHeading: Book now!
-actionInstruction: Check out our trainers or contact us via email at gi-jill@committedbodies.co.za
+actionInstruction: Check out our trainers or contact us via email at bookings@committedbodies.co.za
 actionLink: /team
 actionButtonText: Personal trainers
 layout: service

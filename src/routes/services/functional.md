@@ -7,7 +7,7 @@ blurb: This is strength training that prepares your body for those normal daily
   activities.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 actionButtonText: Contact us
 layout: service

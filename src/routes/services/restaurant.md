@@ -8,7 +8,7 @@ blurb: A new addition, where we welcome you to a Peri Frangos Shisa Nayama.
   country to guarantee you a uniquely South African feast experience!
 actionHeading: View our menu
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /uploads/menu.pdf
 actionButtonText: Check out our menu
 layout: service

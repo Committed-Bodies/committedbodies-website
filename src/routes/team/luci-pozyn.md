@@ -10,7 +10,7 @@ specialisations:
 blurb: I am passionate about sharing Zumba with you!
 actionHeading: Contact us for any enquiries.
 order: 20
-actionInstruction: Email - gi-jill@committedbodies.co.za
+actionInstruction: Email - bookings@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---

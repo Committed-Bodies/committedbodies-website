@@ -8,7 +8,7 @@ summaryList:
   - listItems: Fingerprints and photo
 actionHeading: Join now!
 actionInstruction: Click the button to sign up or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 layout: service
 featured: false
 order: 3

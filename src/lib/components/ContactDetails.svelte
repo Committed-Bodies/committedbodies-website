@@ -14,6 +14,16 @@
         </a>
     </li>
     <li>
+        <a href="https://wa.me/27798373780" class="contacts_phone">
+            <i>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                    <use xlink:href="#message"></use>
+                </svg>
+            </i>
+            {contacts.whatsapp} (Whatsapp)
+        </a>
+    </li>
+    <li>
         <a href="mailto:{contacts.email}">
             <i>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">

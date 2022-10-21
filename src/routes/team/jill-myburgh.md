@@ -12,7 +12,7 @@ blurb: I will help you take back your life!
 actionHeading: Book a personal training session today!!!
 order: 1
 actionInstruction: Fill in the contact form or contact us via email at
-  gi-jill@committedbodies.co.za
+  bookings@committedbodies.co.za
 actionLink: /contact
 layout: team
 ---

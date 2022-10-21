@@ -13,7 +13,7 @@ actionHeading: Join our amazing gym today.
 order: 20
 actionInstruction: >
   Fill in the contact form or contact us via email
-  at  gi-jill@committedbodies.co.za.
+  at  bookings@committedbodies.co.za.
 actionLink: /contact
 layout: team
 ---
