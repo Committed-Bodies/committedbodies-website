@@ -7,11 +7,10 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_au
 specialisations:
   - title: Group class trainer
 blurb: Let me help you get fit.
-actionHeading: Book a class training session today!!!
+actionHeading: Book a class training session today!
 order: 15
-actionInstruction: Fill in the contact form or contact us via email at
-  bookings@committedbodies.co.za
-actionLink: /contact
+actionInstruction: Click the button below to open a booking email
+actionLink: mailto:bookings@committedbodies.co.za?subject=Book a class with Bonita
 layout: team
 ---
 A trainer can give you the tools and support that you need to reach a health and fitness goal.

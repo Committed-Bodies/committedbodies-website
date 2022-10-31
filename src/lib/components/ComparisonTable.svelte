@@ -1,4 +1,6 @@
 <script>
+    import contactData from '$lib/data/contactPage.json';
+    let contacts = contactData.contacts;
     export let comparisonData;
     comparisonData.sort((a, b) => (a.order > b.order) ? 1 : -1);
 </script>
@@ -21,9 +23,10 @@
             </ul>
             <div class="button actionRow">
                 <!-- <a class="ghost" href="/">Read More</a> -->
-                <a class="ghost" href="{`/membership/${item.path.replace(".md", "")}`}">Read more</a>
-                <a class="button primary" href="{item.actionLink}">Join</a>
+                <!-- <a class="ghost" href="{`/membership/${item.path.replace(".md", "")}`}">Read more</a> -->
+                <a href="mailto:{contacts.email}?subject=Membership enquiry - {item.title}" class="button primary">Join</a>
             </div>
+            
         </div>
     {/each}
 </section>

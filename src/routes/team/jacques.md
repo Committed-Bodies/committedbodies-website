@@ -12,9 +12,8 @@ blurb: I am Jacques Myburgh, co-owner of Committed Bodies together with my wife 
 actionHeading: Join our amazing gym today.
 order: 20
 actionInstruction: >
-  Fill in the contact form or contact us via email
-  at  bookings@committedbodies.co.za.
-actionLink: /contact
+  Click the button below to open an email
+actionLink: mailto:bookings@committedbodies.co.za?subject=Please send me more information
 layout: team
 ---
 Hi, I am Jacques Myburgh, co-owner together with my wife Jill of Committed Bodies.

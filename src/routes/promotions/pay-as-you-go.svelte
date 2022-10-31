@@ -29,7 +29,7 @@
     
 
   <a class="timetable" rel="external" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">
-    <img src="/assets/images/payg-timetable.webp" alt="timetable">
+    <img src="https://res.cloudinary.com/committed-bodies/image/upload/q_auto/v1667244558/CB_NOV_TIMETABLEFB2.webp" alt="timetable">
   </a>
 
 </div>

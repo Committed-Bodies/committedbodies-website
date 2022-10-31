@@ -32,12 +32,15 @@
             <div class="action">
                 <h3>{actionHeading}</h3>
                 <p>{actionInstruction}</p>
-                <a class="button primary" href="{actionLink}">Complete Sign Up Form</a>
+                <a class="button primary" href="{actionLink}">Send Email!</a>
             </div>
         </div>
 </div>
 
-<style>
+<style global>
+    .content p:first-child {
+        margin-bottom: 4rem;
+    }
     .pageWrap .blurb {
         text-align: center;
         font-size: 1.5rem;

@@ -10,9 +10,8 @@ specialisations:
 blurb: I keep everything running smoothly.
 actionHeading: Contact us for any enquiries
 order: 25
-actionInstruction: Fill in the contact form or contact us via email at
-  bookings@committedbodies.co.za
-actionLink: /contact
+actionInstruction: Click the button below to open an email
+actionLink: mailto:bookings@committedbodies.co.za?subject=Please send me more information
 layout: team
 ---
 Sandra sees to the day to day running of the gym and accounts.

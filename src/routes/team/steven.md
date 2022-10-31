@@ -9,10 +9,10 @@ specialisations:
   - title: Strength-based rehabilitation
   - title: Training for 60+ years of age
 blurb: I follow a strength-based approach to weight loss and body transformation
-actionHeading: "Join my training "
+actionHeading: "Join me for personal training"
 order: 3
-actionInstruction: Lorem ipsum
-actionLink: /contact
+actionInstruction: Click this button to open a booking email.           
+actionLink: mailto:bookings@committedbodies.co.za?subject=Book a session with Steven
 layout: team
 ---
 I'm a personal trainer specialising in:

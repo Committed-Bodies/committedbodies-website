@@ -8,15 +8,15 @@ specialisations:
   - title: Choreographer
   - title: Fitness Instructor
 blurb: I am passionate about sharing Zumba with you!
-actionHeading: Contact us for any enquiries.
+actionHeading: Book a Zumba class today!
 order: 20
-actionInstruction: Email - bookings@committedbodies.co.za
-actionLink: /contact
+actionInstruction: Click the button below to open a booking email
+actionLink: mailto:bookings@committedbodies.co.za?subject=Book a Zumba class
 layout: team
 ---
 Hi, I am Luci.
 
-I﻿ am a fitness instructor who absolutely loves teaching Zumba!
-E﻿very class is like a party night, just that it's a workout.
+I am a fitness instructor who absolutely loves teaching Zumba!
+Every class is like a party night, just that it's a workout.
 
-J﻿oin my class and let's have blast! 
+Join my class and let's have blast! 

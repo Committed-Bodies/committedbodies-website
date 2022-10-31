@@ -7,11 +7,10 @@ thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_au
 specialisations:
   - title: Yoga
 blurb: Yoga adds years to your life and life to your years.
-actionHeading: Join a yoga class with Candice today!!!
+actionHeading: Join a yoga class with Candice today!
 order: 10
-actionInstruction: Fill in the contact form or contact us via email at
-  bookings@committedbodies.co.za
-actionLink: /contact
+actionInstruction: Click the button below to open a booking email.
+actionLink: mailto:bookings@committedbodies.co.za?subject=Book a Yoga Class
 layout: team
 ---
 I am dedicated to helping others achieve their fitness goals and pays attention to the small details of my clients needs. My passions include teaching yoga, helping people feel better in their bodies and improving their range of motion, flexibility and overall mental and physical health.
