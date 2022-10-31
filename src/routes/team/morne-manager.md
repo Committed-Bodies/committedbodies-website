@@ -14,7 +14,7 @@ actionInstruction: |
 actionLink: mailto:bookings@committedbodies.co.za?subject=Please send me more information
 layout: team
 ---
-I am Morne Lourens, Manager of Committed Bodies.
+
 I﻿ have 29 years of service in the hospitality and hygiene sectors. Over the past several years I have built up a diverse portfolio of experience at the Executive Level, General Management, Operation, and facility management. 
 
-My commitment to you is that our members will be given a fitness experience and an environment that is functional, friendly, personal, safe, and free from judgment.
+My commitment to you is that our members will be given a personalised fitness experience and an environment that is functional, friendly, personal, safe, and free from judgment.
