@@ -20,7 +20,7 @@
     <div class="text">
         <PageIntroSection {introData} />
         <div class="buttonsWrap">
-            <a rel="external" class="button" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">Download a printable timetable</a>
+            <a rel="external" class="button" href="/assets/pdf/CBNOV-TIMETABLEFB2.pdf">Download a printable timetable</a>
             <a class="button primary" href="tel:{contacts.phone}">Call to book</a>
         </div>
     </div>
@@ -29,7 +29,7 @@
     
 
   <a class="timetable" rel="external" href="/assets/pdf/Committed-Bodies-pay-as-you-go.pdf">
-    <img src="https://res.cloudinary.com/committed-bodies/image/upload/q_auto/v1667244558/CB_NOV_TIMETABLEFB2.webp" alt="timetable">
+    <img src="https://res.cloudinary.com/committed-bodies/image/upload/q_auto/v1667284649/CB_NOV_TIMETABLEFB2_1.webp" alt="timetable">
   </a>
 
 </div>
