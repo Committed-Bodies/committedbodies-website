@@ -4,8 +4,9 @@ date: 2022-11-01T10:09:43.182Z
 author: Committed Bodies
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1667376985/ZumbaCB-blog.png
-excerpt: |+
-  Not yet ready for a membership?
+excerpt: >+
+  Not yet ready for a membership? Join our Pay-as-you-go fitness drive to make
+  getting started affordable.
 
 layout: blog
 ---
