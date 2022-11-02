@@ -6,7 +6,8 @@ category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1667376985/ZumbaCB-blog.png
 excerpt: >+
   Not yet ready for a membership? Join our Pay-as-you-go fitness drive to make
-  getting started affordable.
+  getting started affordable and achievable. At our friendly non judgemental
+  gym, we are committed to changing your better body one day at a time.
 
 layout: blog
 ---
@@ -14,7 +15,7 @@ You really want to start the transformation path to a healthier and fitter you, 
 
 Thank goodness we now have you covered with our new PAYG-fitness class bookings.
 
-Just visit the '[Pay-as-you-go](https://committedbodies.netlify.app/promotions/pay-as-you-go) page to see which of our exciting classes you would like to commit to. With a range of class disciplines from 'Abs and stretch' to 'Zumba dance we have something for everyone.
+Just visit the  Promotions - [Pay-as-you-go](https://committedbodies.netlify.app/promotions/pay-as-you-go) page to see which of our exciting classes you would like to commit to. With a range of class disciplines from 'Abs and stretch' to 'Zumba' dance fitness, we have something for everyone.
 Download a .pdf to keep the schedule handy.
 Send a booking email or contact us to purchase a ticket or a booklet of tickets to any or all of the studio group f﻿itness classes. 
 
