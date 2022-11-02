@@ -1,5 +1,5 @@
 ---
-title: New concept in fitness transformation - Pay-as-you-go
+title: Our new concept in fitness transformation - Pay-as-you-go
 date: 2022-11-01T10:09:43.182Z
 author: Committed Bodies
 category: Transformation
@@ -24,7 +24,9 @@ P﻿lease note: T﻿erms and conditions apply
 
 P﻿ayment is required before attending a class, so if you have not yet made the payment, arrive 10 minutes before the scheduled start of the class to attend to this.
 
-This does not include access to use the various gym equipment or weight training sectors.
+A﻿ccess is limited to class specific studios.
+
+This does not include access to use the various gym equipment, (unless it is required for that class), or weight training sectors. 
 
 S﻿hould you require more information:
 Contact us to find out exactly how this works.
