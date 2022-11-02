@@ -5,10 +5,10 @@ author: Committed Bodies
 category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1667376985/ZumbaCB-blog.png
 excerpt: >+
-  Not yet ready for a membership? Join our Pay-as-you-go fitness drive to make
-  getting started affordable and achievable. At our friendly, non judgemental
-  gym, we are committed to helping you change your body one day at a time, for
-  the better.
+  Not yet ready for a membership? Join our Pay-as-you-go fitness journey to make
+  getting started affordable and achievable. At your personal, friendly, non
+  judgemental gym, we are committed to helping you change your body one day at a
+  time, for the better.
 
 layout: blog
 ---
@@ -29,4 +29,4 @@ A﻿ccess is limited to class specific studios.
 This does not include access to use the various gym equipment, (unless it is required for that class), or weight training sectors. 
 
 S﻿hould you require more information:
-Contact us to find out exactly how this works.
+[Contact](bookings@committedbodies.co.za) us to find out exactly how this works.
