@@ -6,8 +6,9 @@ category: Transformation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1667376985/ZumbaCB-blog.png
 excerpt: >+
   Not yet ready for a membership? Join our Pay-as-you-go fitness drive to make
-  getting started affordable and achievable. At our friendly non judgemental
-  gym, we are committed to changing your better body one day at a time.
+  getting started affordable and achievable. At our friendly, non judgemental
+  gym, we are committed to helping you change your body one day at a time, for
+  the better.
 
 layout: blog
 ---
