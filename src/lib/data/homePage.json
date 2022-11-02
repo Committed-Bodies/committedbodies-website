@@ -2,7 +2,7 @@
   "intro": {
     "title": "I took back my life",
     "subtitle": "You can too",
-    "text": "The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me. I had lost my energy, enthusiasm and figure. I looked like I felt - old, flabby and tired. I had two choices - continue down this road, or I could take back my life. Nine months later I had transformed my body and my life. In 2018, my husband and I launched Committed Bodies Gym. We specialise in transformations - our mission is to help you take back your life.",
+    "text": "The day I turned 52, I looked in the mirror and did not recognise the woman staring back at me. I had lost my energy, enthusiasm and figure. I looked like I felt - old, flabby and tired. I had two choices - continue down this road, or I could take back my life. Nine months later I had transformed my body and my life. In 2018, my husband and I launched Committed Bodies Gym. We specialise in transformations - our mission is to help you take back your life one day at a time.",
     "buttonText": "Read my story",
     "buttonLink": "/team/jill-myburgh"
   },
@@ -19,72 +19,72 @@
       "primaryButtonText": "",
       "number": 1,
       "text": "<p>Willpower plays a much smaller role than we think. Actually, character trumps will-power when it comes to body transformation. You can create rules which define the type of person you want to be. Go ahead - look yourself in the mirror and say, \"I'm the type of person who enjoys a healthy, active life.\" You're creating a character rule - these affirmations are more effective and use less psychological energy than trying to resist short-term temptation.</p>",
+      "background": "/assets/images/moveThese/pexels-ketut-subiyanto-4720254.jpg",
       "primaryButtonLink": "",
       "secondaryButtonText": "",
       "subtitle": "Not a will-power comittment",
       "title": "Make a character commitment",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422527/ui-assets/homePageSections/kettlebell-LOGO.png",
-      "background": "/assets/images/moveThese/pexels-ketut-subiyanto-4720254.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422527/ui-assets/homePageSections/kettlebell-LOGO.png"
     },
     {
       "secondaryButtonLink": "/membership",
       "primaryButtonText": "",
       "number": 2,
       "text": "<p>A gym membership gets you more than access to free weights and treadmills. With a gym membership, you can feel your body and mind transform with every visit. We have affordable memberships to suit any lifestyle.</p>",
+      "background": "/assets/images/moveThese/Lose-weight-in-Benoni.jpg",
       "primaryButtonLink": "",
       "secondaryButtonText": "Memberships",
       "subtitle": "Select a membership",
       "title": "Put some skin in the game",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422532/ui-assets/homePageSections/boxing-LOGO.png",
-      "background": "/assets/images/moveThese/Lose-weight-in-Benoni.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422532/ui-assets/homePageSections/boxing-LOGO.png"
     },
     {
       "secondaryButtonLink": "/team",
       "primaryButtonText": "",
       "number": 3,
       "text": "<p>Trainers can help you get that body you have always dreamt of. Our trainers are always here to help.</p>",
+      "background": "/assets/images/moveThese/pexels-pixabay-414029.jpg",
       "primaryButtonLink": "",
       "secondaryButtonText": "Our trainers",
       "subtitle": "Book a trainer",
       "title": "Find a mentor",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png",
-      "background": "/assets/images/moveThese/pexels-pixabay-414029.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/trainer-LOGO.png"
     },
     {
       "secondaryButtonLink": "/services",
       "primaryButtonText": "",
       "number": 4,
       "text": "<p>We’re constantly striving to offer you effective, exciting classes and services. Your healthy lifestyle should also be fun! If you’re looking for a specific type of workout or class that’s not in our offering, please let us know.</p>",
+      "background": "/assets/images/moveThese/pexels-tima-miroshnichenko-5327508.jpg",
       "primaryButtonLink": "",
       "secondaryButtonText": "Our services",
       "subtitle": "One day at a time",
       "title": "Change your habits",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/ball-LOGO.png",
-      "background": "/assets/images/moveThese/pexels-tima-miroshnichenko-5327508.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/ball-LOGO.png"
     },
     {
       "secondaryButtonLink": "/blog",
       "primaryButtonText": "",
       "number": 5,
       "text": "<p>Stay up to date with what is happening and all our news & events by checking out our blog page.</p>",
+      "background": "/assets/images/moveThese/bruce-mars-ZXq7xoo98b0-unsplash.jpg",
       "primaryButtonLink": "",
       "secondaryButtonText": "News and Events",
       "subtitle": "Find a supportive community",
       "title": "Make it fun",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/zumba-LOGO.png",
-      "background": "/assets/images/moveThese/bruce-mars-ZXq7xoo98b0-unsplash.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422531/ui-assets/homePageSections/zumba-LOGO.png"
     },
     {
       "secondaryButtonLink": "",
       "primaryButtonText": "Take back your life!",
       "number": 6,
       "text": "<p>Our flagship 12 week transformation program is designed to sculpt your body, improve fitness and increase your strength. We can and will help you change your body and take back your life.</p>",
+      "background": "/assets/images/moveThese/pexels-frans-van-heerden-1566414.jpg",
       "primaryButtonLink": "/services/take-back-your-life",
       "secondaryButtonText": "",
       "subtitle": "3 months to Take back your life",
       "title": "Celebrate your success",
-      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png",
-      "background": "/assets/images/moveThese/pexels-frans-van-heerden-1566414.jpg"
+      "image": "https://res.cloudinary.com/committed-bodies/image/upload/f_auto,q_auto/v1644422528/ui-assets/homePageSections/dumbbells-LOGO.png"
     }
   ]
 }
