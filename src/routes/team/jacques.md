@@ -3,7 +3,7 @@ firstName: Jacques
 fullName: Jacques Myburgh
 title: CEO
 group: Personnel
-thumbnail: /assets/images/trainers/placeholder.png
+thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1644515666/staff/Jacques%20Myburgh/jacques.png
 specialisations:
   - title: CEO
   - title: Tool Maker
@@ -11,7 +11,7 @@ specialisations:
 blurb: I am Jacques Myburgh, co-owner of Committed Bodies together with my wife Jill.
 actionHeading: Join our amazing gym today.
 order: 20
-actionInstruction: >
+actionInstruction: |
   Click the button below to open an email
 actionLink: mailto:bookings@committedbodies.co.za?subject=Please send me more information
 layout: team
