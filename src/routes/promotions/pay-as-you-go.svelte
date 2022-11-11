@@ -29,7 +29,7 @@
     
 
   <a class="timetable" rel="external" href="/assets/pdf/CBNOV-TIMETABLEFB2.pdf">
-    <img src="https://res.cloudinary.com/committed-bodies/image/upload/q_auto/v1667284649/CB_NOV_TIMETABLEFB2_1.webp" alt="timetable">
+    <img src="/assets/images/payg-timetable.webp" alt="timetable">
   </a>
 
 </div>
