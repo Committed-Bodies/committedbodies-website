@@ -19,13 +19,13 @@ layout: service
 
 T﻿he Transformation Package is a 3x month contract that include:
 
-
-
 * E﻿ating plan
 * A﻿ssessment
 * 2﻿x Private personal training sessions per week
 * 1﻿x Fitness class of your choice per week
 
 O﻿n completion of the 3 month contract you have the option to move to a month-to-month contact, tailor made for you by your personal trainer.
+
+*\*﻿1x calendar month notice needed in case of cancellation*
 
 <VideoSection {videoData}/>
