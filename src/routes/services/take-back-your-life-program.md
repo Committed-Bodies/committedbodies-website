@@ -19,6 +19,8 @@ layout: service
 
 T﻿he Transformation Package is a 3x month contract that include:
 
+
+
 * E﻿ating plan
 * A﻿ssessment
 * 2﻿x Private personal training sessions per week
