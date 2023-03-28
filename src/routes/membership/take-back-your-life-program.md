@@ -1,7 +1,7 @@
 ---
 title: Transformation Package
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: R1500 pm + R300 admin fee (first month)
+price: R1500 pm + R300 admin fee (once off)
 summaryList:
   - listItems: 3 Month Contract
   - listItems: Eating plan
@@ -24,7 +24,7 @@ The Transformation Package is a 3x month contract that include:
 * 2﻿x Private personal training sessions per week
 * 1﻿x Fitness class of your choice per week
 
-R1500 per month, R300 admin fee (first month)
+R1500 per month, R300 admin fee (once off)
 
 On completion of the 3 month contact you can move to a month-to-month contract, tailor made for you with your personal trainer.
 
