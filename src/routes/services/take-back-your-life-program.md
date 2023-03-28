@@ -1,9 +1,9 @@
 ---
-title: Take back your life program
+title: Transformation Package
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: Entry R3000, Monthly R2500
+price: R1500 per month + R300 once off admin fee
 order: 1
-blurb: 12 Weeks to take back your life!
+blurb: 3 Month Personal Training Package
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
   bookings@committedbodies.co.za
@@ -17,30 +17,13 @@ layout: service
   let videoData = motivationVideo.videoData;
 </script> 
 
-We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
+T﻿he Transformation Package is a 3x month contract that include:
 
-Why do this? If it doesn’t challenge you it won’t change you. So make this year to commit to taking your good and making it great!
+* E﻿ating plan
+* A﻿ssessment
+* 2﻿x Private personal training sessions per week
+* 1﻿x Fitness class of your choice per week
 
-We understand that your goals are as unique as you are, so whether you’re on a mission to lose weight, tone up, break a fitness plateau, prepare for a fitness competition or simply change to healthier habits – the 12 week challenge will equip you with the tools and support you need to achieve and maintain.
-
-The transformation is perfect for those first timers who need to learn the fundamentals of good training and nutrition.
-
-### What you get:
-
-> * PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
-> * BOOK TO TRACK PROGRESS
-> * T-SHIRT
-> * MEAL BAG
-> * BEFORE, DURING AND AFTER PICS
-> * SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
-> * EATING PLAN + ONE MEAL PER DAY
-> * 1 SESSION OF SPORTS MASSAGE
-> * PRIZES TO BE WON
-> * A NEW BODY TRANSFORMED
-
-### Next starting dates:
-
-* 7 March 2022
-* 5 September 2022
+O﻿n completion of the 3 month contract you have the option to move to a month-to-month contact, tailor made for you by your personal trainer.
 
 <VideoSection {videoData}/>
