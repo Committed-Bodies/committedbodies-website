@@ -1,17 +1,13 @@
 ---
-title: Take back your life
+title: Transformation Package
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: R2500 pm
+price: R1500 pm + R300 admin fee (first month)
 summaryList:
-  - listItems: Professional training by the best dedicated trainers
-  - listItems: Book to track progress
-  - listItems: T-shirt
-  - listItems: Meal bag
-  - listItems: Before, during and after pics
-  - listItems: Show day = spray tan, hair, and make-up
-  - listItems: Eating plan + one meal per day
-  - listItems: 1 session of sports massage prizes to be won
-  - listItems: A new body transformed
+  - listItems: 3 Month Contract
+  - listItems: Eating plan
+  - listItems: Assessment
+  - listItems: 2x private personal training sessions per week
+  - listItems: 1x fitness class of your choice per week
 actionHeading: Book now!
 actionInstruction: Click the button to sign up or contact us via email at
   bookings@committedbodies.co.za
@@ -21,30 +17,15 @@ order: 1
 actionLink: /contact
 actionButtonText: Contact us
 ---
-We offer a 12 week challenge to assist you in reaching your health & fitness goals faster.
+The Transformation Package is a 3x month contract that include:
 
-Why do this? If it doesn’t challenge you it won’t change you. So make this year to commit to taking your good and making it great!
+* E﻿ating plan
+* Assessment
+* 2﻿x Private personal training sessions per week
+* 1﻿x Fitness class of your choice per week
 
-We understand that your goals are as unique as you are, so whether you’re on a mission to lose weight, tone up, break a fitness plateau, prepare for a fitness competition or simply change to healthier habits – the 12 week challenge will equip you with the tools and support you need to achieve and maintain.
+R1500 per month, R300 admin fee (first month)
 
-The transformation is perfect for those first timers who need to learn the fundamentals of good training and nutrition.
+On completion of the 3 month contact you can move to a month-to-month contract, tailor made for you with your personal trainer.
 
-Entry fee R3000, R2500 pm
-
-### What you get:
-
-> * PROFESSIONAL TRAINING BY THE BEST DEDICATED TRAINERS
-> * BOOK TO TRACK PROGRESS
-> * T-SHIRT AND BUFF
-> * MEAL BAG
-> * BEFORE, DURING AND AFTER PICS
-> * SHOW DAY = SPRAY TAN, HAIR AND MAKE-UP
-> * EATING PLAN + ONE MEAL PER DAY
-> * 1 SESSION OF SPORTS MASSAGE
-> * PRIZES TO BE WON
-> * A NEW BODY TRANSFORMED
-
-### Next starting dates:
-
-* 7 March 2022
-* 5 September 2022
+*\*﻿1x calendar month notice needed in case of cancellation*
