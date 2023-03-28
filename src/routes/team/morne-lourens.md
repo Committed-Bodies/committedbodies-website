@@ -5,7 +5,6 @@ title: Personal Trainer
 group: Trainers
 thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
-  - title: Management
   - title: Personal training
 blurb: I am a personal trainer.
 actionHeading: Tabula Rassa
