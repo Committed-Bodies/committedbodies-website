@@ -1,7 +1,7 @@
 ---
 firstName: "Steven "
 fullName: Steven Pienaar
-title: Trainer
+title: Manager & Head Trainer
 group: Trainers
 thumbnail: /assets/images/trainers/placeholder.png
 specialisations:
@@ -9,9 +9,9 @@ specialisations:
   - title: Strength-based rehabilitation
   - title: Training for 60+ years of age
 blurb: I follow a strength-based approach to weight loss and body transformation
-actionHeading: "Join me for personal training"
+actionHeading: Join me for personal training
 order: 3
-actionInstruction: Click this button to open a booking email.           
+actionInstruction: Click this button to open a booking email.
 actionLink: mailto:bookings@committedbodies.co.za?subject=Book a session with Steven
 layout: team
 ---
