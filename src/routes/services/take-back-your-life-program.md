@@ -17,10 +17,10 @@ layout: service
   let videoData = motivationVideo.videoData;
 </script> 
 
-T﻿he Transformation Package is a 3x month contract that include:
+The Transformation Package is a 3x month contract that include:
 
 * E﻿ating plan
-* A﻿ssessment
+* Assessment
 * 2﻿x Private personal training sessions per week
 * 1﻿x Fitness class of your choice per week
 
