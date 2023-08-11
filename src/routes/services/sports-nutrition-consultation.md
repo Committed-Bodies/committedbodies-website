@@ -2,7 +2,7 @@
 title: Sports nutrition consultation
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642661657/services/nutrition-consultation.png
 price: Contact us for prices
-order: 15
+order: 10
 blurb: This is a specialized field we offer, to assist you with your
   requirements albeit professional training or just being an exerciser.
 actionHeading: Book now!
