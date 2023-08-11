@@ -2,7 +2,7 @@
 title: Zumba
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1665201720/Copy_of_CB_ZUMBA_Instagram_Post_Square_1.png
 price: Enquire
-order: 15
+order: 14
 blurb: Zumba dance class. Shake it off, burn calories, and have a blast while
   doing it.
 actionHeading: Book now!
