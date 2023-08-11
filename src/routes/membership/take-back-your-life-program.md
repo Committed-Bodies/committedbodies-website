@@ -15,4 +15,12 @@ order: 1
 actionLink: /contact
 actionButtonText: Contact us
 ---
+***P﻿lease note:***
+
+* *W﻿e regret no cash payments on contracts*
+* *A﻿ll members have a yearly maintenance levy of R150 in June and November*
+* *T﻿here ill be an annual increase of 10% on all memberships*
+* *F﻿rom the age of 16 will be seen as an adult member and will pay full membership fee*
+* *P﻿rices are valid for a limited time only and are subject to change*
+
 *\*﻿1x calendar month notice needed in case of cancellation*
