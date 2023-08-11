@@ -9,8 +9,8 @@
   "video": {
     "title": "Your journey starts now!",
     "subtitle": "Not yet ready for a membership package?",
-    "buttonText": "Pay as you go!",
-    "buttonLink": "/promotions/pay-as-you-go",
+    "buttonText": "Join us now!",
+    "buttonLink": "/membership",
     "videoUrl": "/assets/video/CommittedBodies-Take-Back-Your-Life-BG.mp4"
   },
   "sections": [
