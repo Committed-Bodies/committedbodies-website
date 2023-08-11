@@ -1,10 +1,10 @@
 ---
-title: Transformation Package
+title: Gym Contract Prices
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1642662980/services/membership-Take-Back-Your-Life-Benoni.png
-price: R1500 per month + R300 once off admin fee
+price: Personal Training Packages
 order: 1
-blurb: 3 Month Personal Training Package
-actionHeading: Book now!
+blurb: Personal Training Packages
+actionHeading: Join now!
 actionInstruction: Fill in the contact form or contact us via email at
   bookings@committedbodies.co.za
 actionLink: /contact
