@@ -2,7 +2,7 @@
 title: Boxfit class
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/v1668157937/CBBOXFIT.png
 price: R100 per class
-order: 16
+order: 3
 blurb: Boxfit - train and move like a boxer without the 'getting hit in the
   face' pain!
 actionHeading: Book now
