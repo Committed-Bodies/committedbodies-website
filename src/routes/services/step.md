@@ -2,7 +2,7 @@
 title: Step Class
 thumbnail: /assets/images/moveThese/step.jpeg
 price: Enquire
-order: 4
+order: 11
 blurb: Step it up!
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
