@@ -2,7 +2,7 @@
 title: Kick-boxing
 thumbnail: https://res.cloudinary.com/committed-bodies/image/upload/c_scale,f_auto,q_auto,w_600/v1644131573/services/DSC08550.png
 price: R130
-order: 4
+order: 5
 blurb: Fly like a butterfly, sting like a bee. Kick like a mule.
 actionHeading: Book now!
 actionInstruction: Fill in the contact form or contact us via email at
